@@ -13,3 +13,10 @@ We have deployed the T-Pot honeypot on a cloud platform to collect malware files
     <img src="./T-pot.jpg" alt="TPot" width="1000">
 </div>
 
+### T-Pot Honeypot Usage
+
+Watch the video below to learn how to use the T-Pot honeypot to collect malware files and monitor hacker activities.
+
+[![Watch the video](https://img.youtube.com/vi/918dgVJLqgU/0.jpg)(https://www.youtube.com/watch?v=918dgVJLqgU)
+
+
