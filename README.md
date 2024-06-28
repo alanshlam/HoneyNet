@@ -54,6 +54,11 @@ We have archived 210 unique files downloaded by hackers. Below is the distributi
 | Gzip Compressed Data      | 7%         |
 | OpenSSH RSA Public Key    | 1%         |
 
+<div align="left">
+<img src="./screenshot/file_type_pie.jpg" alt="VirusTotal" width="500">
+</div>
+
+
 Most of these files, except for some recent downloads or short shell scripts, can be identified by various antivirus agents on VirusTotal. These files are primarily classified as Trojan horses, DDoS tools, and CoinMiners.
 
 Below screenshot shows the Virustotal hash search of a download file 
