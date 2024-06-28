@@ -24,9 +24,12 @@ A total of 6,420 hacker keystroke sessions have been recorded following their br
 
 - **Probing Victim Host Information:** Gathering details such as IP address, OS version, installed software, CPU, memory, and disk size.
 - **Enabling All Services:** Activating all services on the victim host.
-- **Modifying Credentials:** Changing the root password or creating other root accounts.
+- **Modifying Credentials:** Changing the root password or creating other root accounts. E.G.
+    - echo "root:ZYOYI3d9rSGq"|chpasswd|bash
+    - echo -e "new_password\nnew_password"|passwd|bash
 - **Downloading Files:** Using tools like `wget`, `ftp`, or `curl` to download files and attempting to execute them.
-- **Creating Binary Files:** Using echo hex code to create binary files and attempting to execute them.
+- **Creating Binary Files:** Using echo hex code to create binary files and attempting to execute them. E.G.
+    - echo -ne "\x7f\x45\x4c\x46\x01\x02\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x08\x00\x00\x00\x01\x00\x40\x00\xb0\x00\x00\x00\x34\x00\x00\x01\x64\x00\x00\x10\x06\x00\x34\x00\x20\x00\x02\x00\x28\x00\x03\x00\x02\x70\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" >> .s
 - **Installing Trojan Programs:** Installing trojan horse programs.
 - **Establishing Backdoors:** Appending public keys to the `authorized_keys` file for SSH access.
 - **Setting Up Proxy Servers:** Configuring IRC proxies, botnet command and control channels.
