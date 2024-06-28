@@ -38,3 +38,19 @@ AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8
 - **Running DDoS Attacks:** Conducting Distributed Denial of Service (DDoS) attacks.
 - **Mining Cryptocurrency:** Running cryptocurrency mining operations.
 
+### Downloaded Files Analysis
+
+We have archived 210 unique files downloaded by hackers. Below is the distribution of these file types:
+
+| File Type                 | Percentage |
+|---------------------------|------------|
+| Executable Binary         | 46%        |
+| ASCII Text                | 22%        |
+| Data                      | 17%        |
+| Shell Script              | 7%         |
+| Gzip Compressed Data      | 7%         |
+| OpenSSH RSA Public Key    | 1%         |
+
+Most of these files, except for some recent downloads or short shell scripts, can be identified by various antivirus agents on VirusTotal. These files are primarily classified as Trojan horses, DDoS tools, and CoinMiners.
+
+You can view the hash and file type of these downloaded files at 
