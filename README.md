@@ -53,6 +53,12 @@ We have archived 210 unique files downloaded by hackers. Below is the distributi
 
 Most of these files, except for some recent downloads or short shell scripts, can be identified by various antivirus agents on VirusTotal. These files are primarily classified as Trojan horses, DDoS tools, and CoinMiners.
 
+Below screenshot shows the Virustotal hash search of a download file 
+<div align="left">
+    <img src="./screenshot/virustotal.jpg" alt="VirusTotal" width="1000">
+</div>
+
+
 You can view the hash and file type of these downloaded files at [here](./data/dl_file_hash.txt).
 
 
