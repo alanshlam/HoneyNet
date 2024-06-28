@@ -10,6 +10,6 @@ This project involves the deployment of honeypots to collect malware files and m
 We have deployed the T-Pot honeypot on a cloud platform to collect malware files and monitor hacker activities. The following screenshot provides an overview of the top 10 attacks, attack map, attackers' OS distribution, attackers by country, username and password tag cloud, attackers' autonomous systems (AS) and source IPs, detected Common Vulnerabilities and Exposures (CVEs), and Suricata IDS alerts over the past 4 weeks.
 
 <div align="left">
-    <img src="./TPot.jpg" alt="GSoC logo" width="400">
+    <img src="./T-pot.jpg" alt="TPot" width="1000">
 </div>
 
