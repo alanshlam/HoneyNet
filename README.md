@@ -55,3 +55,10 @@ Most of these files, except for some recent downloads or short shell scripts, ca
 
 You can view the hash and file type of these downloaded files at [here](./data/dl_file_hash.txt).
 
+
+## Future Work
+
+- **Enhance Digital Forensic Lab:** Improve the lab's capabilities for both static and dynamic analysis of collected malware.
+- **Develop Analytical Tools:** Create tools to analyze the correlation between the time gap of malware collection and vulnerability release, focusing on the frequency of zero-day attacks.
+- **Expand Honeypot Deployment:** Deploy more honeypots in different regions and compare the collected data to identify regional variations in hacker activities.
+
