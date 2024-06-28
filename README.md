@@ -10,7 +10,7 @@ This project involves the deployment of honeypots to collect malware files and m
 We have deployed the T-Pot honeypot on a cloud platform to collect malware files and monitor hacker activities. The following screenshot provides an overview of the top 10 attacks, attack map, attackers' OS distribution, attackers by country, username and password tag cloud, attackers' autonomous systems (AS) and source IPs, detected Common Vulnerabilities and Exposures (CVEs), and Suricata IDS alerts over the past 4 weeks.
 
 <div align="left">
-    <img src="./T-pot.jpg" alt="TPot" width="1000">
+    <img src="./screenshot/T-pot.jpg" alt="TPot" width="1000">
 </div>
 
 ### T-Pot Honeypot Usage
@@ -53,5 +53,5 @@ We have archived 210 unique files downloaded by hackers. Below is the distributi
 
 Most of these files, except for some recent downloads or short shell scripts, can be identified by various antivirus agents on VirusTotal. These files are primarily classified as Trojan horses, DDoS tools, and CoinMiners.
 
-You can view the hash and file type of these downloaded files at [here](dl_file_hash.txt).
+You can view the hash and file type of these downloaded files at [here](./data/dl_file_hash.txt).
 
