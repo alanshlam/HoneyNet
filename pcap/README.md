@@ -5,7 +5,7 @@
 |---------------------------|------------|
 | ddos.pcap        | smurf ICMP DDoS attack       |
 | dns_hijack.pcap                | DNS hijack     |
-| mitm.pcap                      | HTTPS intercept by MITM attack in  ARP poisoning        |
+| mitm.pcap                      | HTTPS intercept by MITM attack via ARP poisoning        |
 | smb.pca             | SMB break-in        |
 
 
