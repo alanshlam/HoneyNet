@@ -74,11 +74,43 @@ Below screenshot shows the Virustotal hash search of a download file
 </div>
 
 
+
 You can view the hash and file type of these downloaded files at [here](./data/dl_file_hash.txt).
+
+## Network Forensics
+
+In the Penetration Testing Lab, various hacking techniques have been studied, and their corresponding attack network packets have been recorded in PCAP files. Below, we provide an analysis of some of these attack network packets using Wireshark and tcpdump tools.
+
+### Attack Network Packet Analysis
+
+#### 1. **DDoS Attack (`ddos.pcap`)**
+
+This file contains 5000 ICMP Smurf DDoS attack network packets directed at a victim. The attacker launched over 120 source-spoofed IP ICMP packets to the victim in one millisecond.
+
+#### 2. **DNS Hijack Attack (`dns_hijack.pcap`)**
+
+This file captures DNS hijack attack network packets. The analysis shows that fake DNS reply packets from the attacker always reach the victim host earlier than the authentic DNS reply packets from the genuine DNS server. These fake DNS reply packets redirect the victim to a phishing website. The attacker also launched a DoS attack on the genuine DNS server to slow down its reply packets to the victim host.
+
+#### 3. **Man-in-the-Middle Attack (`mitm.pcap`)**
+
+This file records network packets of HTTPS interception by a MITM attack via ARP poisoning. Normally, HTTPS network packets are encrypted by a session key between the client and web server. An attacker cannot decrypt the HTTPS traffic without the session key. However, if the attacker can redirect the victim's HTTPS traffic to their managed host (e.g., by DNS hijack or ARP poisoning in a LAN), they can supply their own session key to the victim host, decrypt the HTTPS traffic, and relay the HTTPS traffic between the victim host and the genuine web server.
+
+Watch the video below to see how an attacker can sniff victim account passwords by intercepting HTTPS traffic in a MITM attack:
+
+[![Watch the video](path_to_video_thumbnail)](path_to_video)
+
+#### 4. **SMB Break-in (`smb.pcap`)**
+
+This file captures Server Message Block (SMB) network packets post-break-in. These packets record the attacker's commands after the break-in. By examining these packets, we can reconstruct the attacker's activities.
+
+Watch the video below to see how we use Wireshark and tcpdump tools to analyze the above-recorded network packets:
+
+[![Watch the video](path_to_video_thumbnail)](path_to_video)
 
 
 ## Future Work
-
+- **AI Integration:** Apply AI technologies to automatically analyze data collected from honeypots in the preliminary stages of DFIR studies.
+- **Knowledge Base Development:** Build a knowledge base of know-hows in this project with the help of large language models (LLMs).
 - **Enhance Digital Forensic Lab:** Improve the lab's capabilities for both static and dynamic analysis of collected malware.
 - **Develop Analytical Tools:** Create tools to analyze the correlation between the time gap of malware collection and vulnerability release, focusing on the frequency of zero-day attacks.
 - **Expand Honeypot Deployment:** Deploy more honeypots in different regions and compare the collected data to identify regional variations in hacker activities.
