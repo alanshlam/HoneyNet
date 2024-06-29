@@ -106,7 +106,7 @@ The video below demostrate how an attacker can sniff victim account passwords by
 
 #### 4. SMB Break-in ([smb.pcap](./pcap/smb.pcap))
 
-This file captures Server Message Block (SMB) network packets post-break-in. These packets record the attacker's commands after the break-in. By examining these packets, we can reconstruct the attacker's activities.
+This file captures Server Message Block (SMB) network packets post-break-in. These packets record the attacker's commands after the break-in. By examining these network packets, we can reconstruct the attacker's activities.
 
 <img src="./screenshot/smb.jpg" alt="SMB" width="1000">
 
