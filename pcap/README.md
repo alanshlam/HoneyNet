@@ -3,7 +3,7 @@
 
 | pcap File                  | description |
 |---------------------------|------------|
-| ddos.pcap        | smurf ICMP DDoS attack       |
+| ddos.pcap        | ICMP Smurf DDoS attack       |
 | dns_hijack.pcap                | DNS hijack     |
 | mitm.pcap                      | HTTPS intercept by MITM attack via ARP poisoning        |
 | smb.pcap            | SMB break-in        |
