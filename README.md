@@ -17,7 +17,7 @@ The statistical data from T-Pot Honeypots is also available in CSV format at the
 
 ### T-Pot Honeypot Usage
 
-Watch the video below to learn how to use the T-Pot honeypot to collect malware files and monitor hacker activities.
+The video below shows how to use the T-Pot honeypot to collect malware files and monitor hacker activities.
 
 [![Watch the video](https://img.youtube.com/vi/918dgVJLqgU/0.jpg)<br>
 (https://www.youtube.com/watch?v=918dgVJLqgU)
