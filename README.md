@@ -84,19 +84,19 @@ In the Penetration Testing Lab, various hacking techniques have been studied, an
 
 #### 1. DDoS Attack  ([ddos.pcap](./pcap/ddos.pcap))
 
-This file contains 5000 ICMP Smurf DDoS attack network packets directed at a victim. The attacker launched over 120 source-spoofed IP ICMP packets to the victim in one millisecond.
+This pcap file contains 5000 ICMP Smurf DDoS attack network packets directed at a victim. The attacker launched over 120 source-spoofed IP ICMP packets to the victim in one millisecond.
 
  <img src="./screenshot/DDoS.jpg" alt="DDoS" width="1000">
  
 #### 2. DNS Hijack Attack  ([dns_hijack.pcap](./pcap/dns_hijack.pcap))
 
-This file captures DNS hijack attack network packets. The analysis shows that fake DNS reply packets from the attacker always reach the victim host earlier than the authentic DNS reply packets from the genuine DNS server. These fake DNS reply packets redirect the victim to a phishing website. The attacker also launched a DoS attack on the genuine DNS server to slow down its reply packets to the victim host.
+This pcap file captures DNS hijack attack network packets. The analysis shows that fake DNS reply packets from the attacker always reach the victim host earlier than the authentic DNS reply packets from the genuine DNS server. These fake DNS reply packets redirect the victim to a phishing website. The attacker also launched a DoS attack on the genuine DNS server to slow down its reply packets to the victim host.
 
  <img src="./screenshot/dns_hijack.jpg" alt="dns hijack" width="1000">
  
 #### 3. Man-in-the-Middle Attack  ([mitm.pcap](./pcap/mitm.pcap))
 
-This file records network packets of HTTPS interception by a MITM attack via ARP poisoning. Normally, HTTPS network packets are encrypted by a session key between the client and web server. An attacker cannot decrypt the HTTPS traffic without the session key. However, if the attacker can redirect the victim's HTTPS traffic to their managed host (e.g., by DNS hijack or ARP poisoning in a LAN), they can supply their own session key to the victim host, decrypt the HTTPS traffic, and relay the HTTPS traffic between the victim host and the genuine web server.
+This pcap file records network packets of HTTPS interception by a MITM attack via ARP poisoning. Normally, HTTPS network packets are encrypted by a session key between the client and web server. An attacker cannot decrypt the HTTPS traffic without the session key. However, if the attacker can redirect the victim's HTTPS traffic to their managed host (e.g., by DNS hijack or ARP poisoning in a LAN), they can supply their own session key to the victim host, decrypt the HTTPS traffic, and relay the HTTPS traffic between the victim host and the genuine web server.
 
 <img src="./screenshot/mitm.jpg" alt="MITM" width="1000">
 
@@ -106,7 +106,7 @@ The video below demostrate how an attacker can sniff victim account passwords by
 
 #### 4. SMB Break-in ([smb.pcap](./pcap/smb.pcap))
 
-This file captures Server Message Block (SMB) network packets post-break-in. These packets record the attacker's commands after the break-in. By examining these network packets, we can reconstruct the attacker's activities.
+This pcap file captures Server Message Block (SMB) network packets post-break-in. These packets record the attacker's commands after the break-in. By examining these network packets, we can reconstruct the attacker's activities.
 
 <img src="./screenshot/smb.jpg" alt="SMB" width="1000">
 
