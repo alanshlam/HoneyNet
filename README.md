@@ -7,7 +7,7 @@ This project involves the deployment of honeypots to collect malware files and m
 
 ### T-Pot Honeypot Deployment
 
-We have deployed the T-Pot honeypot on a cloud platform to collect malware files and monitor hacker activities. The following screenshot provides an overview of the top 10 attacks, attack map, [attackers' OS distribution](./data/P0f%20OS%20Distribution.csv), attackers by country, username and password tag cloud, attackers' autonomous systems (AS) and source IPs, detected Common Vulnerabilities and Exposures (CVEs), and Suricata IDS alerts over the past 4 weeks.
+We have deployed the T-Pot honeypot on a cloud platform to collect malware files and monitor hacker activities. The following screenshot provides an overview of the [top 10 attacks](./data/Honeypot%20Attacks%20-%20Top%2010.csv), attack map, [attackers' OS distribution](./data/P0%20OS%20Distribution.csv), attackers by country, username and password tag cloud, attackers' autonomous systems (AS) and source IPs, detected Common Vulnerabilities and Exposures (CVEs), and Suricata IDS alerts over the past 4 weeks.
 
 The statistical data from T-Pot Honeypots is also available in CSV format in the [data_folder](./data/).
 
