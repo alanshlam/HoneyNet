@@ -119,7 +119,7 @@ This pcap file captures Server Message Block (SMB) network packets post-break-in
 
 
 ## Future Work
-- **AI Integration:** Apply AI technologies to automatically analyze data collected from honeypots in the preliminary stages of DFIR studies.
+- **AI Integration:** Apply AI technologies to automatically analyze and categorize data collected from honeypots in the preliminary stages of DFIR studies.
 - **Knowledge Base Development:** Build a knowledge base of know-hows in this project with the help of large language models (LLMs).
 - **Enhance Digital Forensic Lab:** Improve the lab's capabilities for both static and dynamic analysis of collected malware.
 - **Develop Analytical Tools:** Create tools to analyze the correlation between the time gap of malware collection and vulnerability release, focusing on the frequency of zero-day attacks.
