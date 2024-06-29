@@ -19,13 +19,12 @@ The statistical data from T-Pot Honeypots is also available in CSV format in the
 
 The video below shows how to use the T-Pot honeypot to collect malware files and monitor hacker activities.
 
-[![Watch the video](https://img.youtube.com/vi/918dgVJLqgU/0.jpg)<br>
-(https://www.youtube.com/watch?v=918dgVJLqgU)
+[<img src="./screenshot/T-pot.jpg" width="500">](https://www.youtube.com/watch?v=918dgVJLqgU)
 
 The video below shows the T-Pot Attack Map in two minutes.
 
-<img src="./screenshot/attack_map.jpg" width="500"><br>
-(https://www.youtube.com/watch?v=IClhxH-fgKY&t=2s)
+[<img src="./screenshot/attack_map.jpg" width="500">](https://www.youtube.com/watch?v=IClhxH-fgKY&t=2s)
+
 
 ### Hacker Activities and Keystroke Analysis
 
