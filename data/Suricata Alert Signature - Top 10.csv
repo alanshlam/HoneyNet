@@ -1,0 +1,11 @@
+﻿ID,Description,Count
+2100560,"GPL POLICY VNC server response","411,856"
+2002923,"ET EXPLOIT VNC Server Not Requiring Authentication (case 2)","204,744"
+2002920,"ET POLICY VNC Authentication Failure","204,564"
+2024766,"ET EXPLOIT [PTsecurity] DoublePulsar Backdoor installation communication","127,972"
+2402000,"ET DROP Dshield Block Listed Source group 1","100,341"
+2009582,"ET SCAN NMAP -sS window 1024","26,041"
+2023753,"ET SCAN MS Terminal Server Traffic on Non-standard Port","19,260"
+2210051,"SURICATA STREAM Packet with broken ack","18,879"
+2030387,"ET EXPLOIT Possible CVE-2020-11899 Multicast out-of-bound read","18,317"
+2002752,"ET POLICY Reserved Internal IP Traffic","12,377"
