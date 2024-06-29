@@ -95,17 +95,19 @@ This file captures DNS hijack attack network packets. The analysis shows that fa
 
 This file records network packets of HTTPS interception by a MITM attack via ARP poisoning. Normally, HTTPS network packets are encrypted by a session key between the client and web server. An attacker cannot decrypt the HTTPS traffic without the session key. However, if the attacker can redirect the victim's HTTPS traffic to their managed host (e.g., by DNS hijack or ARP poisoning in a LAN), they can supply their own session key to the victim host, decrypt the HTTPS traffic, and relay the HTTPS traffic between the victim host and the genuine web server.
 
-Watch the video below to see how an attacker can sniff victim account passwords by intercepting HTTPS traffic in a MITM attack:
+The video below demostrate how an attacker can sniff victim account passwords by intercepting HTTPS traffic in a MITM attack:
 
-[![Watch the video](path_to_video_thumbnail)](path_to_video)
+(https://www.youtube.com/watch?v=E_E2cYAhyiU&t=18s)
+
 
 #### 4. **SMB Break-in (`smb.pcap`)**
 
 This file captures Server Message Block (SMB) network packets post-break-in. These packets record the attacker's commands after the break-in. By examining these packets, we can reconstruct the attacker's activities.
 
-Watch the video below to see how we use Wireshark and tcpdump tools to analyze the above-recorded network packets:
+The video below demonstrate how we use Wireshark and tcpdump tools to analyze the above-recorded network packets:
 
-[![Watch the video](path_to_video_thumbnail)](path_to_video)
+(https://www.youtube.com/watch?v=mpGF8-iyuhw&t=110s)
+
 
 
 ## Future Work
