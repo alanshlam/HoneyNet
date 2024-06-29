@@ -111,7 +111,7 @@ This pcap file captures Server Message Block (SMB) network packets post-break-in
 <img src="./screenshot/smb.jpg" alt="SMB" width="1000">
 
 
-#### You can download the above pcap file at [here](./pcap/)
+#### You can download the above pcap files at [here](./pcap/)
 
 #### The video below demonstrate how we use Wireshark and tcpdump tools to analyze the above-recorded network packets:
 (https://www.youtube.com/watch?v=mpGF8-iyuhw&t=110s)
