@@ -1,2 +1,3 @@
-The CSV files recorded the statistical data in T-Pot Honeypots in the past 4 weeks
+The CSV files have recorded statistical data from T-Pot Honeypots over the past four weeks.
 
+The 'dl_file_hash.txt' file contains the hash and file type information of the attackers' downloaded files.
