@@ -89,13 +89,13 @@ This file contains 5000 ICMP Smurf DDoS attack network packets directed at a vic
 
  <img src="./screenshot/DDoS.jpg" alt="DDoS" width="1000">
  
-#### 2. **DNS Hijack Attack (`dns_hijack.pcap`)**
+#### 2. DNS Hijack Attack  ([dns_hijack.pcap](./pcap/dns_hijack.pcap))
 
 This file captures DNS hijack attack network packets. The analysis shows that fake DNS reply packets from the attacker always reach the victim host earlier than the authentic DNS reply packets from the genuine DNS server. These fake DNS reply packets redirect the victim to a phishing website. The attacker also launched a DoS attack on the genuine DNS server to slow down its reply packets to the victim host.
 
  <img src="./screenshot/dns_hijack.jpg" alt="dns hijack" width="1000">
  
-#### 3. **Man-in-the-Middle Attack (`mitm.pcap`)**
+#### 3. Man-in-the-Middle Attack  ([mitm.pcap](./pcap/mitm.pcap))
 
 This file records network packets of HTTPS interception by a MITM attack via ARP poisoning. Normally, HTTPS network packets are encrypted by a session key between the client and web server. An attacker cannot decrypt the HTTPS traffic without the session key. However, if the attacker can redirect the victim's HTTPS traffic to their managed host (e.g., by DNS hijack or ARP poisoning in a LAN), they can supply their own session key to the victim host, decrypt the HTTPS traffic, and relay the HTTPS traffic between the victim host and the genuine web server.
 
@@ -105,11 +105,14 @@ The video below demostrate how an attacker can sniff victim account passwords by
 (https://www.youtube.com/watch?v=E_E2cYAhyiU&t=18s)
 
 
-#### 4. **SMB Break-in (`smb.pcap`)**
+#### 4. SMB Break-in ([smb.pcap](./pcap/smb.pcap))
 
 This file captures Server Message Block (SMB) network packets post-break-in. These packets record the attacker's commands after the break-in. By examining these packets, we can reconstruct the attacker's activities.
 
 <img src="./screenshot/smb.jpg" alt="SMB" width="1000">
+
+
+#### You can download the above pcap file [here](./pcap/)
 
 #### The video below demonstrate how we use Wireshark and tcpdump tools to analyze the above-recorded network packets:
 (https://www.youtube.com/watch?v=mpGF8-iyuhw&t=110s)
