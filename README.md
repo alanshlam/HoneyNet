@@ -24,7 +24,7 @@ Watch the video below to learn how to use the T-Pot honeypot to collect malware 
 
 The video below shows the T-Pot Attack Map in two minutes.
 
-[![Watch the video](https://img.youtube.com/vi/IClhxH-fgKY&t=2s/0.jpg)<br>
+<img src="./screenshot/attack_map.jpg" width="500"><br>
 (https://www.youtube.com/watch?v=IClhxH-fgKY&t=2s)
 
 ### Hacker Activities and Keystroke Analysis
