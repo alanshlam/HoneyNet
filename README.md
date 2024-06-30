@@ -93,7 +93,7 @@ In the Penetration Testing Lab, various hacking techniques have been studied, an
 
 #### 1. DDoS Attack  ([ddos.pcap](./pcap/ddos.pcap))
 
-This pcap file contains 5000 ICMP Smurf DDoS attack network packets directed at a victim. The attacker launched over 120 source-spoofed IP ICMP packets to the victim in one millisecond.
+This pcap file contains 5000 ICMP Smurf DDoS attack network packets directed at a victim. The attacker launched over 30 source-spoofed IP ICMP packets to the victim in one millisecond.
 
  <img src="./screenshot/DDoS.jpg" alt="DDoS" width="1000">
  
