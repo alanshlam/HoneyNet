@@ -40,7 +40,25 @@ The video below shows the T-Pot Attack Map in two minutes.
 A total of 6,420 hacker keystroke sessions have been recorded following their break-ins, encompassing 133,694 lines of keystrokes. The common activities performed by hackers after breaking into systems include:
 
 - **Probing Victim Host Information:** Gathering details such as IP address, OS version, installed software, CPU, memory, and disk size.
-- **Enabling All Services:** Activating all services on the victim host.
+- **Enabling All Services:** Activating all services on the victim host. E.G.
+    ```bash
+    root@ubuntu:~# enable
+    enable .
+    enable :
+    enable [
+    enable alias
+    enable bg
+    enable bind
+    enable break
+    enable builtin
+    enable caller
+    enable cd
+    enable command
+    enable compgen
+    enable complete
+    enable continue
+    ```
+
 - **Modifying Credentials:** Changing the root password or creating other root accounts. E.G.
     ```bash
     echo "root:ZYOYI3d9rSGq"|chpasswd|bash
