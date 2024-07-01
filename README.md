@@ -153,9 +153,10 @@ This pcap file captures Server Message Block (SMB) network packets post-break-in
 
 
 ## Future Work
-- **AI Integration:** Apply AI technologies to automatically analyze and categorize data collected from honeypots in the preliminary stages of DFIR studies.
-- **Knowledge Base Development:** Build a knowledge base of know-how in this project with the assistance of large language models (LLMs) to collaborate on the [LLM knowledge base project](https://github.com/alanshlam/LLM).
-- **Enhance Digital Forensic Lab:** Improve the lab's capabilities for both static and dynamic analysis of collected malware.
-- **Develop Analytical Tools:** Create tools to analyze the correlation between the time gap of malware collection and vulnerability release (e.g the latest CVE), focusing on the frequency of zero-day attacks.
-- **Expand Honeypot Deployment:** Deploy more honeypots in different regions and compare the collected data to identify regional variations in hacker activities.
+- **AI Integration:** Utilize AI technologies to automate the analysis and categorization of data gathered from honeypots during the initial stages of Digital Forensics and Incident Response (DFIR) investigations. This integration will streamline the process and enable efficient examination of the collected data, aiding in the identification of potential threats and patterns.
+- **Knowledge Base Development:** Establish a comprehensive knowledge base for this project by leveraging large language models (LLMs). Collaborate on the LLM knowledge base project to accumulate and consolidate valuable expertise. This collaborative effort will ensure the knowledge base remains up-to-date and serves as a valuable resource for the team.
+- **Enhance Digital Forensic Lab:** Strengthen the capabilities of the Digital Forensic Lab to conduct thorough static and dynamic analysis of collected malware. By investing in advanced tools and technologies, the lab will be better equipped to extract critical information and gain deeper insights from malware samples, aiding in investigations and response efforts.
+- **Develop Analytical Tools:** Create specialized tools to analyze the relationship between the time gap of malware collection and the release of vulnerabilities (e.g., the latest CVEs). Focus on studying the frequency of zero-day attacks and their correlation with vulnerabilities. These tools will provide valuable insights into the effectiveness of existing security measures and inform proactive defense strategies.
+- **Expand Honeypot Deployment:** Expand the deployment of honeypots across different regions to gather a broader set of data. By comparing the collected data from various regions, it will be possible to identify regional variations in hacker activities and tactics. This understanding can contribute to the development of targeted security measures and enhance overall threat intelligence.
 
+By undertaking these future initiatives, we aim to bolster our DFIR capabilities, enhance our understanding of emerging threats, and strengthen our overall cybersecurity posture.
