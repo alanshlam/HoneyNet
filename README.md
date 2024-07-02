@@ -28,7 +28,7 @@ The video below shows how to use the T-Pot honeypot to collect malware files and
 
 (https://www.youtube.com/watch?v=918dgVJLqgU)
 
-The video below shows the T-Pot Attack Map in two minutes.
+The video below shows the T-Pot Attack Map in two minutes. An attacker from Brazil continued to attack the honeypot SMB.
 
 [<img src="./screenshot/attack_map.jpg" width="500">](https://www.youtube.com/watch?v=y5aF4Ea5r6Q)
 
