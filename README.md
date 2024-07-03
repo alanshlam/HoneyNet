@@ -69,7 +69,7 @@ A total of 6,420 hacker keystroke sessions have been recorded following their br
     enable command
     enable compgen
     enable complete
-    enable continue
+    
     ```
 
 - **Modifying Credentials:** Changing the root password or creating other root accounts. E.G.
