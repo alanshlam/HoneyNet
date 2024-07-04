@@ -53,7 +53,7 @@ A total of 6,420 hacker keystroke sessions have been recorded following their br
     df -h | head -n 2 | awk 'FNR == 2 {print $2;}'lscpu | grep Modelwhoamiuname -aunametopcat /proc/cpuinfo | grep model | grep name | wc -luname -mwcrontab -lls -lh $(which ls)free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'cat /proc/cpuinfo | grep name | head -n 1
     lscpu | grep "CPU(s):                " 
     ```
-- **Enabling All Services:** Activating all services on the victim host. E.G.
+- **Check enabled services:**  check enabled services on the victim host. E.G.
     ```bash
     root@ubuntu:~# enable
     enable .
