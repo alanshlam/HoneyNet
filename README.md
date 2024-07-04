@@ -51,7 +51,8 @@ A total of 6,420 hacker keystroke sessions have been recorded following their br
 - **Probing Victim Host Information:** Gathering details such as IP address, OS version, installed software, CPU, memory, and disk size. E.G.
     ```bash
     df -h | head -n 2 | awk 'FNR == 2 {print $2;}'lscpu | grep Modelwhoamiuname -aunametopcat /proc/cpuinfo | grep model | grep name | wc -luname -mwcrontab -lls -lh $(which ls)free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'cat /proc/cpuinfo | grep name | head -n 1
-    lscpu | grep "CPU(s):                " 
+    lscpu | grep "CPU(s):
+    cat /proc/mounts
     ```
 - **Check enabled built-ins:**  check enabled built-ins commands on the victim host. E.G.
     ```bash
