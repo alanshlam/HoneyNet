@@ -127,6 +127,7 @@ Below screenshot shows the Virustotal hash search of a download file
 
 
 
+
 ## Network Forensics
 
 In the Penetration Testing Lab, various hacking techniques have been studied, and their corresponding attack network packets have been recorded in PCAP files. Below, we provide an analysis of some of these attack network packets using Wireshark and tcpdump tools.
