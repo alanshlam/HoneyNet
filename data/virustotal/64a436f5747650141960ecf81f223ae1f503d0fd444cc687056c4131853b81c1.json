@@ -1,0 +1,932 @@
+[
+  {
+    "_id": "64a436f5747650141960ecf81f223ae1f503d0fd444cc687056c4131853b81c1",
+    "_type": "file",
+    "crowdsourced_ids_results": [
+      {
+        "alert_context": [
+          {
+            "dest_ip": "45.134.225.20",
+            "dest_port": 80,
+            "hostname": "45.134.225.20",
+            "url": "http://45.134.225.20/bins/beamer.mpsl"
+          }
+        ],
+        "alert_severity": "medium",
+        "rule_category": "Attempted Information Leak",
+        "rule_id": "1:2013028",
+        "rule_msg": "ET POLICY curl User-Agent Outbound",
+        "rule_raw": "alert http $HOME_NET any -\u003e $EXTERNAL_NET any (msg:\"ET POLICY curl User-Agent Outbound\"; flow:established,to_server; http.user_agent; content:\"curl/\"; nocase; startswith;  reference:url,www.useragentstring.com/pages/useragentstring.php; classtype:attempted-recon; sid:2013028; rev:6; metadata:created_at 2011_06_14, updated_at 2021_12_01;)",
+        "rule_references": [
+          "https://www.useragentstring.com/pages/useragentstring.php"
+        ],
+        "rule_source": "Proofpoint Emerging Threats Open",
+        "rule_url": "https://rules.emergingthreats.net/"
+      },
+      {
+        "alert_context": [
+          {
+            "dest_ip": "45.134.225.20",
+            "dest_port": 80
+          }
+        ],
+        "alert_severity": "low",
+        "rule_category": "unknown",
+        "rule_id": "119:260",
+        "rule_msg": "(http_inspect) HTTP Content-Length message body was truncated",
+        "rule_raw": "alert ( gid:119; sid:260; rev:1; msg:\"(http_inspect) HTTP Content-Length message body was truncated\"; metadata: rule-type preproc; classtype:unknown;)",
+        "rule_source": "Snort registered user ruleset",
+        "rule_url": "https://www.snort.org/downloads/#rule-downloads"
+      },
+      {
+        "alert_context": [
+          {
+            "dest_ip": "45.134.225.20",
+            "dest_port": 80,
+            "hostname": "45.134.225.20",
+            "url": "http://45.134.225.20/bins/beamer.mips"
+          }
+        ],
+        "alert_severity": "low",
+        "rule_category": "Potentially Bad Traffic",
+        "rule_id": "1:2025123",
+        "rule_msg": "ET INFO MIPS File Download Request from IP Address",
+        "rule_raw": "alert http $HOME_NET any -\u003e $EXTERNAL_NET any (msg:\"ET INFO MIPS File Download Request from IP Address\"; flow:established,to_server; http.method; content:\"GET\"; http.uri; content:\".mips\"; nocase; endswith; http.host; pcre:\"/^(?:\\d{1,3}\\.){3}\\d{1,3}/\"; classtype:bad-unknown; sid:2025123; rev:3; metadata:attack_target IoT, created_at 2017_12_05, former_category INFO, updated_at 2020_09_16;)",
+        "rule_source": "Proofpoint Emerging Threats Open",
+        "rule_url": "https://rules.emergingthreats.net/"
+      },
+      {
+        "alert_context": [
+          {
+            "dest_ip": "45.134.225.20",
+            "dest_port": 80,
+            "hostname": "45.134.225.20",
+            "url": "http://45.134.225.20/bins/beamer.arm7"
+          }
+        ],
+        "alert_severity": "low",
+        "rule_category": "Potentially Bad Traffic",
+        "rule_id": "1:2025125",
+        "rule_msg": "ET INFO ARM7 File Download Request from IP Address",
+        "rule_raw": "alert http $HOME_NET any -\u003e $EXTERNAL_NET any (msg:\"ET INFO ARM7 File Download Request from IP Address\"; flow:established,to_server; http.method; content:\"GET\"; http.uri; content:\".arm7\"; nocase; endswith; http.host; pcre:\"/^(?:\\d{1,3}\\.){3}\\d{1,3}/\"; classtype:bad-unknown; sid:2025125; rev:3; metadata:attack_target IoT, created_at 2017_12_05, former_category INFO, updated_at 2020_09_16;)",
+        "rule_source": "Proofpoint Emerging Threats Open",
+        "rule_url": "https://rules.emergingthreats.net/"
+      },
+      {
+        "alert_context": [
+          {
+            "dest_ip": "45.134.225.20",
+            "dest_port": 80,
+            "hostname": "45.134.225.20",
+            "url": "http://45.134.225.20/bins/beamer.x86"
+          }
+        ],
+        "alert_severity": "low",
+        "rule_category": "Potentially Bad Traffic",
+        "rule_id": "1:2025126",
+        "rule_msg": "ET INFO x86 File Download Request from IP Address",
+        "rule_raw": "alert http $HOME_NET any -\u003e $EXTERNAL_NET any (msg:\"ET INFO x86 File Download Request from IP Address\"; flow:established,to_server; http.method; content:\"GET\"; http.uri; content:\".x86\"; nocase; endswith; http.host; pcre:\"/^(?:\\d{1,3}\\.){3}\\d{1,3}/\"; classtype:bad-unknown; sid:2025126; rev:3; metadata:attack_target IoT, created_at 2017_12_05, former_category INFO, updated_at 2020_09_16;)",
+        "rule_source": "Proofpoint Emerging Threats Open",
+        "rule_url": "https://rules.emergingthreats.net/"
+      },
+      {
+        "alert_context": [
+          {
+            "dest_ip": "45.134.225.20",
+            "dest_port": 80,
+            "hostname": "45.134.225.20",
+            "url": "http://45.134.225.20/bins/beamer.m68k"
+          }
+        ],
+        "alert_severity": "low",
+        "rule_category": "Potentially Bad Traffic",
+        "rule_id": "1:2025127",
+        "rule_msg": "ET INFO m68k File Download Request from IP Address",
+        "rule_raw": "alert http $HOME_NET any -\u003e $EXTERNAL_NET any (msg:\"ET INFO m68k File Download Request from IP Address\"; flow:established,to_server; http.method; content:\"GET\"; http.uri; content:\".m68k\"; nocase; endswith; http.host; pcre:\"/^(?:\\d{1,3}\\.){3}\\d{1,3}/\"; classtype:bad-unknown; sid:2025127; rev:3; metadata:attack_target IoT, created_at 2017_12_05, former_category INFO, updated_at 2020_09_16;)",
+        "rule_source": "Proofpoint Emerging Threats Open",
+        "rule_url": "https://rules.emergingthreats.net/"
+      },
+      {
+        "alert_context": [
+          {
+            "dest_ip": "45.134.225.20",
+            "dest_port": 80,
+            "hostname": "45.134.225.20",
+            "url": "http://45.134.225.20/bins/beamer.x86"
+          }
+        ],
+        "alert_severity": "low",
+        "rule_category": "Potentially Bad Traffic",
+        "rule_id": "1:2032924",
+        "rule_msg": "ET HUNTING Suspicious GET Request for .x86",
+        "rule_raw": "alert http $HOME_NET any -\u003e $EXTERNAL_NET any (msg:\"ET HUNTING Suspicious GET Request for .x86\"; flow:established,to_server; http.method; content:\"GET\"; http.uri; content:\".x86\"; endswith; fast_pattern; http.header_names; content:!\"Referer\"; classtype:bad-unknown; sid:2032924; rev:1; metadata:affected_product Linux, affected_product IoT, attack_target Client_Endpoint, created_at 2021_05_10, deployment Perimeter, former_category HUNTING, signature_severity Informational, updated_at 2021_05_10;)",
+        "rule_source": "Proofpoint Emerging Threats Open",
+        "rule_url": "https://rules.emergingthreats.net/"
+      },
+      {
+        "alert_context": [
+          {
+            "dest_ip": "45.134.225.20",
+            "dest_port": 80,
+            "hostname": "45.134.225.20",
+            "url": "http://45.134.225.20/bins/beamer.mpsl"
+          }
+        ],
+        "alert_severity": "low",
+        "rule_category": "Potentially Bad Traffic",
+        "rule_id": "1:2034567",
+        "rule_msg": "ET HUNTING curl User-Agent to Dotted Quad",
+        "rule_raw": "alert http $HOME_NET any -\u003e $EXTERNAL_NET any (msg:\"ET HUNTING curl User-Agent to Dotted Quad\"; flow:established,to_server; http.user_agent; content:\"curl/\"; startswith; nocase; fast_pattern; http.host; pcre:\"/^\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}$/\"; classtype:bad-unknown; sid:2034567; rev:1; metadata:attack_target Client_Endpoint, created_at 2021_12_01, deployment Perimeter, former_category HUNTING, signature_severity Informational, updated_at 2021_12_01;)",
+        "rule_source": "Proofpoint Emerging Threats Open",
+        "rule_url": "https://rules.emergingthreats.net/"
+      },
+      {
+        "alert_context": [
+          {
+            "dest_ip": "45.134.225.20",
+            "dest_port": 80,
+            "hostname": "45.134.225.20",
+            "url": "http://45.134.225.20/bins/beamer.mpsl"
+          }
+        ],
+        "alert_severity": "low",
+        "rule_category": "Potentially Bad Traffic",
+        "rule_id": "1:2610804",
+        "rule_msg": "TGI HUNT Curl to IP Address",
+        "rule_raw": "alert http $HOME_NET any -\u003e $EXTERNAL_NET any (msg:\"TGI HUNT Curl to IP Address\"; flow:established,to_server; http.user_agent; content:\"curl/\"; startswith; nocase; fast_pattern; http.host; pcre:\"/^\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}$/\"; classtype:bad-unknown; sid:2610804; rev:1;)",
+        "rule_source": "Travis Green: Threat hunting rules",
+        "rule_url": "https://raw.githubusercontent.com/travisbgreen/hunting-rules/master/hunting.rules"
+      },
+      {
+        "alert_context": [
+          {
+            "dest_ip": "45.134.225.20",
+            "dest_port": 80,
+            "hostname": "45.134.225.20",
+            "url": "http://45.134.225.20/bins/beamer.mips"
+          }
+        ],
+        "alert_severity": "low",
+        "rule_category": "Potentially Bad Traffic",
+        "rule_id": "1:2610808",
+        "rule_msg": "TGI HUNT Wget User-Agent to IP Address",
+        "rule_raw": "alert http $HOME_NET any -\u003e $EXTERNAL_NET any (msg:\"TGI HUNT Wget User-Agent to IP Address\"; flow:established,to_server; http.user_agent; content:\"Wget/\"; startswith; nocase; fast_pattern; http.host; pcre:\"/^\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}$/\"; classtype:bad-unknown; sid:2610808; rev:1;)",
+        "rule_source": "Travis Green: Threat hunting rules",
+        "rule_url": "https://raw.githubusercontent.com/travisbgreen/hunting-rules/master/hunting.rules"
+      },
+      {
+        "alert_context": [
+          {
+            "hostname": "45.134.225.20",
+            "src_ip": "45.134.225.20",
+            "src_port": 80,
+            "url": "http://45.134.225.20/bins/beamer.mips"
+          }
+        ],
+        "alert_severity": "info",
+        "rule_category": "Potential Corporate Privacy Violation",
+        "rule_id": "1:2019240",
+        "rule_msg": "ET POLICY Executable and linking format (ELF) file download Over HTTP",
+        "rule_raw": "alert http $EXTERNAL_NET any -\u003e $HOME_NET any (msg:\"ET POLICY Executable and linking format (ELF) file download Over HTTP\"; flow:established; flowbits:isnotset,ET.ELFDownload; file_data; content:\"|7F|ELF\"; within:4; flowbits:set,ET.ELFDownload; reference:url,www.itee.uq.edu.au/~cristina/students/david/honoursThesis96/bff.htm; reference:url,doc.emergingthreats.net/bin/view/Main/2000418; classtype:policy-violation; sid:2019240; rev:14; metadata:created_at 2014_09_25, updated_at 2017_02_03;)",
+        "rule_references": [
+          "https://www.itee.uq.edu.au/~cristina/students/david/honoursThesis96/bff.htm",
+          "https://doc.emergingthreats.net/bin/view/Main/2000418"
+        ],
+        "rule_source": "Proofpoint Emerging Threats Open",
+        "rule_url": "https://rules.emergingthreats.net/"
+      },
+      {
+        "alert_severity": "info",
+        "rule_category": "policy-violation",
+        "rule_id": "1:25080",
+        "rule_msg": "APP-DETECT Apple Messages push.apple.com DNS TXT request attempt",
+        "rule_raw": "alert udp $HOME_NET any -\u003e any 53 ( msg:\"APP-DETECT Apple Messages push.apple.com DNS TXT request attempt\"; flow:to_server; byte_test:1,!\u0026,0xF8,2; content:\"|04|push|05|apple|03|com|00 00 10 00 01|\",fast_pattern,nocase; metadata:policy max-detect-ips drop; service:dns; reference:url,www.apple.com/osx/apps/all.html#messages; classtype:policy-violation; sid:25080; rev:2; )",
+        "rule_references": [
+          "https://www.apple.com/osx/apps/all.html#messages"
+        ],
+        "rule_source": "Snort registered user ruleset",
+        "rule_url": "https://www.snort.org/downloads/#rule-downloads"
+      },
+      {
+        "alert_context": [
+          {
+            "dest_ip": "45.134.225.20",
+            "dest_port": 80
+          }
+        ],
+        "alert_severity": "info",
+        "rule_category": "policy-violation",
+        "rule_id": "1:50447",
+        "rule_msg": "POLICY-OTHER HTTP request by IPv4 address attempt",
+        "rule_raw": "alert tcp any any -\u003e any $HTTP_PORTS ( msg:\"POLICY-OTHER HTTP request by IPv4 address attempt\"; flow:to_server,established; http_header; content:\"Host:\",fast_pattern,nocase; pcre:\"/^Host\\x3a\\s*(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9]?[0-9])\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9]?[0-9])\\s*:?\\s*\\d*\\s*$/smi\"; service:http; reference:url,www.w3.org/Protocols/rfc2616/rfc2616-sec15.html; classtype:policy-violation; sid:50447; rev:1; )",
+        "rule_references": [
+          "https://www.w3.org/Protocols/rfc2616/rfc2616-sec15.html"
+        ],
+        "rule_source": "Snort registered user ruleset",
+        "rule_url": "https://www.snort.org/downloads/#rule-downloads"
+      }
+    ],
+    "crowdsourced_ids_stats": {
+      "high": 0,
+      "info": 3,
+      "low": 9,
+      "medium": 1
+    },
+    "first_submission_date": 1647227700,
+    "last_analysis_date": 1678072201,
+    "last_analysis_results": {
+      "ALYac": {
+        "category": "malicious",
+        "engine_name": "ALYac",
+        "engine_update": "20230306",
+        "engine_version": "1.1.3.1",
+        "method": "blacklist",
+        "result": "Trojan.Linux.Generic.244919"
+      },
+      "APEX": {
+        "category": "type-unsupported",
+        "engine_name": "APEX",
+        "engine_update": "20230304",
+        "engine_version": "6.394",
+        "method": "blacklist",
+        "result": null
+      },
+      "AVG": {
+        "category": "malicious",
+        "engine_name": "AVG",
+        "engine_update": "20230306",
+        "engine_version": "22.11.7701.0",
+        "method": "blacklist",
+        "result": "BV:Downloader-APK [Drp]"
+      },
+      "Acronis": {
+        "category": "undetected",
+        "engine_name": "Acronis",
+        "engine_update": "20230219",
+        "engine_version": "1.2.0.114",
+        "method": "blacklist",
+        "result": null
+      },
+      "AhnLab-V3": {
+        "category": "malicious",
+        "engine_name": "AhnLab-V3",
+        "engine_update": "20230306",
+        "engine_version": "3.23.1.10344",
+        "method": "blacklist",
+        "result": "Downloader/Shell.Generic.S2074"
+      },
+      "Alibaba": {
+        "category": "type-unsupported",
+        "engine_name": "Alibaba",
+        "engine_update": "20190527",
+        "engine_version": "0.3.0.5",
+        "method": "blacklist",
+        "result": null
+      },
+      "Antiy-AVL": {
+        "category": "malicious",
+        "engine_name": "Antiy-AVL",
+        "engine_update": "20230306",
+        "engine_version": "3.0",
+        "method": "blacklist",
+        "result": "Trojan[Downloader]/Shell.Agent"
+      },
+      "Arcabit": {
+        "category": "malicious",
+        "engine_name": "Arcabit",
+        "engine_update": "20230306",
+        "engine_version": "2022.0.0.18",
+        "method": "blacklist",
+        "result": "Trojan.Linux.Generic.D3BCB7"
+      },
+      "Avast": {
+        "category": "malicious",
+        "engine_name": "Avast",
+        "engine_update": "20230306",
+        "engine_version": "22.11.7701.0",
+        "method": "blacklist",
+        "result": "BV:Downloader-APK [Drp]"
+      },
+      "Avast-Mobile": {
+        "category": "type-unsupported",
+        "engine_name": "Avast-Mobile",
+        "engine_update": "20230305",
+        "engine_version": "230305-02",
+        "method": "blacklist",
+        "result": null
+      },
+      "Avira": {
+        "category": "malicious",
+        "engine_name": "Avira",
+        "engine_update": "20230305",
+        "engine_version": "8.3.3.16",
+        "method": "blacklist",
+        "result": "LINUX/Dldr.Agent.gav"
+      },
+      "Baidu": {
+        "category": "undetected",
+        "engine_name": "Baidu",
+        "engine_update": "20190318",
+        "engine_version": "1.0.0.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "BitDefender": {
+        "category": "malicious",
+        "engine_name": "BitDefender",
+        "engine_update": "20230306",
+        "engine_version": "7.2",
+        "method": "blacklist",
+        "result": "Trojan.Linux.Generic.244919"
+      },
+      "BitDefenderFalx": {
+        "category": "type-unsupported",
+        "engine_name": "BitDefenderFalx",
+        "engine_update": "20230203",
+        "engine_version": "2.0.936",
+        "method": "blacklist",
+        "result": null
+      },
+      "BitDefenderTheta": {
+        "category": "undetected",
+        "engine_name": "BitDefenderTheta",
+        "engine_update": "20230228",
+        "engine_version": "7.2.37796.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Bkav": {
+        "category": "undetected",
+        "engine_name": "Bkav",
+        "engine_update": "20230306",
+        "engine_version": "1.3.0.9899",
+        "method": "blacklist",
+        "result": null
+      },
+      "CAT-QuickHeal": {
+        "category": "undetected",
+        "engine_name": "CAT-QuickHeal",
+        "engine_update": "20230305",
+        "engine_version": "22.00",
+        "method": "blacklist",
+        "result": null
+      },
+      "CMC": {
+        "category": "undetected",
+        "engine_name": "CMC",
+        "engine_update": "20230305",
+        "engine_version": "2.4.2022.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "ClamAV": {
+        "category": "undetected",
+        "engine_name": "ClamAV",
+        "engine_update": "20230305",
+        "engine_version": "1.0.1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "CrowdStrike": {
+        "category": "type-unsupported",
+        "engine_name": "CrowdStrike",
+        "engine_update": "20220812",
+        "engine_version": "1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Cybereason": {
+        "category": "type-unsupported",
+        "engine_name": "Cybereason",
+        "engine_update": "20210330",
+        "engine_version": "1.2.449",
+        "method": "blacklist",
+        "result": null
+      },
+      "Cylance": {
+        "category": "type-unsupported",
+        "engine_name": "Cylance",
+        "engine_update": "20230302",
+        "engine_version": "2.0.0.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Cynet": {
+        "category": "malicious",
+        "engine_name": "Cynet",
+        "engine_update": "20230305",
+        "engine_version": "4.0.0.27",
+        "method": "blacklist",
+        "result": "Malicious (score: 99)"
+      },
+      "Cyren": {
+        "category": "undetected",
+        "engine_name": "Cyren",
+        "engine_update": "20230305",
+        "engine_version": "6.5.1.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "DrWeb": {
+        "category": "undetected",
+        "engine_name": "DrWeb",
+        "engine_update": "20230305",
+        "engine_version": "7.0.59.12300",
+        "method": "blacklist",
+        "result": null
+      },
+      "ESET-NOD32": {
+        "category": "malicious",
+        "engine_name": "ESET-NOD32",
+        "engine_update": "20230305",
+        "engine_version": "26853",
+        "method": "blacklist",
+        "result": "Linux/TrojanDownloader.SH.ASX"
+      },
+      "Elastic": {
+        "category": "type-unsupported",
+        "engine_name": "Elastic",
+        "engine_update": "20230302",
+        "engine_version": "4.0.80",
+        "method": "blacklist",
+        "result": null
+      },
+      "Emsisoft": {
+        "category": "malicious",
+        "engine_name": "Emsisoft",
+        "engine_update": "20230305",
+        "engine_version": "2022.6.0.32461",
+        "method": "blacklist",
+        "result": "Trojan.Linux.Generic.244919 (B)"
+      },
+      "F-Secure": {
+        "category": "undetected",
+        "engine_name": "F-Secure",
+        "engine_update": "20230306",
+        "engine_version": "18.10.1137.128",
+        "method": "blacklist",
+        "result": null
+      },
+      "FireEye": {
+        "category": "malicious",
+        "engine_name": "FireEye",
+        "engine_update": "20230306",
+        "engine_version": "35.24.1.0",
+        "method": "blacklist",
+        "result": "Trojan.Linux.Generic.244919"
+      },
+      "Fortinet": {
+        "category": "undetected",
+        "engine_name": "Fortinet",
+        "engine_update": "20230305",
+        "engine_version": "6.4.258.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "GData": {
+        "category": "malicious",
+        "engine_name": "GData",
+        "engine_update": "20230305",
+        "engine_version": "A:25.35394B:27.30857",
+        "method": "blacklist",
+        "result": "Trojan.Linux.Generic.244919"
+      },
+      "Google": {
+        "category": "malicious",
+        "engine_name": "Google",
+        "engine_update": "20230306",
+        "engine_version": "1678068069",
+        "method": "blacklist",
+        "result": "Detected"
+      },
+      "Gridinsoft": {
+        "category": "undetected",
+        "engine_name": "Gridinsoft",
+        "engine_update": "20230305",
+        "engine_version": "1.0.110.174",
+        "method": "blacklist",
+        "result": null
+      },
+      "Ikarus": {
+        "category": "malicious",
+        "engine_name": "Ikarus",
+        "engine_update": "20230305",
+        "engine_version": "6.0.33.0",
+        "method": "blacklist",
+        "result": "LINUX.Trojan-Downloader.Agent"
+      },
+      "Jiangmin": {
+        "category": "undetected",
+        "engine_name": "Jiangmin",
+        "engine_update": "20230304",
+        "engine_version": "16.0.100",
+        "method": "blacklist",
+        "result": null
+      },
+      "K7AntiVirus": {
+        "category": "undetected",
+        "engine_name": "K7AntiVirus",
+        "engine_update": "20230306",
+        "engine_version": "12.71.47218",
+        "method": "blacklist",
+        "result": null
+      },
+      "K7GW": {
+        "category": "undetected",
+        "engine_name": "K7GW",
+        "engine_update": "20230305",
+        "engine_version": "12.71.47216",
+        "method": "blacklist",
+        "result": null
+      },
+      "Kaspersky": {
+        "category": "malicious",
+        "engine_name": "Kaspersky",
+        "engine_update": "20230305",
+        "engine_version": "22.0.1.28",
+        "method": "blacklist",
+        "result": "HEUR:Trojan-Downloader.Shell.Agent.gen"
+      },
+      "Lionic": {
+        "category": "malicious",
+        "engine_name": "Lionic",
+        "engine_update": "20230306",
+        "engine_version": "7.5",
+        "method": "blacklist",
+        "result": "Trojan.Shell.Agent.a!c"
+      },
+      "MAX": {
+        "category": "malicious",
+        "engine_name": "MAX",
+        "engine_update": "20230306",
+        "engine_version": "2023.1.4.1",
+        "method": "blacklist",
+        "result": "malware (ai score=89)"
+      },
+      "Malwarebytes": {
+        "category": "undetected",
+        "engine_name": "Malwarebytes",
+        "engine_update": "20230305",
+        "engine_version": "4.4.4.52",
+        "method": "blacklist",
+        "result": null
+      },
+      "MaxSecure": {
+        "category": "undetected",
+        "engine_name": "MaxSecure",
+        "engine_update": "20230304",
+        "engine_version": "1.0.0.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "McAfee": {
+        "category": "undetected",
+        "engine_name": "McAfee",
+        "engine_update": "20230306",
+        "engine_version": "6.0.6.653",
+        "method": "blacklist",
+        "result": null
+      },
+      "McAfee-GW-Edition": {
+        "category": "undetected",
+        "engine_name": "McAfee-GW-Edition",
+        "engine_update": "20230305",
+        "engine_version": "v2021.2.0+4045",
+        "method": "blacklist",
+        "result": null
+      },
+      "MicroWorld-eScan": {
+        "category": "malicious",
+        "engine_name": "MicroWorld-eScan",
+        "engine_update": "20230306",
+        "engine_version": "14.0.409.0",
+        "method": "blacklist",
+        "result": "Trojan.Linux.Generic.244919"
+      },
+      "Microsoft": {
+        "category": "undetected",
+        "engine_name": "Microsoft",
+        "engine_update": "20230306",
+        "engine_version": "1.1.20000.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "NANO-Antivirus": {
+        "category": "undetected",
+        "engine_name": "NANO-Antivirus",
+        "engine_update": "20230305",
+        "engine_version": "1.0.146.25743",
+        "method": "blacklist",
+        "result": null
+      },
+      "Paloalto": {
+        "category": "type-unsupported",
+        "engine_name": "Paloalto",
+        "engine_update": "20230306",
+        "engine_version": "0.9.0.1003",
+        "method": "blacklist",
+        "result": null
+      },
+      "Panda": {
+        "category": "undetected",
+        "engine_name": "Panda",
+        "engine_update": "20230305",
+        "engine_version": "4.6.4.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "Rising": {
+        "category": "undetected",
+        "engine_name": "Rising",
+        "engine_update": "20230305",
+        "engine_version": "25.0.0.27",
+        "method": "blacklist",
+        "result": null
+      },
+      "SUPERAntiSpyware": {
+        "category": "undetected",
+        "engine_name": "SUPERAntiSpyware",
+        "engine_update": "20230305",
+        "engine_version": "5.6.0.1032",
+        "method": "blacklist",
+        "result": null
+      },
+      "Sangfor": {
+        "category": "undetected",
+        "engine_name": "Sangfor",
+        "engine_update": "20230227",
+        "engine_version": "2.23.0.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "SentinelOne": {
+        "category": "type-unsupported",
+        "engine_name": "SentinelOne",
+        "engine_update": "20230216",
+        "engine_version": "23.1.3.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "Sophos": {
+        "category": "undetected",
+        "engine_name": "Sophos",
+        "engine_update": "20230304",
+        "engine_version": "2.1.2.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Symantec": {
+        "category": "malicious",
+        "engine_name": "Symantec",
+        "engine_update": "20230305",
+        "engine_version": "1.19.0.0",
+        "method": "blacklist",
+        "result": "Trojan.Gen.NPE"
+      },
+      "SymantecMobileInsight": {
+        "category": "type-unsupported",
+        "engine_name": "SymantecMobileInsight",
+        "engine_update": "20230119",
+        "engine_version": "2.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "TACHYON": {
+        "category": "undetected",
+        "engine_name": "TACHYON",
+        "engine_update": "20230306",
+        "engine_version": "2023-03-06.01",
+        "method": "blacklist",
+        "result": null
+      },
+      "Tencent": {
+        "category": "malicious",
+        "engine_name": "Tencent",
+        "engine_update": "20230306",
+        "engine_version": "1.0.0.1",
+        "method": "blacklist",
+        "result": "Win32.Trojan-Downloader.Agent.Qgil"
+      },
+      "Trapmine": {
+        "category": "type-unsupported",
+        "engine_name": "Trapmine",
+        "engine_update": "20230103",
+        "engine_version": "4.0.10.141",
+        "method": "blacklist",
+        "result": null
+      },
+      "TrendMicro": {
+        "category": "malicious",
+        "engine_name": "TrendMicro",
+        "engine_update": "20230305",
+        "engine_version": "11.0.0.1006",
+        "method": "blacklist",
+        "result": "Possible_BASHDLOD.SMLBAT3"
+      },
+      "TrendMicro-HouseCall": {
+        "category": "malicious",
+        "engine_name": "TrendMicro-HouseCall",
+        "engine_update": "20230306",
+        "engine_version": "10.0.0.1040",
+        "method": "blacklist",
+        "result": "Possible_BASHDLOD.SMLBAT3"
+      },
+      "Trustlook": {
+        "category": "type-unsupported",
+        "engine_name": "Trustlook",
+        "engine_update": "20230306",
+        "engine_version": "1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "VBA32": {
+        "category": "undetected",
+        "engine_name": "VBA32",
+        "engine_update": "20230303",
+        "engine_version": "5.0.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "VIPRE": {
+        "category": "malicious",
+        "engine_name": "VIPRE",
+        "engine_update": "20230305",
+        "engine_version": "6.0.0.35",
+        "method": "blacklist",
+        "result": "Trojan.Linux.Generic.244919"
+      },
+      "ViRobot": {
+        "category": "undetected",
+        "engine_name": "ViRobot",
+        "engine_update": "20230305",
+        "engine_version": "2014.3.20.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "VirIT": {
+        "category": "undetected",
+        "engine_name": "VirIT",
+        "engine_update": "20230303",
+        "engine_version": "9.5.400",
+        "method": "blacklist",
+        "result": null
+      },
+      "Webroot": {
+        "category": "type-unsupported",
+        "engine_name": "Webroot",
+        "engine_update": "20230306",
+        "engine_version": "1.0.0.403",
+        "method": "blacklist",
+        "result": null
+      },
+      "Xcitium": {
+        "category": "undetected",
+        "engine_name": "Xcitium",
+        "engine_update": "20230305",
+        "engine_version": "35465",
+        "method": "blacklist",
+        "result": null
+      },
+      "Yandex": {
+        "category": "undetected",
+        "engine_name": "Yandex",
+        "engine_update": "20230305",
+        "engine_version": "5.5.2.24",
+        "method": "blacklist",
+        "result": null
+      },
+      "Zillya": {
+        "category": "undetected",
+        "engine_name": "Zillya",
+        "engine_update": "20230303",
+        "engine_version": "2.0.0.4824",
+        "method": "blacklist",
+        "result": null
+      },
+      "ZoneAlarm": {
+        "category": "malicious",
+        "engine_name": "ZoneAlarm",
+        "engine_update": "20230305",
+        "engine_version": "1.0",
+        "method": "blacklist",
+        "result": "HEUR:Trojan-Downloader.Shell.Agent.gen"
+      },
+      "Zoner": {
+        "category": "undetected",
+        "engine_name": "Zoner",
+        "engine_update": "20230305",
+        "engine_version": "2.2.2.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "tehtris": {
+        "category": "type-unsupported",
+        "engine_name": "tehtris",
+        "engine_update": "20230306",
+        "engine_version": "v0.1.4",
+        "method": "blacklist",
+        "result": null
+      }
+    },
+    "last_analysis_stats": {
+      "confirmed-timeout": 0,
+      "failure": 0,
+      "harmless": 0,
+      "malicious": 25,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 15,
+      "undetected": 34
+    },
+    "last_modification_date": 1678079540,
+    "last_submission_date": 1658440726,
+    "magic": "Bourne-Again shell script text executable",
+    "md5": "5bfa9789f6da19652b4be880cdd2fa1a",
+    "meaningful_name": "unknown",
+    "names": [
+      "unknown",
+      "SubZero.sh"
+    ],
+    "reputation": 0,
+    "sandbox_verdicts": {
+      "Zenbox": {
+        "category": "harmless",
+        "confidence": 1,
+        "malware_classification": [
+          "CLEAN"
+        ],
+        "sandbox_name": "Zenbox"
+      },
+      "Zenbox Linux": {
+        "category": "malicious",
+        "confidence": 68,
+        "malware_classification": [
+          "MALWARE",
+          "SPREADER",
+          "TROJAN"
+        ],
+        "sandbox_name": "Zenbox Linux"
+      }
+    },
+    "sha1": "0f9bfe17b7b40168f790c21a97015310d593f31c",
+    "sha256": "64a436f5747650141960ecf81f223ae1f503d0fd444cc687056c4131853b81c1",
+    "sigma_analysis_results": [
+      {
+        "match_context": [
+          {
+            "values": {
+              "EventID": "5038",
+              "param1": "\\Device\\HarddiskVolume4\\Program Files (x86)\\sandbox\\driver\\sandbox-driver.sys"
+            }
+          }
+        ],
+        "rule_author": "Thomas Patzke",
+        "rule_description": "Code integrity failures may indicate tampered executables.",
+        "rule_id": "134564d292d785dff102940b8a1ee06dba2d462c5fb852124b3771a49d7885f1",
+        "rule_level": "low",
+        "rule_source": "Sigma Integrated Rule Set (GitHub)",
+        "rule_title": "Failed Code Integrity Checks"
+      }
+    ],
+    "sigma_analysis_stats": {
+      "critical": 0,
+      "high": 0,
+      "low": 1,
+      "medium": 0
+    },
+    "sigma_analysis_summary": {
+      "Sigma Integrated Rule Set (GitHub)": {
+        "critical": 0,
+        "high": 0,
+        "low": 1,
+        "medium": 0
+      }
+    },
+    "size": 1392,
+    "ssdeep": "12:ejX14jX+njXE4jX3s4jXEi4jXPeJGKjXp4jXlBw9jXEL4jXYluFjXx8i4jXxoWG1:0mxeszyP8ToWVqwcUw",
+    "tags": [
+      "shell",
+      "direct-cpu-clock-access"
+    ],
+    "times_submitted": 2,
+    "tlsh": "T146217A8A43310F1309D3895677B146C8A2C4A07F6D63D9AFFC15CD3F6589A067259942",
+    "total_votes": {
+      "harmless": 0,
+      "malicious": 0
+    },
+    "trid": [
+      {
+        "file_type": "Linux/UNIX shell script",
+        "probability": 100.0
+      }
+    ],
+    "type_description": "Shell script",
+    "type_extension": "sh",
+    "type_tag": "shell",
+    "type_tags": [
+      "script",
+      "shell"
+    ],
+    "unique_sources": 2
+  }
+]

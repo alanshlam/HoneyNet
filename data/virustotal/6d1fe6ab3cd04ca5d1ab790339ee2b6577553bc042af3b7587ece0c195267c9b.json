@@ -1,0 +1,893 @@
+[
+  {
+    "_id": "6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b",
+    "_type": "file",
+    "crowdsourced_ids_results": [
+      {
+        "alert_context": [
+          {
+            "dest_ip": "17.253.82.117",
+            "dest_port": 443
+          }
+        ],
+        "alert_severity": "low",
+        "rule_category": "protocol-command-decode",
+        "rule_id": "116:58",
+        "rule_msg": "(tcp) experimental TCP options found",
+        "rule_raw": "alert ( gid:116; sid:58; rev:2; msg:\"(tcp) experimental TCP options found\"; metadata: policy max-detect-ips drop, rule-type decode; classtype:protocol-command-decode;)",
+        "rule_source": "Snort registered user ruleset",
+        "rule_url": "https://www.snort.org/downloads/#rule-downloads"
+      },
+      {
+        "alert_context": [
+          {
+            "dest_ip": "17.248.195.71",
+            "dest_port": 443
+          }
+        ],
+        "alert_severity": "low",
+        "rule_category": "protocol-command-decode",
+        "rule_id": "129:8",
+        "rule_msg": "(stream_tcp) data sent on stream after TCP reset sent",
+        "rule_raw": "alert ( gid:129; sid:8; rev:2; msg:\"(stream_tcp) data sent on stream after TCP reset sent\"; metadata: policy max-detect-ips drop, rule-type preproc; classtype:protocol-command-decode;)",
+        "rule_source": "Snort registered user ruleset",
+        "rule_url": "https://www.snort.org/downloads/#rule-downloads"
+      }
+    ],
+    "crowdsourced_ids_stats": {
+      "high": 0,
+      "info": 0,
+      "low": 2,
+      "medium": 0
+    },
+    "first_seen_itw_date": 1497324116,
+    "first_submission_date": 1497468016,
+    "last_analysis_date": 1718595901,
+    "last_analysis_results": {
+      "APEX": {
+        "category": "type-unsupported",
+        "engine_name": "APEX",
+        "engine_update": "20240616",
+        "engine_version": "6.543",
+        "method": "blacklist",
+        "result": null
+      },
+      "AVG": {
+        "category": "malicious",
+        "engine_name": "AVG",
+        "engine_update": "20240617",
+        "engine_version": "23.9.8494.0",
+        "method": "blacklist",
+        "result": "BV:Agent-BAP [Trj]"
+      },
+      "Acronis": {
+        "category": "undetected",
+        "engine_name": "Acronis",
+        "engine_update": "20240328",
+        "engine_version": "1.2.0.121",
+        "method": "blacklist",
+        "result": null
+      },
+      "AhnLab-V3": {
+        "category": "malicious",
+        "engine_name": "AhnLab-V3",
+        "engine_update": "20240617",
+        "engine_version": "3.25.1.10473",
+        "method": "blacklist",
+        "result": "Backdoor/Shell.IRCbot.S1490"
+      },
+      "Alibaba": {
+        "category": "type-unsupported",
+        "engine_name": "Alibaba",
+        "engine_update": "20190527",
+        "engine_version": "0.3.0.5",
+        "method": "blacklist",
+        "result": null
+      },
+      "Antiy-AVL": {
+        "category": "undetected",
+        "engine_name": "Antiy-AVL",
+        "engine_update": "20240617",
+        "engine_version": "3.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Arcabit": {
+        "category": "malicious",
+        "engine_name": "Arcabit",
+        "engine_update": "20240616",
+        "engine_version": "2022.0.0.18",
+        "method": "blacklist",
+        "result": "Trojan.Script.Agent.OO"
+      },
+      "Avast": {
+        "category": "malicious",
+        "engine_name": "Avast",
+        "engine_update": "20240617",
+        "engine_version": "23.9.8494.0",
+        "method": "blacklist",
+        "result": "BV:Agent-BAP [Trj]"
+      },
+      "Avast-Mobile": {
+        "category": "type-unsupported",
+        "engine_name": "Avast-Mobile",
+        "engine_update": "20240616",
+        "engine_version": "240616-00",
+        "method": "blacklist",
+        "result": null
+      },
+      "Avira": {
+        "category": "malicious",
+        "engine_name": "Avira",
+        "engine_update": "20240616",
+        "engine_version": "8.3.3.18",
+        "method": "blacklist",
+        "result": "LINUX/CoinMiner.ABB"
+      },
+      "Baidu": {
+        "category": "undetected",
+        "engine_name": "Baidu",
+        "engine_update": "20190318",
+        "engine_version": "1.0.0.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "BitDefender": {
+        "category": "malicious",
+        "engine_name": "BitDefender",
+        "engine_update": "20240616",
+        "engine_version": "7.2",
+        "method": "blacklist",
+        "result": "Trojan.Script.Agent.OO"
+      },
+      "BitDefenderFalx": {
+        "category": "type-unsupported",
+        "engine_name": "BitDefenderFalx",
+        "engine_update": "20240128",
+        "engine_version": "2.0.936",
+        "method": "blacklist",
+        "result": null
+      },
+      "BitDefenderTheta": {
+        "category": "undetected",
+        "engine_name": "BitDefenderTheta",
+        "engine_update": "20240529",
+        "engine_version": "7.2.37796.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Bkav": {
+        "category": "malicious",
+        "engine_name": "Bkav",
+        "engine_update": "20240616",
+        "engine_version": "2.0.0.1",
+        "method": "blacklist",
+        "result": "W32.Common.07C880C9"
+      },
+      "CAT-QuickHeal": {
+        "category": "malicious",
+        "engine_name": "CAT-QuickHeal",
+        "engine_update": "20240616",
+        "engine_version": "22.00",
+        "method": "blacklist",
+        "result": "Script.shellBotnet.37854"
+      },
+      "CMC": {
+        "category": "undetected",
+        "engine_name": "CMC",
+        "engine_update": "20240616",
+        "engine_version": "2.4.2022.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "ClamAV": {
+        "category": "undetected",
+        "engine_name": "ClamAV",
+        "engine_update": "20240616",
+        "engine_version": "1.3.1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "CrowdStrike": {
+        "category": "undetected",
+        "engine_name": "CrowdStrike",
+        "engine_update": "20230417",
+        "engine_version": "1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Cybereason": {
+        "category": "undetected",
+        "engine_name": "Cybereason",
+        "engine_update": "20180308",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      },
+      "Cylance": {
+        "category": "type-unsupported",
+        "engine_name": "Cylance",
+        "engine_update": "20240612",
+        "engine_version": "3.0.0.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Cynet": {
+        "category": "malicious",
+        "engine_name": "Cynet",
+        "engine_update": "20240616",
+        "engine_version": "4.0.1.1",
+        "method": "blacklist",
+        "result": "Malicious (score: 99)"
+      },
+      "DeepInstinct": {
+        "category": "type-unsupported",
+        "engine_name": "DeepInstinct",
+        "engine_update": "20240606",
+        "engine_version": "5.0.0.8",
+        "method": "blacklist",
+        "result": null
+      },
+      "DrWeb": {
+        "category": "malicious",
+        "engine_name": "DrWeb",
+        "engine_update": "20240616",
+        "engine_version": "7.0.65.5230",
+        "method": "blacklist",
+        "result": "Linux.MulDrop.16"
+      },
+      "ESET-NOD32": {
+        "category": "malicious",
+        "engine_name": "ESET-NOD32",
+        "engine_update": "20240616",
+        "engine_version": "29405",
+        "method": "blacklist",
+        "result": "Linux/Agent.SC"
+      },
+      "Elastic": {
+        "category": "type-unsupported",
+        "engine_name": "Elastic",
+        "engine_update": "20240613",
+        "engine_version": "4.0.151",
+        "method": "blacklist",
+        "result": null
+      },
+      "Emsisoft": {
+        "category": "malicious",
+        "engine_name": "Emsisoft",
+        "engine_update": "20240616",
+        "engine_version": "2024.1.0.53752",
+        "method": "blacklist",
+        "result": "Trojan.Script.Agent.OO (B)"
+      },
+      "F-Secure": {
+        "category": "malicious",
+        "engine_name": "F-Secure",
+        "engine_update": "20240617",
+        "engine_version": "18.10.1547.307",
+        "method": "blacklist",
+        "result": "Malware.LINUX/CoinMiner.ABB"
+      },
+      "FireEye": {
+        "category": "malicious",
+        "engine_name": "FireEye",
+        "engine_update": "20240617",
+        "engine_version": "35.47.0.0",
+        "method": "blacklist",
+        "result": "Trojan.Script.Agent.OO"
+      },
+      "Fortinet": {
+        "category": "undetected",
+        "engine_name": "Fortinet",
+        "engine_update": "20240616",
+        "engine_version": "None",
+        "method": "blacklist",
+        "result": null
+      },
+      "GData": {
+        "category": "malicious",
+        "engine_name": "GData",
+        "engine_update": "20240616",
+        "engine_version": "A:25.38293B:27.36389",
+        "method": "blacklist",
+        "result": "Trojan.Script.Agent.OO"
+      },
+      "Google": {
+        "category": "malicious",
+        "engine_name": "Google",
+        "engine_update": "20240617",
+        "engine_version": "1718587848",
+        "method": "blacklist",
+        "result": "Detected"
+      },
+      "Gridinsoft": {
+        "category": "undetected",
+        "engine_name": "Gridinsoft",
+        "engine_update": "20240616",
+        "engine_version": "1.0.179.174",
+        "method": "blacklist",
+        "result": null
+      },
+      "Ikarus": {
+        "category": "malicious",
+        "engine_name": "Ikarus",
+        "engine_update": "20240616",
+        "engine_version": "6.3.12.0",
+        "method": "blacklist",
+        "result": "Trojan.Linux.Agent"
+      },
+      "Jiangmin": {
+        "category": "undetected",
+        "engine_name": "Jiangmin",
+        "engine_update": "20240616",
+        "engine_version": "16.0.100",
+        "method": "blacklist",
+        "result": null
+      },
+      "K7AntiVirus": {
+        "category": "undetected",
+        "engine_name": "K7AntiVirus",
+        "engine_update": "20240617",
+        "engine_version": "12.168.52313",
+        "method": "blacklist",
+        "result": null
+      },
+      "K7GW": {
+        "category": "undetected",
+        "engine_name": "K7GW",
+        "engine_update": "20240616",
+        "engine_version": "12.168.52312",
+        "method": "blacklist",
+        "result": null
+      },
+      "Kaspersky": {
+        "category": "malicious",
+        "engine_name": "Kaspersky",
+        "engine_update": "20240616",
+        "engine_version": "22.0.1.28",
+        "method": "blacklist",
+        "result": "HEUR:Backdoor.Linux.Agent.bc"
+      },
+      "Kingsoft": {
+        "category": "undetected",
+        "engine_name": "Kingsoft",
+        "engine_update": "20230906",
+        "engine_version": "None",
+        "method": "blacklist",
+        "result": null
+      },
+      "Lionic": {
+        "category": "malicious",
+        "engine_name": "Lionic",
+        "engine_update": "20240616",
+        "engine_version": "7.5",
+        "method": "blacklist",
+        "result": "Trojan.Script.IRCbot.m!c"
+      },
+      "MAX": {
+        "category": "malicious",
+        "engine_name": "MAX",
+        "engine_update": "20240617",
+        "engine_version": "2023.1.4.1",
+        "method": "blacklist",
+        "result": "malware (ai score=89)"
+      },
+      "Malwarebytes": {
+        "category": "undetected",
+        "engine_name": "Malwarebytes",
+        "engine_update": "20240616",
+        "engine_version": "4.5.5.54",
+        "method": "blacklist",
+        "result": null
+      },
+      "MaxSecure": {
+        "category": "undetected",
+        "engine_name": "MaxSecure",
+        "engine_update": "20240614",
+        "engine_version": "1.0.0.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "McAfee": {
+        "category": "malicious",
+        "engine_name": "McAfee",
+        "engine_update": "20240616",
+        "engine_version": "6.0.6.653",
+        "method": "blacklist",
+        "result": "Linux/Agent.a"
+      },
+      "McAfeeD": {
+        "category": "type-unsupported",
+        "engine_name": "McAfeeD",
+        "engine_update": "20240617",
+        "engine_version": "1.2.0.7628",
+        "method": "blacklist",
+        "result": null
+      },
+      "MicroWorld-eScan": {
+        "category": "malicious",
+        "engine_name": "MicroWorld-eScan",
+        "engine_update": "20240617",
+        "engine_version": "14.0.409.0",
+        "method": "blacklist",
+        "result": "Trojan.Script.Agent.OO"
+      },
+      "Microsoft": {
+        "category": "malicious",
+        "engine_name": "Microsoft",
+        "engine_update": "20240617",
+        "engine_version": "1.1.24050.5",
+        "method": "blacklist",
+        "result": "Backdoor:Linux/IRCbot.YA!MTB"
+      },
+      "NANO-Antivirus": {
+        "category": "malicious",
+        "engine_name": "NANO-Antivirus",
+        "engine_update": "20240616",
+        "engine_version": "1.0.146.25796",
+        "method": "blacklist",
+        "result": "Trojan.Script.IRCBot.evsmuj"
+      },
+      "Paloalto": {
+        "category": "type-unsupported",
+        "engine_name": "Paloalto",
+        "engine_update": "20240617",
+        "engine_version": "0.9.0.1003",
+        "method": "blacklist",
+        "result": null
+      },
+      "Panda": {
+        "category": "undetected",
+        "engine_name": "Panda",
+        "engine_update": "20240616",
+        "engine_version": "4.6.4.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "Rising": {
+        "category": "malicious",
+        "engine_name": "Rising",
+        "engine_update": "20240616",
+        "engine_version": "25.0.0.27",
+        "method": "blacklist",
+        "result": "Backdoor.IRCbot/BASH!1.CC7E (CLASSIC)"
+      },
+      "SUPERAntiSpyware": {
+        "category": "undetected",
+        "engine_name": "SUPERAntiSpyware",
+        "engine_update": "20240615",
+        "engine_version": "5.6.0.1032",
+        "method": "blacklist",
+        "result": null
+      },
+      "Sangfor": {
+        "category": "malicious",
+        "engine_name": "Sangfor",
+        "engine_update": "20240614",
+        "engine_version": "2.25.10.0",
+        "method": "blacklist",
+        "result": "Malware.Generic-Script.Save.ba18"
+      },
+      "SentinelOne": {
+        "category": "type-unsupported",
+        "engine_name": "SentinelOne",
+        "engine_update": "20240417",
+        "engine_version": "24.2.1.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "Skyhigh": {
+        "category": "malicious",
+        "engine_name": "Skyhigh",
+        "engine_update": "20240616",
+        "engine_version": "v2021.2.0+4045",
+        "method": "blacklist",
+        "result": "Linux/Agent.a"
+      },
+      "Sophos": {
+        "category": "malicious",
+        "engine_name": "Sophos",
+        "engine_update": "20240616",
+        "engine_version": "2.5.5.0",
+        "method": "blacklist",
+        "result": "Linux/Shell-AV"
+      },
+      "Symantec": {
+        "category": "malicious",
+        "engine_name": "Symantec",
+        "engine_update": "20240616",
+        "engine_version": "1.21.0.0",
+        "method": "blacklist",
+        "result": "IRC.Backdoor.Trojan"
+      },
+      "SymantecMobileInsight": {
+        "category": "type-unsupported",
+        "engine_name": "SymantecMobileInsight",
+        "engine_update": "20240103",
+        "engine_version": "2.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "TACHYON": {
+        "category": "undetected",
+        "engine_name": "TACHYON",
+        "engine_update": "20240617",
+        "engine_version": "2024-06-17.01",
+        "method": "blacklist",
+        "result": null
+      },
+      "Tencent": {
+        "category": "malicious",
+        "engine_name": "Tencent",
+        "engine_update": "20240617",
+        "engine_version": "1.0.0.1",
+        "method": "blacklist",
+        "result": "Unk.Win32.Script.404173"
+      },
+      "Trapmine": {
+        "category": "type-unsupported",
+        "engine_name": "Trapmine",
+        "engine_update": "20240223",
+        "engine_version": "4.0.16.96",
+        "method": "blacklist",
+        "result": null
+      },
+      "TrendMicro": {
+        "category": "malicious",
+        "engine_name": "TrendMicro",
+        "engine_update": "20240616",
+        "engine_version": "11.0.0.1006",
+        "method": "blacklist",
+        "result": "TROJ_FRS.0NA103EI20"
+      },
+      "TrendMicro-HouseCall": {
+        "category": "malicious",
+        "engine_name": "TrendMicro-HouseCall",
+        "engine_update": "20240617",
+        "engine_version": "10.0.0.1040",
+        "method": "blacklist",
+        "result": "TROJ_FRS.0NA103EI20"
+      },
+      "Trustlook": {
+        "category": "type-unsupported",
+        "engine_name": "Trustlook",
+        "engine_update": "20240617",
+        "engine_version": "1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "VBA32": {
+        "category": "undetected",
+        "engine_name": "VBA32",
+        "engine_update": "20240614",
+        "engine_version": "5.0.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "VIPRE": {
+        "category": "malicious",
+        "engine_name": "VIPRE",
+        "engine_update": "20240616",
+        "engine_version": "6.0.0.35",
+        "method": "blacklist",
+        "result": "Trojan.Script.Agent.OO"
+      },
+      "Varist": {
+        "category": "malicious",
+        "engine_name": "Varist",
+        "engine_update": "20240616",
+        "engine_version": "6.5.1.2",
+        "method": "blacklist",
+        "result": "Unix/Ircbot.U"
+      },
+      "ViRobot": {
+        "category": "malicious",
+        "engine_name": "ViRobot",
+        "engine_update": "20240616",
+        "engine_version": "2014.3.20.0",
+        "method": "blacklist",
+        "result": "Shell.S.Agent.4745"
+      },
+      "VirIT": {
+        "category": "malicious",
+        "engine_name": "VirIT",
+        "engine_update": "20240614",
+        "engine_version": "9.5.724",
+        "method": "blacklist",
+        "result": "Linux.MulDrop.Q"
+      },
+      "Webroot": {
+        "category": "type-unsupported",
+        "engine_name": "Webroot",
+        "engine_update": "20240617",
+        "engine_version": "1.0.0.403",
+        "method": "blacklist",
+        "result": null
+      },
+      "Xcitium": {
+        "category": "undetected",
+        "engine_name": "Xcitium",
+        "engine_update": "20240616",
+        "engine_version": "36796",
+        "method": "blacklist",
+        "result": null
+      },
+      "Yandex": {
+        "category": "undetected",
+        "engine_name": "Yandex",
+        "engine_update": "20240615",
+        "engine_version": "5.5.2.24",
+        "method": "blacklist",
+        "result": null
+      },
+      "Zillya": {
+        "category": "undetected",
+        "engine_name": "Zillya",
+        "engine_update": "20240615",
+        "engine_version": "2.0.0.5134",
+        "method": "blacklist",
+        "result": null
+      },
+      "ZoneAlarm": {
+        "category": "malicious",
+        "engine_name": "ZoneAlarm",
+        "engine_update": "20240617",
+        "engine_version": "1.0",
+        "method": "blacklist",
+        "result": "HEUR:Backdoor.Linux.Agent.bc"
+      },
+      "Zoner": {
+        "category": "undetected",
+        "engine_name": "Zoner",
+        "engine_update": "20240617",
+        "engine_version": "2.2.2.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "alibabacloud": {
+        "category": "malicious",
+        "engine_name": "alibabacloud",
+        "engine_update": "20240614",
+        "engine_version": "2.1.3",
+        "method": "blacklist",
+        "result": "Backdoor:Linux/Agent.SW"
+      },
+      "tehtris": {
+        "category": "undetected",
+        "engine_name": "tehtris",
+        "engine_update": "20240617",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      }
+    },
+    "last_analysis_stats": {
+      "confirmed-timeout": 0,
+      "failure": 0,
+      "harmless": 0,
+      "malicious": 38,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 14,
+      "undetected": 25
+    },
+    "last_modification_date": 1718603123,
+    "last_submission_date": 1718595901,
+    "magic": "Bourne-Again shell script, ASCII text executable, with very long lines (480u)",
+    "magika": "SHELL",
+    "md5": "5b8626055f1a2432258f39bd6aa469c9",
+    "meaningful_name": "Malware_Reciente_ trojan.ircbot_shell",
+    "names": [
+      "6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b",
+      "Malware_Reciente_ trojan.ircbot_shell",
+      "Malware_Reciente",
+      "Oj6EZdWS",
+      "VG7J1ICT",
+      "dbNy2mPK",
+      "AgpLFFo8",
+      "filecEzOkT.1628167320.virus",
+      "file22Tsmp.1628131657.virus",
+      "6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b.bin",
+      "test.txt",
+      "QgEliheu",
+      "cFIpYWA2",
+      "35omZe9H",
+      "kLcwAbl8"
+    ],
+    "popular_threat_classification": {
+      "popular_threat_category": [
+        {
+          "count": 20,
+          "value": "trojan"
+        },
+        {
+          "count": 2,
+          "value": "miner"
+        }
+      ],
+      "popular_threat_name": [
+        {
+          "count": 6,
+          "value": "ircbot"
+        },
+        {
+          "count": 3,
+          "value": "shell"
+        },
+        {
+          "count": 2,
+          "value": "muldrop"
+        }
+      ],
+      "suggested_threat_label": "trojan.ircbot/shell"
+    },
+    "reputation": -29,
+    "sandbox_verdicts": {
+      "Zenbox": {
+        "category": "harmless",
+        "malware_classification": [
+          "CLEAN"
+        ],
+        "sandbox_name": "Zenbox"
+      },
+      "Zenbox Linux": {
+        "category": "harmless",
+        "malware_classification": [
+          "CLEAN"
+        ],
+        "sandbox_name": "Zenbox Linux"
+      }
+    },
+    "sha1": "7860246ba168278df0530433cd7bd09677efc8d1",
+    "sha256": "6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b",
+    "sigma_analysis_results": [
+      {
+        "match_context": [
+          {
+            "values": {
+              "CommandLine": "/tmp/zRPcPpB8",
+              "EventID": "1",
+              "Image": "/tmp/zRPcPpB8"
+            }
+          }
+        ],
+        "rule_author": "Joseliyo Sanchez, @Joseliyo_Jstnk",
+        "rule_description": "Detects a potentially suspicious execution of a process located in the '/tmp/' folder",
+        "rule_id": "b8017658b8eef8b1293176d76212e600b660d0a36a4f5dc80141324fae360bbf",
+        "rule_level": "high",
+        "rule_source": "Sigma Integrated Rule Set (GitHub)",
+        "rule_title": "Potentially Suspicious Execution From Tmp Folder"
+      },
+      {
+        "match_context": [
+          {
+            "values": {
+              "CommandLine": "/bin/chmod chmod +x /tmp/zRPcPpB8",
+              "EventID": "1",
+              "Image": "/bin/chmod"
+            }
+          }
+        ],
+        "rule_author": "Christopher Peacock @SecurePeacock, SCYTHE @scythe_io",
+        "rule_description": "Detects chmod targeting files in abnormal directory paths.",
+        "rule_id": "859cf7876f0c68da27f3e292a5e428393e9a8004af0c330fae9787dac43b7bfe",
+        "rule_level": "medium",
+        "rule_source": "Sigma Integrated Rule Set (GitHub)",
+        "rule_title": "Chmod Suspicious Directory"
+      },
+      {
+        "match_context": [
+          {
+            "values": {
+              "CommandLine": "killall ssh scp",
+              "EventID": "1",
+              "Image": "killall"
+            }
+          },
+          {
+            "values": {
+              "CommandLine": "/usr/bin/killall killall ssh scp",
+              "EventID": "1",
+              "Image": "/usr/bin/killall"
+            }
+          }
+        ],
+        "rule_author": "Ömer Günal",
+        "rule_description": "Detects the use of tools that copy files from or to remote systems",
+        "rule_id": "1cde4fe7d0cd62ea67b1474e3fd6fe9a6931bd8af934f3a5e9b8c134d90bd7b5",
+        "rule_level": "low",
+        "rule_source": "Sigma Integrated Rule Set (GitHub)",
+        "rule_title": "Remote File Copy"
+      },
+      {
+        "match_context": [
+          {
+            "values": {
+              "CommandLine": "/usr/bin/killall killall bins.sh",
+              "EventID": "1",
+              "Image": "/usr/bin/killall"
+            }
+          },
+          {
+            "values": {
+              "CommandLine": "/usr/bin/killall killall minerd",
+              "EventID": "1",
+              "Image": "/usr/bin/killall"
+            }
+          },
+          {
+            "values": {
+              "CommandLine": "/usr/bin/killall killall node",
+              "EventID": "1",
+              "Image": "/usr/bin/killall"
+            }
+          },
+          {
+            "values": {
+              "CommandLine": "/usr/bin/killall killall nodejs",
+              "EventID": "1",
+              "Image": "/usr/bin/killall"
+            }
+          },
+          {
+            "values": {
+              "CommandLine": "/usr/bin/killall killall ktx-armv4l",
+              "EventID": "1",
+              "Image": "/usr/bin/killall"
+            }
+          }
+        ],
+        "rule_author": "Tuan Le (NCSGroup)",
+        "rule_description": "Detects usage of command line tools such as \"kill\", \"pkill\" or \"killall\" to terminate or signal a running process.",
+        "rule_id": "51b34db929db2298b58d76a0d73976f3d729eca95d9b480b9513bd0cea6a1d6d",
+        "rule_level": "low",
+        "rule_source": "Sigma Integrated Rule Set (GitHub)",
+        "rule_title": "Terminate Linux Process Via Kill"
+      }
+    ],
+    "sigma_analysis_stats": {
+      "critical": 0,
+      "high": 1,
+      "low": 2,
+      "medium": 1
+    },
+    "sigma_analysis_summary": {
+      "Sigma Integrated Rule Set (GitHub)": {
+        "critical": 0,
+        "high": 1,
+        "low": 2,
+        "medium": 1
+      }
+    },
+    "size": 4745,
+    "ssdeep": "96:URYZxQOBpLyxIcymLKY8M991wuIaQPYPS:URJObLyxIIYMdwuwPYPS",
+    "tags": [
+      "long-sleeps",
+      "shell",
+      "irc-communication",
+      "hosts-modifier",
+      "checks-hostname",
+      "direct-cpu-clock-access"
+    ],
+    "times_submitted": 29,
+    "tlsh": "T101A1E750112C1AB17246697AD26FFA52B90EC81B0A7B7B358473A63C74F9DA8E0396C1",
+    "total_votes": {
+      "harmless": 0,
+      "malicious": 5
+    },
+    "trid": [
+      {
+        "file_type": "file seems to be plain text/ASCII",
+        "probability": 0.0
+      }
+    ],
+    "type_description": "Shell script",
+    "type_extension": "sh",
+    "type_tag": "shell",
+    "type_tags": [
+      "script",
+      "shell"
+    ],
+    "unique_sources": 20
+  }
+]
