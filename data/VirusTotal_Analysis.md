@@ -53,10 +53,10 @@
 |------| -------|
 | Hash | 0527212d9df8cbdc8a4e29229a4374ab39413a54af378401122c060abe7595f4  |
 |File type| ASCII text|
-|Security vendors flagged this file as malicious| 6 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 22 / 64
+|Popular Threat Category| [{'count': 14, 'value': 'trojan'}, {'count': 9, 'value': 'downloader'}] |
+|Popular Threat Name| [{'count': 8, 'value': 'geyb'}, {'count': 4, 'value': 'shell'}] |
+|Suggested Threat Label| ['trojan.geyb/shell'] |
 
 ----------------------------------------------------------------------------
 ## 0594a3a4f601f22e84532339c3d8f7983a5c9f308db83e785c7ed724eb23a2ff <br>
@@ -65,10 +65,10 @@
 |------| -------|
 | Hash | 0594a3a4f601f22e84532339c3d8f7983a5c9f308db83e785c7ed724eb23a2ff  |
 |File type| gzip compressed data, last modified:Wed Aug 14 18:18:29 2019, from Unix, original size modulo 2^32 3354324415|
-|Security vendors flagged this file as malicious| 10 / 56
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 26 / 64
+|Popular Threat Category| [{'count': 12, 'value': 'trojan'}, {'count': 7, 'value': 'miner'}, {'count': 2, 'value': 'hacktool'}] |
+|Popular Threat Name| [{'count': 2, 'value': 'shell'}] |
+|Suggested Threat Label| ['trojan.shell'] |
 
 ----------------------------------------------------------------------------
 ## 05f088778d3522f7b02465be38ec5548d9dbdeb142b4aed8d3c915c1a420a556 <br>
@@ -161,10 +161,10 @@
 |------| -------|
 | Hash | 0ffff3b87d314adc34b629cd1e58421935f5aad5010f8eb55710ba41bef34f18  |
 |File type| gzip compressed data, last modified:Tue Mar 17 14:05:34 2020, from Unix, original size modulo 2^32 1735412944|
-|Security vendors flagged this file as malicious| 21 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 30 / 64
+|Popular Threat Category| [{'count': 13, 'value': 'trojan'}, {'count': 7, 'value': 'miner'}, {'count': 3, 'value': 'hacktool'}] |
+|Popular Threat Name| [{'count': 2, 'value': 'shell'}] |
+|Suggested Threat Label| ['trojan.shell'] |
 
 ----------------------------------------------------------------------------
 ## 14d09524b0ca8de0e0aa466b59cf7b4a98553c9b223234e4384328c60654f2c4 <br>
@@ -185,10 +185,10 @@
 |------| -------|
 | Hash | 15b6b5499fdc0a336f332b9db70f1ead3a12eb068d1ff4cc4fe120e8868ba8d5  |
 |File type| ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped|
-|Security vendors flagged this file as malicious| 43 / 60
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 49 / 67
+|Popular Threat Category| [{'count': 24, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 28, 'value': 'mirai'}, {'count': 9, 'value': 'gafgyt'}, {'count': 2, 'value': 'ddos'}] |
+|Suggested Threat Label| ['trojan.mirai/gafgyt'] |
 
 ----------------------------------------------------------------------------
 ## 18e0f574bf11bc5e7de8c95b83c187649b2d87d74651e59d9c2aad53ac7bb7f1 <br>
@@ -269,10 +269,10 @@
 |------| -------|
 | Hash | 21301f6826cfe730ef9af441685a8e2a4a4197b6b6783cc179c2dabb62ac2833  |
 |File type| ASCII text|
-|Security vendors flagged this file as malicious| 23 / 61
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 27 / 64
+|Popular Threat Category| [{'count': 12, 'value': 'downloader'}, {'count': 7, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 11, 'value': 'bash'}, {'count': 8, 'value': 'miraib'}, {'count': 2, 'value': 'shell'}] |
+|Suggested Threat Label| ['downloader.bash/miraib'] |
 
 ----------------------------------------------------------------------------
 ## 21659a68bedfada5b0764e51cd128c6bc25a3fd37ca8c0d8b4734b67babd40d1 <br>
@@ -281,10 +281,10 @@
 |------| -------|
 | Hash | 21659a68bedfada5b0764e51cd128c6bc25a3fd37ca8c0d8b4734b67babd40d1  |
 |File type| data|
-|Security vendors flagged this file as malicious| 36 / 60
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 37 / 64
+|Popular Threat Category| [{'count': 19, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'ircbot'}, {'count': 9, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## 21e453ad47cf50630ec1941c541193c5e7f847bcfea7a10c47fd52ae0f90d367 <br>
@@ -365,10 +365,10 @@
 |------| -------|
 | Hash | 2aa70ecbd3733c39ed5648ca4d09570629ed564430f8e8cb4c6460aae0cad942  |
 |File type| gzip compressed data, last modified:Tue Mar 17 14:05:34 2020, from Unix, original size modulo 2^32 12369920|
-|Security vendors flagged this file as malicious| 39 / 60
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 42 / 65
+|Popular Threat Category| [{'count': 22, 'value': 'trojan'}, {'count': 8, 'value': 'miner'}, {'count': 2, 'value': 'hacktool'}] |
+|Popular Threat Name| [{'count': 2, 'value': 'shell'}, {'count': 2, 'value': 'sshbrute'}, {'count': 2, 'value': 'uweju'}] |
+|Suggested Threat Label| ['trojan.shell/sshbrute'] |
 
 ----------------------------------------------------------------------------
 ## 2b02810459d7a1fd80dc674395a271181130b00cc4a0b92d8903c6fc97be2a53 <br>
@@ -389,10 +389,10 @@
 |------| -------|
 | Hash | 2bd99634e0e91b9e72538a79d120ad3039e76ef2f5107a417c6f307978cadf5c  |
 |File type| ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, missing section headers|
-|Security vendors flagged this file as malicious| 31 / 63
-|Popular Threat Category| [] |
+|Security vendors flagged this file as malicious| 35 / 67
+|Popular Threat Category| [{'count': 17, 'value': 'trojan'}, {'count': 11, 'value': 'miner'}] |
 |Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Suggested Threat Label| ['trojan.'] |
 
 ----------------------------------------------------------------------------
 ## 2d6e2e1c77c80e8d0198ae76e7bb40db524f1e699211b554a126d20802f985f3 <br>
@@ -401,10 +401,10 @@
 |------| -------|
 | Hash | 2d6e2e1c77c80e8d0198ae76e7bb40db524f1e699211b554a126d20802f985f3  |
 |File type| gzip compressed data, last modified:Wed Aug 14 18:18:29 2019, from Unix, original size modulo 2^32 13701120|
-|Security vendors flagged this file as malicious| 38 / 58
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 38 / 64
+|Popular Threat Category| [{'count': 17, 'value': 'trojan'}, {'count': 12, 'value': 'miner'}, {'count': 2, 'value': 'hacktool'}] |
+|Popular Threat Name| [{'count': 3, 'value': 'shell'}, {'count': 2, 'value': 'sshbrute'}, {'count': 2, 'value': 'uweju'}] |
+|Suggested Threat Label| ['trojan.shell/sshbrute'] |
 
 ----------------------------------------------------------------------------
 ## 2da2e31dd3d9cd8928c50e33688fb7d25ba0afa6aa6e175e63eb2c35ebeffd12 <br>
@@ -425,10 +425,10 @@
 |------| -------|
 | Hash | 2e9a3b287def69e22bfbf30db0aa531fcb018582d1d6e097fe56760dce36a42b  |
 |File type| data|
-|Security vendors flagged this file as malicious| 37 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 37 / 64
+|Popular Threat Category| [{'count': 19, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'ircbot'}, {'count': 9, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## 2f8ea2f012869ccb2748cc552e854a21cd6bf224880eb9755db9d88e2295328e <br>
@@ -437,10 +437,10 @@
 |------| -------|
 | Hash | 2f8ea2f012869ccb2748cc552e854a21cd6bf224880eb9755db9d88e2295328e  |
 |File type| ELF 32-bit LSB executable, Renesas SH, version 1 (SYSV), statically linked, stripped|
-|Security vendors flagged this file as malicious| 31 / 62
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 36 / 66
+|Popular Threat Category| [{'count': 21, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 14, 'value': 'mirai'}, {'count': 5, 'value': 'gafgyt'}, {'count': 2, 'value': 'kpfgp'}] |
+|Suggested Threat Label| ['trojan.mirai/gafgyt'] |
 
 ----------------------------------------------------------------------------
 ## 306b5745054cab7a000edf375dd4409935c6ff704dff0860a3563a04b3fa8e66 <br>
@@ -449,10 +449,10 @@
 |------| -------|
 | Hash | 306b5745054cab7a000edf375dd4409935c6ff704dff0860a3563a04b3fa8e66  |
 |File type| Bourne-Again shell script, ASCII text executable|
-|Security vendors flagged this file as malicious| 37 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 37 / 64
+|Popular Threat Category| [{'count': 15, 'value': 'downloader'}, {'count': 9, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 8, 'value': 'medusa'}, {'count': 4, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['downloader.medusa/shell'] |
 
 ----------------------------------------------------------------------------
 ## 325dbf58eb1fdea5a73fbee6d23286c59c1375cadb7eeaeb8cd8d136bd926b99 <br>
@@ -461,10 +461,10 @@
 |------| -------|
 | Hash | 325dbf58eb1fdea5a73fbee6d23286c59c1375cadb7eeaeb8cd8d136bd926b99  |
 |File type| data|
-|Security vendors flagged this file as malicious| 38 / 60
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 38 / 64
+|Popular Threat Category| [{'count': 19, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 11, 'value': 'ircbot'}, {'count': 8, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## 329824b65e7e635205dd610ee3423b3f5aa37e787dcaaa6e84ed46ea551a7754 <br>
@@ -485,10 +485,10 @@
 |------| -------|
 | Hash | 33eef0c93b605ce87d0632bd362bcd033ee5c39dfb88f1d63e33ab27ea7e1179  |
 |File type| ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped|
-|Security vendors flagged this file as malicious| 45 / 62
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 48 / 67
+|Popular Threat Category| [{'count': 25, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 26, 'value': 'mirai'}, {'count': 9, 'value': 'gafgyt'}, {'count': 2, 'value': 'ddos'}] |
+|Suggested Threat Label| ['trojan.mirai/gafgyt'] |
 
 ----------------------------------------------------------------------------
 ## 3474645503ee71af316f174c9f842261a1d37bf596376c8f90483cec57333b78 <br>
@@ -533,10 +533,10 @@
 |------| -------|
 | Hash | 362ee228a401039dbe7b6531bd3ad341bea0cd4264bab3375231ed9d5d8a8e68  |
 |File type| gzip compressed data, last modified:Mon Feb 24 18:30:05 2020, from Unix, original size modulo 2^32 2527644517|
-|Security vendors flagged this file as malicious| 12 / 60
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 29 / 64
+|Popular Threat Category| [{'count': 15, 'value': 'trojan'}, {'count': 7, 'value': 'miner'}, {'count': 2, 'value': 'hacktool'}] |
+|Popular Threat Name| [{'count': 2, 'value': 'shell'}] |
+|Suggested Threat Label| ['trojan.shell'] |
 
 ----------------------------------------------------------------------------
 ## 36e70b9c5271aefeb3e4b4bc0eff8e81683f0ddfea4deed55dbc4cc0567ca179 <br>
@@ -569,10 +569,10 @@
 |------| -------|
 | Hash | 3a04bf4a5b6aa13200aab81e27c3393cee55f2ec3cdcdb4f2ff4daa296572ae2  |
 |File type| data|
-|Security vendors flagged this file as malicious| 36 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 38 / 64
+|Popular Threat Category| [{'count': 19, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 10, 'value': 'ircbot'}, {'count': 8, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## 3a84fc07007f5d44529c96e30b78f3961a6a63c1ea886f747a75973a9732df49 <br>
@@ -725,10 +725,10 @@
 |------| -------|
 | Hash | 464bc92ad28c6d860333e8839f20d6ad316897f0d73649fcc8136dac9b55dae0  |
 |File type| Bourne-Again shell script, ASCII text executable|
-|Security vendors flagged this file as malicious| 34 / 58
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 37 / 64
+|Popular Threat Category| [{'count': 19, 'value': 'downloader'}, {'count': 9, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 8, 'value': 'medusa'}, {'count': 5, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['downloader.medusa/shell'] |
 
 ----------------------------------------------------------------------------
 ## 47b268c21591069bfe4099833ad66b8138a53ab2dcb866e040d466aee1f8624c <br>
@@ -749,10 +749,10 @@
 |------| -------|
 | Hash | 48409bbbe5559ec2eae71fcfd8dcdb5ebe7472ef864eabdcdca427660287e0fc  |
 |File type| ELF 32-bit LSB executable, MIPS, MIPS-I version 1 (SYSV), statically linked, stripped|
-|Security vendors flagged this file as malicious| 31 / 61
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 34 / 66
+|Popular Threat Category| [{'count': 18, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 14, 'value': 'mirai'}, {'count': 2, 'value': 'eppvs'}] |
+|Suggested Threat Label| ['trojan.mirai/eppvs'] |
 
 ----------------------------------------------------------------------------
 ## 4b177036ebce2b643e4f73dfdf3e7d9a1d0c7ce52670d5a9c0e70dda263922a1 <br>
@@ -761,10 +761,10 @@
 |------| -------|
 | Hash | 4b177036ebce2b643e4f73dfdf3e7d9a1d0c7ce52670d5a9c0e70dda263922a1  |
 |File type| data|
-|Security vendors flagged this file as malicious| 37 / 58
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 34 / 60
+|Popular Threat Category| [{'count': 17, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'shell'}, {'count': 8, 'value': 'ircbot'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.shell/ircbot'] |
 
 ----------------------------------------------------------------------------
 ## 4be3587fff7bd24fe254f2dee5c3501fd2824ec5dc7f3e4f7e1a6f1e130e8ad6 <br>
@@ -773,10 +773,10 @@
 |------| -------|
 | Hash | 4be3587fff7bd24fe254f2dee5c3501fd2824ec5dc7f3e4f7e1a6f1e130e8ad6  |
 |File type| gzip compressed data, last modified:Tue Sep  3 11:02:03 2019, from Unix, original size modulo 2^32 13701120|
-|Security vendors flagged this file as malicious| 38 / 60
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 41 / 65
+|Popular Threat Category| [{'count': 19, 'value': 'trojan'}, {'count': 12, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 7, 'value': 'genericfca'}, {'count': 2, 'value': 'shell'}, {'count': 2, 'value': 'sshbrute'}] |
+|Suggested Threat Label| ['trojan.genericfca/shell'] |
 
 ----------------------------------------------------------------------------
 ## 4e66c497cee23486c651d5036d468e2c2fb8c0ddba7416326a5cfe474a75095b <br>
@@ -809,10 +809,10 @@
 |------| -------|
 | Hash | 5103976b5b3febfaf86acc69bafde59967181628b16847b0d40f67ec0068bf4c  |
 |File type| data|
-|Security vendors flagged this file as malicious| 36 / 61
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 36 / 64
+|Popular Threat Category| [{'count': 18, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'ircbot'}, {'count': 9, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## 515ab9925bb608bbd0e5bdb9d0c45b8ac43a8f57da2cf988fbd7081b5033a74c <br>
@@ -821,10 +821,10 @@
 |------| -------|
 | Hash | 515ab9925bb608bbd0e5bdb9d0c45b8ac43a8f57da2cf988fbd7081b5033a74c  |
 |File type| data|
-|Security vendors flagged this file as malicious| 36 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 34 / 60
+|Popular Threat Category| [{'count': 17, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'shell'}, {'count': 8, 'value': 'ircbot'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.shell/ircbot'] |
 
 ----------------------------------------------------------------------------
 ## 519d5ea382ac0ba95b5b7735faa1eb50a561a349050e0002e149cc7ff8836378 <br>
@@ -833,10 +833,10 @@
 |------| -------|
 | Hash | 519d5ea382ac0ba95b5b7735faa1eb50a561a349050e0002e149cc7ff8836378  |
 |File type| data|
-|Security vendors flagged this file as malicious| 31 / 57
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 37 / 64
+|Popular Threat Category| [{'count': 19, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'ircbot'}, {'count': 9, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## 52d0c6f738ad1186407dc9c1ec588fcb65a4295473b660b355dbe96c24585bdb <br>
@@ -881,10 +881,10 @@
 |------| -------|
 | Hash | 58106a5d80f3f58f2d606c39954e1c31fada923d03b21e9135f5854754cc0f10  |
 |File type| gzip compressed data, last modified:Mon Feb 24 18:30:05 2020, from Unix, original size modulo 2^32 137485222|
-|Security vendors flagged this file as malicious| 26 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 32 / 65
+|Popular Threat Category| [{'count': 15, 'value': 'trojan'}, {'count': 8, 'value': 'miner'}, {'count': 2, 'value': 'hacktool'}] |
+|Popular Threat Name| [{'count': 2, 'value': 'shell'}] |
+|Suggested Threat Label| ['trojan.shell'] |
 
 ----------------------------------------------------------------------------
 ## 5c4eacd8c779ca17003d22a368ab74e5aed98bc5efead9cfec48ce142a4eeff2 <br>
@@ -905,10 +905,10 @@
 |------| -------|
 | Hash | 5ce92942d34bc35cbe3fb8759b810481b11ff43b070b6e67c124d88a83c93176  |
 |File type| data|
-|Security vendors flagged this file as malicious| 37 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 34 / 61
+|Popular Threat Category| [{'count': 18, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'shell'}, {'count': 8, 'value': 'ircbot'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.shell/ircbot'] |
 
 ----------------------------------------------------------------------------
 ## 5e9747bbc50448329ec19615861b53c11398ccd171c4c7e5c227e0c1d73fb219 <br>
@@ -941,10 +941,10 @@
 |------| -------|
 | Hash | 5f496fdeecef8e3d8c5b2ab39087b58bd79bf8b4b5e1234b33eac8c6ca356674  |
 |File type| data|
-|Security vendors flagged this file as malicious| 37 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 36 / 63
+|Popular Threat Category| [{'count': 18, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'ircbot'}, {'count': 9, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## 5ffdf7536899526ec78197a286399f011f4723f814412d097aa65d76072f1b65 <br>
@@ -989,10 +989,10 @@
 |------| -------|
 | Hash | 64a436f5747650141960ecf81f223ae1f503d0fd444cc687056c4131853b81c1  |
 |File type| Bourne-Again shell script, ASCII text executable|
-|Security vendors flagged this file as malicious| 25 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 24 / 64
+|Popular Threat Category| [{'count': 14, 'value': 'trojan'}, {'count': 9, 'value': 'downloader'}] |
+|Popular Threat Name| [{'count': 4, 'value': 'shell'}, {'count': 2, 'value': 'bashdlod'}, {'count': 2, 'value': 'possible'}] |
+|Suggested Threat Label| ['trojan.shell/bashdlod'] |
 
 ----------------------------------------------------------------------------
 ## 65c28c918a863712023ec0e34dda8d631b8d003d6d6307dc892cf73158bc5bc6 <br>
@@ -1025,10 +1025,10 @@
 |------| -------|
 | Hash | 6afd92ef08cc860572d7c3443c9ed6ffbd660c0efd75dd262d51534237b7a98c  |
 |File type| data|
-|Security vendors flagged this file as malicious| 30 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 36 / 63
+|Popular Threat Category| [{'count': 18, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'shell'}, {'count': 8, 'value': 'ircbot'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.shell/ircbot'] |
 
 ----------------------------------------------------------------------------
 ## 6b5afe506c5b4db4094797166a92021271a623af48f1d476185858264909d8c7 <br>
@@ -1037,10 +1037,10 @@
 |------| -------|
 | Hash | 6b5afe506c5b4db4094797166a92021271a623af48f1d476185858264909d8c7  |
 |File type| ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, missing section headers|
-|Security vendors flagged this file as malicious| 30 / 62
-|Popular Threat Category| [] |
+|Security vendors flagged this file as malicious| 35 / 66
+|Popular Threat Category| [{'count': 17, 'value': 'trojan'}, {'count': 11, 'value': 'miner'}] |
 |Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Suggested Threat Label| ['trojan.'] |
 
 ----------------------------------------------------------------------------
 ## 6c4d9d2f020c76a1ed875e1a9500e211b2d42454f395df152ddc12f116d7e642 <br>
@@ -1109,10 +1109,10 @@
 |------| -------|
 | Hash | 7215f53b3defdafc3df86191bcb8d1824a5231c0e58d9e2efc899f482b36a51d  |
 |File type| data|
-|Security vendors flagged this file as malicious| 34 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 37 / 64
+|Popular Threat Category| [{'count': 19, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'ircbot'}, {'count': 9, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## 739b00a13d1074abfcaa0f380dbc54e0efc0fc793df173fb252c1f8f0429d9a4 <br>
@@ -1157,10 +1157,10 @@
 |------| -------|
 | Hash | 771229b5b05e22d4f43e728b38c1e6f08fe7157e3c6dcade0e9af065f710f22d  |
 |File type| ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped|
-|Security vendors flagged this file as malicious| 37 / 63
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 42 / 67
+|Popular Threat Category| [{'count': 21, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 22, 'value': 'mirai'}, {'count': 2, 'value': 'tiyti'}] |
+|Suggested Threat Label| ['trojan.mirai/tiyti'] |
 
 ----------------------------------------------------------------------------
 ## 77a2c317ca9d43acc056cf8217a8c838d23af63965b33dc931877360d5919b8d <br>
@@ -1169,10 +1169,10 @@
 |------| -------|
 | Hash | 77a2c317ca9d43acc056cf8217a8c838d23af63965b33dc931877360d5919b8d  |
 |File type| ELF 32-bit MSB executable, SPARC, version 1 (SYSV), statically linked, stripped|
-|Security vendors flagged this file as malicious| 34 / 61
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 37 / 66
+|Popular Threat Category| [{'count': 24, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 15, 'value': 'mirai'}, {'count': 2, 'value': 'iyfqh'}] |
+|Suggested Threat Label| ['trojan.mirai/iyfqh'] |
 
 ----------------------------------------------------------------------------
 ## 7a19f86b54f6a6310b041c0a72fcdde9b833afeed46641b5eec602baa3ffcdf7 <br>
@@ -1193,10 +1193,10 @@
 |------| -------|
 | Hash | 7aa6518ffe1f152fe800886311d208b4387a069b5b06f82a3c1c7cd6167e90be  |
 |File type| ASCII text|
-|Security vendors flagged this file as malicious| 16 / 57
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 21 / 64
+|Popular Threat Category| [{'count': 16, 'value': 'trojan'}, {'count': 4, 'value': 'downloader'}, {'count': 3, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 2, 'value': 'shell'}] |
+|Suggested Threat Label| ['trojan.shell'] |
 
 ----------------------------------------------------------------------------
 ## 7aae334219ed0d7af2eaff729050ae2fc1bdf2c286fdc8a00be39c8f4907ff19 <br>
@@ -1205,10 +1205,10 @@
 |------| -------|
 | Hash | 7aae334219ed0d7af2eaff729050ae2fc1bdf2c286fdc8a00be39c8f4907ff19  |
 |File type| ASCII text|
-|Security vendors flagged this file as malicious| 15 / 58
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 17 / 63
+|Popular Threat Category| [{'count': 9, 'value': 'downloader'}, {'count': 6, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 4, 'value': 'shell'}, {'count': 2, 'value': 'gen2'}] |
+|Suggested Threat Label| ['downloader.shell/gen2'] |
 
 ----------------------------------------------------------------------------
 ## 7c4d16ae0e92dfc65fde6e700929fefaaf4a42f0e4c6cf6996d317940d3859c1 <br>
@@ -1241,10 +1241,10 @@
 |------| -------|
 | Hash | 7fdeaaafa04c53e557aaababd0e45f8e686d8deb5303284ee2b85377c3385fd0  |
 |File type| ASCII text|
-|Security vendors flagged this file as malicious| 13 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 12 / 63
+|Popular Threat Category| [{'count': 10, 'value': 'trojan'}, {'count': 2, 'value': 'downloader'}] |
+|Popular Threat Name| [{'count': 7, 'value': 'fxdt'}, {'count': 2, 'value': 'shell'}] |
+|Suggested Threat Label| ['trojan.fxdt/shell'] |
 
 ----------------------------------------------------------------------------
 ## 818675ba09b4883e57790aff9a79669275dfe088d02dc5f5cf459b16375d17db <br>
@@ -1277,10 +1277,10 @@
 |------| -------|
 | Hash | 82ef14bcac9e0cb91a7e13eaaef78607f9b1d15e487da1b919d67142d3b89938  |
 |File type| ASCII text, with very long lines|
-|Security vendors flagged this file as malicious| 8 / 54
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 10 / 64
+|Popular Threat Category| [{'count': 5, 'value': 'downloader'}, {'count': 5, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 2, 'value': 'shell'}] |
+|Suggested Threat Label| ['downloader.shell'] |
 
 ----------------------------------------------------------------------------
 ## 83a763390b3ead9b8e88b49f1297d5b609471ecd9bdb155f05eb8043d207e52b <br>
@@ -1361,10 +1361,10 @@
 |------| -------|
 | Hash | 8bd50b7fbc8d0b81c79941318d7517bdf327972e0b5025acae1c9d215a107f9a  |
 |File type| ELF 32-bit LSB executable, ARM, EABI4 version 1 (SYSV), statically linked, not stripped|
-|Security vendors flagged this file as malicious| 29 / 61
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 35 / 64
+|Popular Threat Category| [{'count': 15, 'value': 'trojan'}, {'count': 12, 'value': 'downloader'}] |
+|Popular Threat Name| [{'count': 13, 'value': 'mirai'}, {'count': 3, 'value': 'miraidownloader'}, {'count': 2, 'value': 'miraidlod'}] |
+|Suggested Threat Label| ['trojan.mirai/miraidownloader'] |
 
 ----------------------------------------------------------------------------
 ## 8e8ae289ebc4415f3e7f4ae2bf45ae9c66c3029b08fe5ccdc35fbd910cfe93e0 <br>
@@ -1373,10 +1373,10 @@
 |------| -------|
 | Hash | 8e8ae289ebc4415f3e7f4ae2bf45ae9c66c3029b08fe5ccdc35fbd910cfe93e0  |
 |File type| gzip compressed data, last modified:Mon Jan  6 14:07:35 2020, from Unix, original size modulo 2^32 4266744127|
-|Security vendors flagged this file as malicious| 19 / 57
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 27 / 64
+|Popular Threat Category| [{'count': 12, 'value': 'trojan'}, {'count': 8, 'value': 'miner'}, {'count': 2, 'value': 'hacktool'}] |
+|Popular Threat Name| [{'count': 2, 'value': 'shell'}] |
+|Suggested Threat Label| ['trojan.shell'] |
 
 ----------------------------------------------------------------------------
 ## 8fc5d13238daba3a4986d674ad885f81850c67000c7f4f57df707f5d810ad241 <br>
@@ -1397,10 +1397,10 @@
 |------| -------|
 | Hash | 8ff593dee718d7596b3d81d02cabe25423fd2eeb056203e3ab4eb7502ce6aea2  |
 |File type| ASCII text|
-|Security vendors flagged this file as malicious| 22 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 26 / 64
+|Popular Threat Category| [{'count': 10, 'value': 'downloader'}, {'count': 6, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 8, 'value': 'medusa'}, {'count': 3, 'value': 'shell'}, {'count': 2, 'value': 'bashdlod'}] |
+|Suggested Threat Label| ['downloader.medusa/shell'] |
 
 ----------------------------------------------------------------------------
 ## 91e26024b7a6372890bf2a0e8005e899c188a30554df6464d373236ca27f229f <br>
@@ -1409,10 +1409,10 @@
 |------| -------|
 | Hash | 91e26024b7a6372890bf2a0e8005e899c188a30554df6464d373236ca27f229f  |
 |File type| data|
-|Security vendors flagged this file as malicious| 35 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 33 / 60
+|Popular Threat Category| [{'count': 16, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 8, 'value': 'shell'}, {'count': 7, 'value': 'ircbot'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.shell/ircbot'] |
 
 ----------------------------------------------------------------------------
 ## 92d1ce7b5845454132cf413e749a7fc0c573d36641429812f99344fd7b850e15 <br>
@@ -1421,10 +1421,10 @@
 |------| -------|
 | Hash | 92d1ce7b5845454132cf413e749a7fc0c573d36641429812f99344fd7b850e15  |
 |File type| data|
-|Security vendors flagged this file as malicious| 38 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 37 / 64
+|Popular Threat Category| [{'count': 19, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'ircbot'}, {'count': 9, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## 942641e3997f98bd38ad91561f50910b071a9c495fdff745996cd6c0c2212c18 <br>
@@ -1469,10 +1469,10 @@
 |------| -------|
 | Hash | 9836a6944beb66aa5b6465e9aeeb9a5567e4d253395527b24e2a1aadc1037384  |
 |File type| gzip compressed data, last modified:Tue Sep  3 11:02:03 2019, from Unix, original size modulo 2^32 3675577200|
-|Security vendors flagged this file as malicious| 14 / 57
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 25 / 61
+|Popular Threat Category| [{'count': 12, 'value': 'trojan'}, {'count': 5, 'value': 'miner'}, {'count': 2, 'value': 'hacktool'}] |
+|Popular Threat Name| [{'count': 7, 'value': 'genericfca'}, {'count': 2, 'value': 'bruteforce'}, {'count': 2, 'value': 'shell'}] |
+|Suggested Threat Label| ['trojan.genericfca/bruteforce'] |
 
 ----------------------------------------------------------------------------
 ## 9868c8dd58aa2b0e777c3ac76cb855d3123325446bf8559c4578036e6199aa2a <br>
@@ -1481,10 +1481,10 @@
 |------| -------|
 | Hash | 9868c8dd58aa2b0e777c3ac76cb855d3123325446bf8559c4578036e6199aa2a  |
 |File type| ELF 32-bit MSB executable, PowerPC or cisco 4500, version 1 (SYSV), statically linked, stripped|
-|Security vendors flagged this file as malicious| 34 / 61
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 37 / 65
+|Popular Threat Category| [{'count': 20, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 15, 'value': 'mirai'}, {'count': 2, 'value': 'genericrxvy'}, {'count': 2, 'value': 'rkxlu'}] |
+|Suggested Threat Label| ['trojan.mirai/genericrxvy'] |
 
 ----------------------------------------------------------------------------
 ## 9a45029b646e2d20015695b5541f5fb76eace740bf329dc05af8ea53bd89619c <br>
@@ -1517,10 +1517,10 @@
 |------| -------|
 | Hash | 9bfae8b4936a3a8a5b621411d39e2c9546e0f38b070373e35a8ebe3258db200e  |
 |File type| ELF 32-bit LSB executable, Intel 80386, version 1 (GNU/Linux), statically linked, no section header|
-|Security vendors flagged this file as malicious| 30 / 60
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 39 / 65
+|Popular Threat Category| [{'count': 22, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 20, 'value': 'mirai'}, {'count': 2, 'value': 'cryp'}, {'count': 2, 'value': 'ddos'}] |
+|Suggested Threat Label| ['trojan.mirai/cryp'] |
 
 ----------------------------------------------------------------------------
 ## 9cbbeb3f16791eb75f9dd1311268e2d6f584d442320b1ff453c5e12903b30f7b <br>
@@ -1589,10 +1589,10 @@
 |------| -------|
 | Hash | a0948427c8363d8fbf91aecb5e3fd84946849dd0d5e402aade25ed9a19c950f7  |
 |File type| data|
-|Security vendors flagged this file as malicious| 23 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 37 / 64
+|Popular Threat Category| [{'count': 19, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'ircbot'}, {'count': 9, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## a0beb4e3c8ebfd9f86f43c91c424056f1e476a458c41a05941b152f943bd5584 <br>
@@ -1769,10 +1769,10 @@
 |------| -------|
 | Hash | b2abbc4c02955abf5030c05beab2325a902eace0821af7714df45e60139823a3  |
 |File type| ASCII text|
-|Security vendors flagged this file as malicious| 6 / 60
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 15 / 63
+|Popular Threat Category| [{'count': 6, 'value': 'downloader'}, {'count': 4, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 2, 'value': 'bash'}, {'count': 2, 'value': 'bootnoot'}] |
+|Suggested Threat Label| ['downloader.bash/bootnoot'] |
 
 ----------------------------------------------------------------------------
 ## b3b9a398410077899e286f0e23e7c28b82912670c5e75301e26a741f635fef12 <br>
@@ -1793,10 +1793,10 @@
 |------| -------|
 | Hash | b3f82e8a9815060d4982f236f55205bdb05d3100c8b0647468cdc672f02348c3  |
 |File type| ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, missing section headers|
-|Security vendors flagged this file as malicious| 22 / 62
-|Popular Threat Category| [] |
+|Security vendors flagged this file as malicious| 35 / 67
+|Popular Threat Category| [{'count': 18, 'value': 'trojan'}, {'count': 11, 'value': 'miner'}] |
 |Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Suggested Threat Label| ['trojan.'] |
 
 ----------------------------------------------------------------------------
 ## b4dddcdf13cf61a26f9a622be996a33908c7f6bd03a223e393a32482f28c199b <br>
@@ -1841,10 +1841,10 @@
 |------| -------|
 | Hash | bc5964d46a872260b429717a7263ccbece8592b34b84869563d6092c868a253a  |
 |File type| ELF 32-bit MSB executable, MIPS, MIPS-I version 1 (SYSV), statically linked, stripped|
-|Security vendors flagged this file as malicious| 30 / 61
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 37 / 66
+|Popular Threat Category| [{'count': 19, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 17, 'value': 'mirai'}, {'count': 2, 'value': 'mlhsk'}] |
+|Suggested Threat Label| ['trojan.mirai/mlhsk'] |
 
 ----------------------------------------------------------------------------
 ## bdcb3fe159a00c19682c86463d35ddbf26d43597c340ae340ddb79a6e6b1ac2d <br>
@@ -1853,10 +1853,10 @@
 |------| -------|
 | Hash | bdcb3fe159a00c19682c86463d35ddbf26d43597c340ae340ddb79a6e6b1ac2d  |
 |File type| ASCII text|
-|Security vendors flagged this file as malicious| 27 / 60
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 29 / 64
+|Popular Threat Category| [{'count': 12, 'value': 'downloader'}, {'count': 8, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 11, 'value': 'bash'}, {'count': 8, 'value': 'miraib'}, {'count': 3, 'value': 'shell'}] |
+|Suggested Threat Label| ['downloader.bash/miraib'] |
 
 ----------------------------------------------------------------------------
 ## be62014d55d8562493ae0b6c25494d6e344c14043d80c8cc20dce3b363433e6b <br>
@@ -1889,10 +1889,10 @@
 |------| -------|
 | Hash | c090ae197a6cd91ba529374e99972b78cda533f4ee94a292446ca88498ed453a  |
 |File type| data|
-|Security vendors flagged this file as malicious| 40 / 60
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 38 / 64
+|Popular Threat Category| [{'count': 19, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'ircbot'}, {'count': 9, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## c2be5eb0267b2e668fa27f514d6e77936ae7174eb2ed6e9785239757471adcbd <br>
@@ -1913,10 +1913,10 @@
 |------| -------|
 | Hash | c689354ea82ea3c621f05b7ae0aac44adb68da43e94311e99d31e4d4e0dc7efe  |
 |File type| ASCII text|
-|Security vendors flagged this file as malicious| 13 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 14 / 63
+|Popular Threat Category| [{'count': 5, 'value': 'trojan'}, {'count': 4, 'value': 'downloader'}] |
+|Popular Threat Name| [{'count': 2, 'value': 'gen2'}, {'count': 2, 'value': 'shell'}] |
+|Suggested Threat Label| ['trojan.gen2/shell'] |
 
 ----------------------------------------------------------------------------
 ## c801a195cb85ddc6bfe5b95114a078b9be030d80cedeceba1e4c20d3858418aa <br>
@@ -1925,10 +1925,10 @@
 |------| -------|
 | Hash | c801a195cb85ddc6bfe5b95114a078b9be030d80cedeceba1e4c20d3858418aa  |
 |File type| ELF 32-bit MSB executable, SPARC, version 1 (SYSV), statically linked, stripped|
-|Security vendors flagged this file as malicious| 34 / 62
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 43 / 66
+|Popular Threat Category| [{'count': 25, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 19, 'value': 'mirai'}, {'count': 2, 'value': 'gafgyt'}, {'count': 2, 'value': 'mjdou'}] |
+|Suggested Threat Label| ['trojan.mirai/gafgyt'] |
 
 ----------------------------------------------------------------------------
 ## c8be8315e0a990ed105069afe2a1354f1c7a0f25123bf326c11c98ef82e13ac6 <br>
@@ -1937,10 +1937,10 @@
 |------| -------|
 | Hash | c8be8315e0a990ed105069afe2a1354f1c7a0f25123bf326c11c98ef82e13ac6  |
 |File type| data|
-|Security vendors flagged this file as malicious| 38 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 36 / 63
+|Popular Threat Category| [{'count': 18, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'ircbot'}, {'count': 9, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## cb678196ed362e2252077d56ada8238acff7d4ed6b10421ef7cc5c620589cdf3 <br>
@@ -1949,10 +1949,10 @@
 |------| -------|
 | Hash | cb678196ed362e2252077d56ada8238acff7d4ed6b10421ef7cc5c620589cdf3  |
 |File type| ASCII text|
-|Security vendors flagged this file as malicious| 30 / 60
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 29 / 64
+|Popular Threat Category| [{'count': 14, 'value': 'downloader'}, {'count': 6, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 11, 'value': 'bash'}, {'count': 9, 'value': 'miraib'}, {'count': 4, 'value': 'shell'}] |
+|Suggested Threat Label| ['downloader.bash/miraib'] |
 
 ----------------------------------------------------------------------------
 ## cbcf9a2a197e699c76b898060c44f713a32bf1fd1f6cbf320a102bc47dcfe2c2 <br>
@@ -1973,10 +1973,10 @@
 |------| -------|
 | Hash | cd8041fc39dbd43ead00d75d64f32e1778f0fb3e32ee3b8e2a024d60e733d66b  |
 |File type| ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, missing section headers|
-|Security vendors flagged this file as malicious| 29 / 62
-|Popular Threat Category| [] |
+|Security vendors flagged this file as malicious| 32 / 65
+|Popular Threat Category| [{'count': 16, 'value': 'trojan'}, {'count': 11, 'value': 'miner'}] |
 |Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Suggested Threat Label| ['trojan.'] |
 
 ----------------------------------------------------------------------------
 ## cdfb39095f6ef0494fae5b630b2bbbea67dd18f8581d1a48441160e5458acbec <br>
@@ -1997,10 +1997,10 @@
 |------| -------|
 | Hash | ceec2ae80217882a47f718975f6cf5eb8bf8162fb381886a59835a6ec4916c30  |
 |File type| ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, missing section headers|
-|Security vendors flagged this file as malicious| 31 / 63
-|Popular Threat Category| [] |
+|Security vendors flagged this file as malicious| 34 / 65
+|Popular Threat Category| [{'count': 17, 'value': 'trojan'}, {'count': 11, 'value': 'miner'}] |
 |Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Suggested Threat Label| ['trojan.'] |
 
 ----------------------------------------------------------------------------
 ## cf8123598b1420a58610e81423d07660042eb3cdf96cad92b280d5105ce3d940 <br>
@@ -2009,10 +2009,10 @@
 |------| -------|
 | Hash | cf8123598b1420a58610e81423d07660042eb3cdf96cad92b280d5105ce3d940  |
 |File type| data|
-|Security vendors flagged this file as malicious| 37 / 60
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 36 / 63
+|Popular Threat Category| [{'count': 18, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 10, 'value': 'ircbot'}, {'count': 8, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## d10c5feebee169dd94208f86a9d4f385eb02de8ee29b411eef4c1a7b6167787c <br>
@@ -2021,10 +2021,10 @@
 |------| -------|
 | Hash | d10c5feebee169dd94208f86a9d4f385eb02de8ee29b411eef4c1a7b6167787c  |
 |File type| ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, missing section headers|
-|Security vendors flagged this file as malicious| 33 / 63
-|Popular Threat Category| [] |
+|Security vendors flagged this file as malicious| 35 / 67
+|Popular Threat Category| [{'count': 17, 'value': 'trojan'}, {'count': 11, 'value': 'miner'}] |
 |Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Suggested Threat Label| ['trojan.'] |
 
 ----------------------------------------------------------------------------
 ## d1e26dbea1f03e0a020503549a4efa6a796c0feddbd193b4fe9ae9dd2e1a948b <br>
@@ -2045,10 +2045,10 @@
 |------| -------|
 | Hash | d2b7f83d50e70dfc3e20b8bf71bf33a57c9425d45bcc73160245ea0eaa55c057  |
 |File type| data|
-|Security vendors flagged this file as malicious| 36 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 38 / 64
+|Popular Threat Category| [{'count': 19, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 10, 'value': 'ircbot'}, {'count': 9, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## d42fef60e13ef1c7ccb1039044bbf307c5d4417a7abf0b271956cef6e2d593be <br>
@@ -2057,10 +2057,10 @@
 |------| -------|
 | Hash | d42fef60e13ef1c7ccb1039044bbf307c5d4417a7abf0b271956cef6e2d593be  |
 |File type| ELF 32-bit LSB executable, MIPS, MIPS-I version 1 (SYSV), statically linked, stripped|
-|Security vendors flagged this file as malicious| 30 / 61
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 33 / 64
+|Popular Threat Category| [{'count': 17, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 14, 'value': 'mirai'}, {'count': 2, 'value': 'bfiyh'}, {'count': 2, 'value': 'genericrxvy'}] |
+|Suggested Threat Label| ['trojan.mirai/bfiyh'] |
 
 ----------------------------------------------------------------------------
 ## d46555af1173d22f07c37ef9c1e0e74fd68db022f2b6fb3ab5388d2c5bc6a98e <br>
@@ -2129,10 +2129,10 @@
 |------| -------|
 | Hash | d9b8aded3068a0eb0e1ccd9174fff8866c35aacc38c17babebb5eeaaa747e68b  |
 |File type| data|
-|Security vendors flagged this file as malicious| 34 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 38 / 64
+|Popular Threat Category| [{'count': 20, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'ircbot'}, {'count': 9, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## da5a3f86b3a36d6ffe29cb5beda9394ff71a69a3278106dd0d8459c7a698d870 <br>
@@ -2141,10 +2141,10 @@
 |------| -------|
 | Hash | da5a3f86b3a36d6ffe29cb5beda9394ff71a69a3278106dd0d8459c7a698d870  |
 |File type| gzip compressed data, last modified:Mon Jan  6 14:07:35 2020, from Unix, original size modulo 2^32 2128967045|
-|Security vendors flagged this file as malicious| 16 / 58
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 27 / 64
+|Popular Threat Category| [{'count': 12, 'value': 'trojan'}, {'count': 8, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 2, 'value': 'shell'}] |
+|Suggested Threat Label| ['trojan.shell'] |
 
 ----------------------------------------------------------------------------
 ## da9a51bcf05b047eeee9b6572babb86a7105743b49f3ae973c92fc71ee9170be <br>
@@ -2153,10 +2153,10 @@
 |------| -------|
 | Hash | da9a51bcf05b047eeee9b6572babb86a7105743b49f3ae973c92fc71ee9170be  |
 |File type| ELF 32-bit MSB executable, MIPS, MIPS-I version 1 (SYSV), statically linked, missing section headers|
-|Security vendors flagged this file as malicious| 34 / 60
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 39 / 66
+|Popular Threat Category| [{'count': 15, 'value': 'downloader'}, {'count': 15, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 13, 'value': 'mirai'}, {'count': 3, 'value': 'miraidownloader'}, {'count': 2, 'value': 'icukp'}] |
+|Suggested Threat Label| ['downloader.mirai/miraidownloader'] |
 
 ----------------------------------------------------------------------------
 ## db06a40d33db2416bcc452736ad5ee7b4035c457b3f7d559b05ec200d6a8c7a5 <br>
@@ -2165,10 +2165,10 @@
 |------| -------|
 | Hash | db06a40d33db2416bcc452736ad5ee7b4035c457b3f7d559b05ec200d6a8c7a5  |
 |File type| ELF 32-bit LSB executable, ARC Cores Tangent-A5, version 1 (SYSV), statically linked, for GNU/Linux 4.8.0, with debug_info, not stripped|
-|Security vendors flagged this file as malicious| 34 / 62
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 40 / 66
+|Popular Threat Category| [{'count': 27, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 12, 'value': 'mirai'}, {'count': 7, 'value': 'gafgyt'}, {'count': 2, 'value': 'aeatr'}] |
+|Suggested Threat Label| ['trojan.mirai/gafgyt'] |
 
 ----------------------------------------------------------------------------
 ## dd8c9ddcb52e2c733b37a4eec2e00fb39e8ccea196a6550d298621b85d3bb2e6 <br>
@@ -2201,10 +2201,10 @@
 |------| -------|
 | Hash | df46713c459edb811814c12babe940b480e945a9a0ab4906d165301bcf70c6cc  |
 |File type| ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, missing section headers|
-|Security vendors flagged this file as malicious| 29 / 62
-|Popular Threat Category| [] |
+|Security vendors flagged this file as malicious| 33 / 66
+|Popular Threat Category| [{'count': 17, 'value': 'trojan'}, {'count': 10, 'value': 'miner'}] |
 |Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Suggested Threat Label| ['trojan.'] |
 
 ----------------------------------------------------------------------------
 ## e056263435f622034d4bc2375b2f60619e9e7dd0cabaaa34f8ade90649d8e213 <br>
@@ -2213,10 +2213,10 @@
 |------| -------|
 | Hash | e056263435f622034d4bc2375b2f60619e9e7dd0cabaaa34f8ade90649d8e213  |
 |File type| ELF 32-bit MSB executable, PowerPC or cisco 4500, version 1 (SYSV), statically linked, stripped|
-|Security vendors flagged this file as malicious| 35 / 62
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 41 / 65
+|Popular Threat Category| [{'count': 24, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 18, 'value': 'mirai'}, {'count': 2, 'value': 'kgedv'}] |
+|Suggested Threat Label| ['trojan.mirai/kgedv'] |
 
 ----------------------------------------------------------------------------
 ## e15e93db3ce3a8a22adb4b18e0e37b93f39c495e4a97008f9b1a9a42e1fac2b0 <br>
@@ -2273,10 +2273,10 @@
 |------| -------|
 | Hash | e4cc9a566e92fd87c00dfe2398f93b7badd2110cb712145e344e20aa0ddc6457  |
 |File type| ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, stripped|
-|Security vendors flagged this file as malicious| 38 / 62
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 40 / 66
+|Popular Threat Category| [{'count': 21, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 19, 'value': 'mirai'}, {'count': 2, 'value': 'klpou'}] |
+|Suggested Threat Label| ['trojan.mirai/klpou'] |
 
 ----------------------------------------------------------------------------
 ## e7ce03afb4326a44dd56358bf7ea6022adb72d8f036d1e901a28949b42f4c138 <br>
@@ -2369,10 +2369,10 @@
 |------| -------|
 | Hash | f03d281504447f7a20d36406c6aad7dac59d0fc1a1222a7838aca1b70e9f8604  |
 |File type| ASCII text|
-|Security vendors flagged this file as malicious| 16 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 27 / 64
+|Popular Threat Category| [{'count': 11, 'value': 'downloader'}, {'count': 7, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 10, 'value': 'bash'}, {'count': 8, 'value': 'miraib'}, {'count': 3, 'value': 'shell'}] |
+|Suggested Threat Label| ['downloader.bash/miraib'] |
 
 ----------------------------------------------------------------------------
 ## f14ac4122549b3e81a0177b6771c4b9931c9975d5cb04b8121d349257a4fc693 <br>
@@ -2381,10 +2381,10 @@
 |------| -------|
 | Hash | f14ac4122549b3e81a0177b6771c4b9931c9975d5cb04b8121d349257a4fc693  |
 |File type| ELF 32-bit LSB executable, ARC Cores Tangent-A5, version 1 (SYSV), statically linked, stripped|
-|Security vendors flagged this file as malicious| 31 / 61
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 32 / 66
+|Popular Threat Category| [{'count': 20, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 15, 'value': 'mirai'}, {'count': 2, 'value': 'cohgn'}] |
+|Suggested Threat Label| ['trojan.mirai/cohgn'] |
 
 ----------------------------------------------------------------------------
 ## f1743c85c03a153930f20798ad002acc377e1c32224a6633e45af272e08c9ea3 <br>
@@ -2417,10 +2417,10 @@
 |------| -------|
 | Hash | f3bd4f60322bfc24c5a7d0eafd0b221a538edfb1ddc32ecfa0906bb8c861fdfb  |
 |File type| ELF 32-bit MSB executable, MIPS, MIPS-I version 1 (SYSV), statically linked, missing section headers|
-|Security vendors flagged this file as malicious| 36 / 63
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 37 / 66
+|Popular Threat Category| [{'count': 15, 'value': 'downloader'}, {'count': 14, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 13, 'value': 'mirai'}, {'count': 3, 'value': 'miraidownloader'}, {'count': 2, 'value': 'dhthc'}] |
+|Suggested Threat Label| ['downloader.mirai/miraidownloader'] |
 
 ----------------------------------------------------------------------------
 ## f6dc36025b1528ac9ba80e1f697b62af014ba3b44c244dfdcb7927fffe03d1ed <br>
@@ -2429,10 +2429,10 @@
 |------| -------|
 | Hash | f6dc36025b1528ac9ba80e1f697b62af014ba3b44c244dfdcb7927fffe03d1ed  |
 |File type| ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, missing section headers|
-|Security vendors flagged this file as malicious| 32 / 65
-|Popular Threat Category| [] |
+|Security vendors flagged this file as malicious| 33 / 65
+|Popular Threat Category| [{'count': 17, 'value': 'trojan'}, {'count': 11, 'value': 'miner'}] |
 |Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Suggested Threat Label| ['trojan.'] |
 
 ----------------------------------------------------------------------------
 ## f72babf978d8b86a75e3b34f59d4fc6464dc988720d1574a781347896c2989c7 <br>
@@ -2477,10 +2477,10 @@
 |------| -------|
 | Hash | f9996fa88907b41d3e12ad81b86d9e2dad8e05813fe48bbbadce3ff081f96476  |
 |File type| data|
-|Security vendors flagged this file as malicious| 31 / 58
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 35 / 63
+|Popular Threat Category| [{'count': 17, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'ircbot'}, {'count': 8, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## f9d9e0a13e316db8ad0385a9a9e1f89b669113f31bfb7a91adf7e5b52fcd0023 <br>
