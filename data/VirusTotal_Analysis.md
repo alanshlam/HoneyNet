@@ -77,10 +77,10 @@
 |------| -------|
 | Hash | 05f088778d3522f7b02465be38ec5548d9dbdeb142b4aed8d3c915c1a420a556  |
 |File type| Bourne-Again shell script, ASCII text executable, with very long lines|
-|Security vendors flagged this file as malicious| 21 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 35 / 64
+|Popular Threat Category| [{'count': 17, 'value': 'downloader'}, {'count': 8, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 8, 'value': 'medusa'}, {'count': 5, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['downloader.medusa/shell'] |
 
 ----------------------------------------------------------------------------
 ## 08074bb4ce6db7eac10411d4dd3ea38c8a4ff097f74dcdb9ec145e22ade2bbc4 <br>
@@ -125,10 +125,10 @@
 |------| -------|
 | Hash | 0dc5f305326adb4192db7f12cdf26e6f9eb3cd64216b3f890c01eab9e3bda37f  |
 |File type| Bourne-Again shell script, ASCII text executable|
-|Security vendors flagged this file as malicious| 33 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 37 / 64
+|Popular Threat Category| [{'count': 18, 'value': 'downloader'}, {'count': 9, 'value': 'trojan'}] |
+|Popular Threat Name| [{'count': 8, 'value': 'medusa'}, {'count': 5, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['downloader.medusa/shell'] |
 
 ----------------------------------------------------------------------------
 ## 0fbfa0de71ffae26c2dbe0f681c7d8b910107f055989b2716f162dc78fb3a42d <br>
@@ -137,10 +137,10 @@
 |------| -------|
 | Hash | 0fbfa0de71ffae26c2dbe0f681c7d8b910107f055989b2716f162dc78fb3a42d  |
 |File type| ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, too large section header offset 28424128|
-|Security vendors flagged this file as malicious| 27 / 61
-|Popular Threat Category| [] |
+|Security vendors flagged this file as malicious| 31 / 67
+|Popular Threat Category| [{'count': 14, 'value': 'miner'}, {'count': 13, 'value': 'trojan'}] |
 |Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Suggested Threat Label| ['miner.'] |
 
 ----------------------------------------------------------------------------
 ## 0fdef8d11dc79a2d286d784a67cb52fea383654f46ffefb6eaab200a5527dbb0 <br>
