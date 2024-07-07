@@ -233,10 +233,10 @@
 |------| -------|
 | Hash | 1ac0daf6763960f89a393e9f88a596ecc5e3127987008300c0c048580cd23bc2  |
 |File type| data|
-|Security vendors flagged this file as malicious| 36 / 59
-|Popular Threat Category| [] |
-|Popular Threat Name| [] |
-|Suggested Threat Label| [] |
+|Security vendors flagged this file as malicious| 37 / 64
+|Popular Threat Category| [{'count': 19, 'value': 'trojan'}, {'count': 2, 'value': 'miner'}] |
+|Popular Threat Name| [{'count': 9, 'value': 'ircbot'}, {'count': 9, 'value': 'shell'}, {'count': 2, 'value': 'bash'}] |
+|Suggested Threat Label| ['trojan.ircbot/shell'] |
 
 ----------------------------------------------------------------------------
 ## 1b9a6185b32916c753a076f2522e73976ea8185e3c62bcbb811917c2173594df <br>
