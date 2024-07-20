@@ -1,4 +1,4 @@
-# The folder contains pcap file for Network Foreniscs.
+# The folder contains pcap files for Network Foreniscs.
 
 
 | pcap File                  | description |
