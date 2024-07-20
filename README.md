@@ -153,7 +153,7 @@ This pcap file records network packets of HTTPS interception by a MITM attack vi
 <img src="./screenshot/mitm.jpg" alt="MITM" width="1000">
 
 The video below demostrate how an attacker can sniff victim account passwords by intercepting HTTPS traffic in a MITM attack:
-(https://www.youtube.com/watch?v=E_E2cYAhyiU&t=18s)
+(https://www.youtube.com/watch?v=E_E2cYAhyiU)
 
 
 #### 4. SMB Break-in ([smb.pcap](./pcap/smb.pcap))
