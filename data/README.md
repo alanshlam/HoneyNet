@@ -1,3 +1,4 @@
+### This folder contains the data got from T-Pot Honeypots
 
 The 'dl_file_hash.csv' file contains the hash and file type information of the attackers' downloaded files.
 
