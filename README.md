@@ -126,6 +126,7 @@ Below screenshot shows the Virustotal hash search of a download file
 
 
 
+
 Some download scripts performed below activities
 -	Checked if it can run as root user. 
 -	Modified `/etc/sudoers` file with the entry `daemon ALL=(ALL) NOPASSWD: ALL` to allows the `daemon` user to execute any command as any user without needing to provide a password 
