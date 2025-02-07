@@ -100,7 +100,7 @@ A total of 6,420 hacker keystroke sessions have been recorded following their br
 
 ### Downloaded Files Analysis
 
-We have archived 210 unique files downloaded by hackers. Below is the distribution of these file types:
+We have archived more than 210 unique files downloaded by hackers. Below is the distribution of these file types:
 
 | File Type                 | Percentage |
 |---------------------------|------------|
@@ -126,7 +126,19 @@ Below screenshot shows the Virustotal hash search of a download file
 
 
 
-
+Some download scripts performed below activities
+-	Checked if it can run as root user. 
+-	Modified `/etc/sudoers` file with the entry `daemon ALL=(ALL) NOPASSWD: ALL` to allows the `daemon` user to execute any command as any user without needing to provide a password 
+-	Modified `/etc/rc.local` file to ensure its script runs on system startup
+-	Killed various processes (`bins.sh`, `minerd`, `node`, etc.) that are commonly associated with cryptocurrency mining and other malicious activities.
+-	Added a malicious entry to `/etc/hosts`.
+-	Deleted `.bashrc` files for root and the `pi` user.
+-	Changed the password for a user.
+-	Modified `.ssh/authorized_keys` to set up SSH keys for root access.
+-	Modified DNS settings to use Google's DNS server.
+-	Deleted various temporary files and directories
+-	Setup IRC Bot
+-	Preformed Network Scanning and Propagation, including updating the package list and installs `zmap` and `sshpass`, Scanning for open SSH ports, and attempting to copy itself to other systems using default passwords, and executing itself on the remote systems.
 
 ## Network Forensics
 
