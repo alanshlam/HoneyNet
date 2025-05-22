@@ -1,4 +1,4 @@
-# Comprehensive Report on TPOT Honeypot and VirusTotal Findings Across HK, UK, USA, and AUS Regions
+# Report on TPOT Honeypot and VirusTotal Findings Across HK, UK, USA, and AUS Regions
 
 This report consolidates findings from TPOT honeypot data and VirusTotal analysis of common Cowrie honeypot download files across the Hong Kong (HK), United Kingdom (UK), United States (USA), and Australia (AUS) regions between April and May, 2025.
 It covers usernames, passwords, attack sources, operating systems, ports, CVEs, and downloaded files, providing insights into attack patterns, trends, and actionable recommendations for network protection. Additionally, it includes trend predictions based on observed patterns to anticipate future threats.
@@ -163,7 +163,7 @@ To mitigate the threats identified in the TPOT and VirusTotal data, organization
    - Train IT teams on securing IoT devices and monitoring for botnet activity.
 
 ---
-The table below summarizes the most critical patterns and regional variations.
+## Summary of the most critical patterns and regional variations.
 
 
 | **Category**            | **HK**                                                                 | **UK**                                                                 | **USA**                                                                | **AUS**                                                                |
