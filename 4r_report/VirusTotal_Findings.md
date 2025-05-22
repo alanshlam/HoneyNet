@@ -3,6 +3,7 @@
 The VirusTotal analysis provides insights into the nature of files downloaded to Cowrie honeypots in the HK, UK, USA, and AUS regions. 
 Below is the highlight of the key findings from the VirusTotal Scan report, focusing on the file types, content, maliciousness, and threat labels. 
 
+You can view the VirusTotal Analysis of the download files [here](VirusTotal_Analysis_on_common.md)
 
 ---
 
