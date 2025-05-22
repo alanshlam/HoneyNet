@@ -1,0 +1,11 @@
+﻿ID,Description,Count
+2100560,"GPL INFO VNC server response","2,325,955"
+2100384,"GPL ICMP PING","1,826,055"
+2024766,"ET EXPLOIT [PTsecurity] DoublePulsar Backdoor installation communication","676,826"
+2002923,"ET EXPLOIT VNC Server Not Requiring Authentication (case 2)","281,249"
+2002920,"ET INFO VNC Authentication Failure","281,138"
+2402000,"ET DROP Dshield Block Listed Source group 1","128,360"
+2210051,"SURICATA STREAM Packet with broken ack","106,816"
+2006408,"ET INFO HTTP Request on Unusual Port Possibly Hostile","83,062"
+2023753,"ET SCAN MS Terminal Server Traffic on Non-standard Port","51,142"
+2001978,"ET INFO SSH session in progress on Expected Port","50,761"
