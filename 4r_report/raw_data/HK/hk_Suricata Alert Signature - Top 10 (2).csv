@@ -1,0 +1,11 @@
+﻿ID,Description,Count
+2100560,"GPL INFO VNC server response","1,046,415"
+2100384,"GPL ICMP PING","788,253"
+2024766,"ET EXPLOIT [PTsecurity] DoublePulsar Backdoor installation communication","131,769"
+2402000,"ET DROP Dshield Block Listed Source group 1","128,612"
+2006408,"ET INFO HTTP Request on Unusual Port Possibly Hostile","82,705"
+2023753,"ET SCAN MS Terminal Server Traffic on Non-standard Port","66,301"
+2001978,"ET INFO SSH session in progress on Expected Port","50,906"
+2210045,"SURICATA STREAM Packet with invalid ack","46,519"
+2210029,"SURICATA STREAM ESTABLISHED invalid ack","45,618"
+2210065,"SURICATA STREAM ESTABLISHED ack for ZWP data","45,618"
