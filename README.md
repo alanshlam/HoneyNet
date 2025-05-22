@@ -31,6 +31,10 @@ This executive summary encapsulates the key findings from the TPOT honeypot data
 | **VirusTotal Files**    | 8 non-malicious ASCII files (6 with download scripts); 14 malicious files (trojans: mirai, multiverze; miners; downloaders); IoT/Linux focus. | Increased botnet (mirai, multiverze) and miner activity; obfuscated download scripts.  | Use antivirus for trojans/miners, monitor download attempts, analyze in sandboxes.   |
 | **Key Insight**         | Global botnet campaigns exploit weak credentials, IoT/Linux systems, and legacy/modern vulnerabilities via SSH and VoIP ports. | Sophisticated botnets, AI-driven attacks, and new vulnerabilities will dominate.       | Harden systems, secure ports, monitor botnet IOCs, and train staff on IoT security.  |
 
+<img src="./screenshot/hk_tpot2.jpg" alt="hk_tpot" width="1000">
+<img src="./screenshot/uk_tpot2.jpg" alt="uk_tpot" width="1000">
+<img src="./screenshot/usa_tpot2.jpg" alt="usa_tpot" width="1000">
+<img src="./screenshot/aus_tpot2.jpg" alt="aus_tpot" width="1000">
 
 ### T-Pot Honeypot Deployment
 
