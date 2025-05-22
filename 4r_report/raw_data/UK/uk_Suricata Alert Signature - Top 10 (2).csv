@@ -1,0 +1,11 @@
+﻿ID,Description,Count
+2100560,"GPL INFO VNC server response","459,985"
+2002923,"ET EXPLOIT VNC Server Not Requiring Authentication (case 2)","170,085"
+2002920,"ET INFO VNC Authentication Failure","169,995"
+2402000,"ET DROP Dshield Block Listed Source group 1","128,368"
+2024766,"ET EXPLOIT [PTsecurity] DoublePulsar Backdoor installation communication","126,714"
+2006408,"ET INFO HTTP Request on Unusual Port Possibly Hostile","82,387"
+2023753,"ET SCAN MS Terminal Server Traffic on Non-standard Port","62,840"
+2210045,"SURICATA STREAM Packet with invalid ack","60,917"
+2210029,"SURICATA STREAM ESTABLISHED invalid ack","60,689"
+2210065,"SURICATA STREAM ESTABLISHED ack for ZWP data","60,689"
