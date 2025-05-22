@@ -32,7 +32,7 @@ The TPOT honeypot data and VirusTotal analysis reveal a global pattern of cybera
   - AUS shows unique passwords like "5201314" and "dragon".
 - **Insight**: Weak and default passwords are heavily targeted, with "(empty)" attempts highlighting misconfigured systems.
 
-### 3. Attacks by Country
+### 3. [Attacks by Country](top10_attacks_by_country.md)
 - **Commonalities**:
   - **United States**: Top attack source (HK: 549,721; UK: 800,062; USA: 1,266,211; AUS: 755,017), likely due to large botnet infrastructure.
   - **Romania**, **China**, **United Kingdom**, **Russia**: Consistently in top 10, with Romania focusing on port 5060.
@@ -42,7 +42,7 @@ The TPOT honeypot data and VirusTotal analysis reveal a global pattern of cybera
   - Brazil is notable in USA (374,804).
 - **Insight**: The USA’s dominance reflects its role as a hub for attack infrastructure, while Romania’s focus suggests specialized VoIP attacks.
 
-### 4. OS Distribution
+### 4. [OS Distribution](top10_OS.md)
 - **Commonalities**:
   - **Linux 2.2.x-3.x**: Dominant OS (HK: 3,317,952; UK: 2,971,687; USA: 3,989,951; AUS: 2,819,156), indicating legacy Linux targeting.
   - **Windows 7 or 8**, **Linux 3.11 and newer**, **Linux 2.2.x-3.x (barebone)**, **Windows NT kernel**: In top 5–10, showing broad OS coverage.
@@ -52,7 +52,7 @@ The TPOT honeypot data and VirusTotal analysis reveal a global pattern of cybera
   - USA includes "Linux 3.x".
 - **Insight**: Attackers focus on outdated Linux systems and modern Windows, exploiting unpatched vulnerabilities.
 
-### 5. Attacks by Country and Port
+### 5. [Attacks by Country and Port](top10_country_port.md)
 - **Commonalities**:
   - **Port 22 (SSH)**: Heavily targeted (e.g., USA/22: HK: 15,525; UK: 34,992; USA: 22,267; AUS: 12,363).
   - **Port 5060 (SIP)**: Major target, especially by Romania (HK: 398,894; UK: 340,448; USA: 193,766; AUS: 406,566).
@@ -63,7 +63,7 @@ The TPOT honeypot data and VirusTotal analysis reveal a global pattern of cybera
   - Chile targets port 445 (SMB) in HK (127,807).
 - **Insight**: SSH and VoIP services are universal targets, with regional port variations reflecting specific attack strategies.
 
-### 6. CVEs
+### 6. [CVEs](top10_CVE.md)
 - **Commonalities**:
   - **CVE-2002-0013 CVE-2002-0012** (SNMP): Top 3 in all regions (HK: 2,949; UK: 2,434; USA: 4,682; AUS: 2,345).
   - **CVE-2006-2369** (VNC): Dominant in UK (170,143), USA (281,315), AUS (164,077), present in HK (1,284).
@@ -74,6 +74,7 @@ The TPOT honeypot data and VirusTotal analysis reveal a global pattern of cybera
 - **Insight**: Attackers exploit both legacy (SNMP, VNC) and modern (Log4j) vulnerabilities, targeting protocol weaknesses.
 
 ### 7. VirusTotal Analysis of Cowrie Download Files
+You can view the detail findings at VirusTotal_Findings.md
 - **Non-Malicious Files (8)**:
   - **File Type**: ASCII text, including a download script (`S=ip address; ...`) in six files, attempting to fetch payloads via `wget`, `curl`, or `ftpget`.
   - **Maliciousness**: 0/50–62 vendors flag as malicious, but the download script suggests an initial attack vector.
