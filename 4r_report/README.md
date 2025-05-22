@@ -83,6 +83,22 @@ The TPOT honeypot data and VirusTotal analysis reveal a global pattern of cybera
   - **Threat Categories**: Trojans (10–23 vendors), downloaders (7–21), miners (5–16), PUA, hacktools.
   - **Threat Names**: multiverze, mirai/miraidownloader, medusa/geninst, xorddos/ddos, gikam, pvcyv, r002c0dcq25.
   - **Insight**: Malicious files target IoT/Linux systems, with botnets (mirai, multiverze) and miners exploiting weak credentials and ports 22/23.
+- **VirusTotal Analysis Summary for Commoon Cowrie dowloaded files**:
+  
+ **Category**               | **Findings**                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
+| **Non-Malicious Files (8)** | ASCII text; 6 files with download script (`wget`, `curl`, `ftpget`); 0/50–62 vendors flag malicious; likely initial attack vector. |
+| **Malicious Files (14)**   | Shell scripts, ELF executables (MIPS, ARM, x86), SSH key; 20–46/60–65 vendors flag malicious; trojans, downloaders, miners dominate. |
+| **Threat Categories**      | Trojans (10–23 vendors), downloaders (7–21), miners (5–16), PUA, hacktools; target IoT/Linux systems. |
+| **Threat Names**           | multiverze, mirai/miraidownloader, medusa/geninst, xorddos/ddos, gikam, pvcyv, r002c0dcq25; indicate botnets, DDoS, mining. |
+| **Integration with TPOT**  | Aligns with weak credentials ("root", "123456"), port 22/23 targeting, Linux focus; suggests botnet campaign (e.g., "345gs5662d34"). |
+| **Key Insight**            | Botnets (mirai, multiverze) and miners exploit weak credentials and IoT/Linux systems; download scripts are precursors to malicious payloads. |
+| **Recommendations**        | Secure SSH/Telnet, patch IoT/Linux, monitor ports 22/23/5060, detect trojans/miners, track botnet IPs. |
+
+
+
+
+
 
 ---
 
@@ -147,6 +163,52 @@ To mitigate the threats identified in the TPOT and VirusTotal data, organization
    - Train IT teams on securing IoT devices and monitoring for botnet activity.
 
 ---
+The table below summarizes the most critical patterns and regional variations.
+
+
+| **Category**            | **HK**                                                                 | **UK**                                                                 | **USA**                                                                | **AUS**                                                                |
+|-------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|
+| **Top Username**        | root (29,508)                                                         | root (62,575)                                                         | root (38,439)                                                         | root (25,720)                                                         |
+| **Other Key Usernames** | admin (4,586), sa (3,404), 345gs5662d34 (2,343)                       | admin (5,836), sa (4,801), 345gs5662d34 (2,325)                       | admin (6,606), 345gs5662d34 (2,320), user (2,012)                     | admin (5,042), sa (7,250), 345gs5662d34 (2,304)                       |
+| **Username Notes**      | Common defaults; "345gs5662d34" suggests botnet activity              | Includes "git", "hadoop" for dev environments                         | Similar to UK; targets dev-related usernames                         | Many "admin" variations (e.g., aDmin, ADmiN)                          |
+| **Top Password**        | 123456 (8,045)                                                       | 123456 (10,549)                                                      | 123456 (11,757)                                                      | 123456 (4,851)                                                       |
+| **Other Key Passwords** | 123 (2,765), 345gs5662d34 (2,343), 3245gs5662d34 (2,338)             | 123 (4,391), 345gs5662d34 (2,325), 3245gs5662d34 (2,324)             | 123 (3,526), 3245gs5662d34 (2,323), 345gs5662d34 (2,320)             | 123 (2,395), 345gs5662d34 (2,304), 3245gs5662d34 (2,295)             |
+| **Password Notes**      | Weak passwords prevalent; "(empty)" notable (830)                     | "NIALINTERNAL.COM" (703) unique; "(empty)" (969)                      | High "(empty)" count (1,829); weak passwords dominate                 | Unique passwords like "5201314" (190), "dragon" (176)                 |
+| **Top Attack Country**  | United States (549,721)                                              | United States (800,062)                                              | United States (1,266,211)                                            | United States (755,017)                                              |
+| **Other Key Countries** | Romania (424,947), France (371,705), China (174,510)                  | France (390,002), Romania (370,767), South Africa (331,390)           | Brazil (374,804), Romania (235,777), Russia (152,590)                 | Romania (429,110), France (359,484), China (300,394)                  |
+| **Country Notes**       | Romania targets port 5060 heavily; Chile notable (128,422)            | South Africa significant for port 445; Indonesia present (68,395)     | Brazil prominent; Hong Kong (114,460) as source                       | High China activity on port 15965                                    |
+| **Top OS**              | Linux 2.2.x-3.x (3,317,952)                                          | Linux 2.2.x-3.x (2,971,687)                                          | Linux 2.2.x-3.x (3,989,951)                                          | Linux 2.2.x-3.x (2,819,156)                                          |
+| **Other Key OS**        | Windows NT kernel (566,636), Linux 3.11 and newer (533,245)           | Windows XP (326,500), Windows 7 or 8 (291,310)                        | Windows 7 or 8 (467,114), Linux 3.11 and newer (294,836)              | Windows 7 or 8 (348,943), Linux 2.2.x-3.x (barebone) (343,294)        |
+| **OS Notes**            | Mac OS X in top 10 (10,778); legacy Linux focus                       | High Windows XP targeting (326,500); legacy systems                   | Linux 3.x (5,670) unique; modern and legacy systems                   | Mac OS X (13,974); focus on older Linux versions                     |
+| **Top Country/Port**    | Romania/5060 (398,894)                                               | Romania/5060 (340,448)                                               | United States/5901 (255,560)                                         | Romania/5060 (406,566)                                               |
+| **Other Key Ports**     | USA/22 (15,525), Chile/445 (127,807), France/22 (116,853)             | USA/5900 (121,107), France/22 (118,127), South Africa/445 (329,251)   | USA/5900 (175,920), Brazil/22 (117,441), Romania/5060 (193,766)       | USA/5900 (118,057), China/15965 (125,375), France/22 (116,169)        |
+| **Port Notes**          | Port 5060 (SIP) and 22 (SSH) dominant; Chile’s 445 (SMB) unique       | High VNC (5900) and SMB (445) activity                               | VNC ports (5900-5902) prominent; SSH (22) consistent                  | Unique China/15965 attacks; SIP (5060) and SSH (22) focus             |
+| **Top CVE**             | CVE-2002-0013 CVE-2002-0012 (2,949)                                  | CVE-2006-2369 (170,143)                                              | CVE-2006-2369 (281,315)                                              | CVE-2006-2369 (164,077)                                              |
+| **Other Key CVEs**      | CVE-2002-1149 (1,448), CVE-2016-5696 (347)                           | CVE-2020-11910 (2,245), CVE-2002-0013 CVE-2002-0012 (2,434)          | CVE-2002-0013 CVE-2002-0012 (4,682), CVE-2021-44228 (103)            | CVE-2002-0013 CVE-2002-0012 (2,345), CVE-2021-44228 (92)             |
+| **CVE Notes**           | Older SNMP and unique CVEs (e.g., CVE-2016-5696)                      | VNC (CVE-2006-2369) dominates; modern CVE-2020-11910                 | VNC and Log4j (CVE-2021-44228); mix of old and new vulnerabilities    | VNC and Log4j; older SNMP vulnerabilities                             |
+
+### Key Insights
+- **Weak Credentials**: "root", "admin", "123456", and "password" are prime targets, with "345gs5662d34" indicating botnet activity.
+- **Attack Sources**: USA leads attacks; Romania targets port 5060; regional sources like South Africa (UK) and Brazil (USA) stand out.
+- **Legacy Systems**: Linux 2.2.x-3.x and Windows XP are heavily targeted, showing exploitation of outdated systems.
+- **Port Trends**: SSH (22) and SIP (5060) are universal; VNC (5900-5902) in USA and unique ports like 15965 in AUS are notable.
+- **Vulnerabilities**: CVE-2006-2369 (VNC) dominates UK, USA, AUS; Log4j (CVE-2021-44228) in USA and AUS shows modern threats.
+
+## Commonalitiies
+The commonalities across the four regions highlight a global pattern of cyberattacks exploiting weak credentials, outdated systems, and specific vulnerabilities, particularly targeting SSH (port 22) and VoIP (port 5060) services. The consistent presence of the USA and Romania as attack sources, along with the "345gs5662d34" string, suggests coordinated botnet activity. Organizations should prioritize strong password policies, system patching (especially for legacy Linux and Windows systems), and securing key ports to mitigate these widespread threats.
+
+
+| **Category**            | **Commonality Findings Across HK, UK, USA, AUS**                                                                 |
+|-------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Usernames**           | **root** (top in all), **admin**, **sa**, **345gs5662d34**, **user** in top 10; default and generic accounts targeted. |
+| **Passwords**           | **123456**, **123**, **345gs5662d34**, **3245gs5662d34**, **password**, **admin**, **1234**, **12345**, **(empty)**, **abc123** in top 10; weak passwords dominate. |
+| **Attack Countries**    | **United States** (top in all), **Romania**, **China**, **United Kingdom**, **Russia** in top 10; USA and Romania lead. |
+| **OS Distribution**     | **Linux 2.2.x-3.x** (top in all), **Windows 7 or 8**, **Linux 3.11 and newer**, **Linux 2.2.x-3.x (barebone)**, **Windows NT kernel**, **Linux 2.2.x-3.x (no timestamps)**, **Windows NT kernel 5.x**, **Linux 3.1-3.10** in top 10; legacy and modern systems targeted. |
+| **Country/Port**        | **Port 22 (SSH)** (e.g., USA, France, China), **Port 5060 (SIP)** (esp. Romania), **Port 23 (Telnet)** (China), **Port 80 (HTTP)**, **Port 5038**; focus on remote access and VoIP. |
+| **CVEs**                | **CVE-2002-0013 CVE-2002-0012**, **CVE-2002-0013 CVE-2002-0012 CVE-1999-0517**, **CVE-2006-2369 (VNC)**, **CVE-2019-11500**, **CVE-2021-3449**, **CVE-2001-0414**, **CVE-2023-46604**, **CVE-2016-20016**; mix of old (SNMP, VNC) and newer vulnerabilities. |
+| **Key Insight**         | Weak credentials, legacy systems, and specific ports (22, 5060) are universally targeted, with USA/Romania as key sources and "345gs5662d34" indicating botnet activity. |
+| **Recommendation**      | Enforce strong passwords, patch legacy systems, secure ports 22/5060, and monitor USA/Romania IPs to counter coordinated attacks. |
+
 
 ## Conclusion
 
