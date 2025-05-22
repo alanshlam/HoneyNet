@@ -22,7 +22,7 @@ The TPOT honeypot data and VirusTotal analysis reveal a global pattern of cybera
   - UK and USA include "git" and "hadoop", targeting development or big data environments.
 - **Insight**: Attackers rely on brute-forcing default or generic usernames, with "345gs5662d34" indicating automated, coordinated attacks.
 
-### 2. Passwords
+### 2. [Passwords](top10_passwords.md)
 - **Commonalities**:
   - **123456**: Most common password (HK: 8,045; UK: 10,549; USA: 11,757; AUS: 4,851), followed by **123**, **345gs5662d34**, **3245gs5662d34**, **password**, **admin**, **1234**, **12345**, **(empty)**, and **abc123**.
   - The "345gs5662d34" and "3245gs5662d34" strings align with the username pattern, suggesting linked credentials.
