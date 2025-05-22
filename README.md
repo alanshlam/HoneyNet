@@ -13,7 +13,9 @@ The synergy between the Penetration Testing Lab and the Digital Forensic Lab is 
 ### Global Cyberattack Patterns: Insights from TPOT Honeypot and VirusTotal Analysis Across HK, UK, USA, and AUS Regions
 Four T-Pot Honypots are deployed accross HK, UK, USA, and AUS Regions. This study analyzes data from TPOT honeypots and VirusTotal scans of Cowrie honeypot download files across Hong Kong (HK), United Kingdom (UK), United States (USA), and Australia (AUS) to uncover global cyberattack patterns targeting network infrastructure. By examining usernames, passwords, attack sources, operating systems, ports, vulnerabilities (CVEs), and downloaded files, the study reveals a coordinated threat landscape dominated by botnet-driven brute-force attacks, IoT exploitation, and malware deployment. The findings highlight common attack vectors, regional variations, and emerging trends, providing actionable insights and recommendations to enhance network security against evolving cyber threats.
 
-#### Executive Summary with Consolidated Table
+You can view the full report and raw data of this study at https://github.com/alanshlam/HoneyNet/tree/main/4r_report
+
+#### Executive Summary 
 
 This executive summary encapsulates the key findings from the TPOT honeypot data and VirusTotal analysis of Cowrie download files across Hong Kong (HK), United Kingdom (UK), United States (USA), and Australia (AUS) regions. The data reveals a global cyberattack landscape targeting weak credentials, legacy systems, and IoT devices, with coordinated botnet activity (e.g., "mirai", "multiverze") exploiting ports like 22 (SSH) and 5060 (SIP). The United States and Romania are primary attack sources, with vulnerabilities ranging from legacy (e.g., CVE-2006-2369) to modern (e.g., CVE-2021-44228). Trend predictions indicate increased IoT botnet sophistication, advanced credential attacks, and new vulnerability exploitation. Recommendations focus on securing credentials, patching systems, and monitoring high-risk ports and IPs. The table below summarizes the key findings, trends, and recommendations for easy comprehension.
 
