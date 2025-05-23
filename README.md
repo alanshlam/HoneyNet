@@ -47,6 +47,31 @@ LLM-based honeypots, such as T-Pot's Galah and Beelzebub, enhance honeypot deplo
 
 LLM-based honeypots, such as T-Pot's Galah and Beelzebub, enhance honeypot deployment by leveraging advanced language models like gemma3 to intelligently analyze and respond to attacker interactions, thereby improving threat detection and data collection. Th log data collected from this LLM-based honeypot by using gemma3:4b powered by Tesla V100-PCIE-16GB demonstrates their effectiveness, capturing a range of malicious activities, including attempts to access sensitive files like `/.env` and `/.git/config`, which expose API keys and database URLs, and reconnaissance efforts via commands like `uname`, `nproc`, and `nvidia-smi` to gather system and network details. By mimicking realistic server responses and dynamically interpreting attacker inputs, LLM-based honeypots provide richer insights into attack patterns, enabling better identification of vulnerabilities and more robust cybersecurity strategies.
 
+Below is the top 10 requests and inputs from Galah and Beelzebub log
+
+    Top 10 requests in Galah logs
+        1. Method: GET, URI: /.env
+        2. Method: GET, URI: /favicon.ico
+        3. Method: GET, URI: /?XDEBUG_SESSION_START=phpstorm
+        4. Method: CONNECT, URI: www.google.com:443
+        5. Method: GET, URI: /.git/config
+        6. Method: POST, URI: /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh
+        7. Method: PRI, URI: *
+        8. Method: GET, URI: /robots.txt
+        9. Method: GET, URI: /version
+        10. Method: GET, URI: /_profiler/phpinfo
+        
+    Top 10 inputs from Beelzebub.log
+        1. Input: uname -s -v -n -r -m
+        2. Input: echo -e "\x6F\x6B"
+        3. Input: nproc
+        4. Input: uptime -p
+        5. Input: lspci | grep VGA | cut -f5- -d ' '
+        6. Input: nvidia-smi -q | grep "Product Name" | head -n 1 | awk '{print $4, $5, $6, $7, $8, $9, $10, $11}'
+        7. Input: lspci | grep VGA -c
+        8. Input: lspci | grep "3D controller" | cut -f5- -d ' '
+        9. Input: nvidia-smi -q | grep "Product Name" | awk '{print $4, $5, $6, $7, $8, $9, $10, $11}' | grep . -c
+        10. Input: ip r | grep -Eo '[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}/[0-9]{1,2}'
 
 
 
