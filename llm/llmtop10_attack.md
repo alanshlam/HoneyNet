@@ -1,0 +1,24 @@
+# Web Security Threats
+
+| Request/Input | Possible Attack |
+|---------------|-----------------|
+| GET /.env | Information Disclosure: Exposes sensitive configuration details like API keys, database credentials, and session secrets, which could be used for unauthorized access or further attacks. |
+| GET /favicon.ico | Reconnaissance: Typically benign, but unexpected HTML or large binary data could indicate probing for server misconfigurations or fingerprinting the server. |
+| GET /?XDEBUG_SESSION_START=phpstorm | Debugging Exploitation: Attempts to initiate an Xdebug session, potentially exposing application internals or enabling remote debugging, which could lead to code execution or data leakage. |
+| CONNECT www.google.com:443 | Proxy Tunneling: Attempts to use the server as a proxy to connect to external sites, potentially bypassing security controls or exploiting misconfigured servers. |
+| POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh | Directory traversal attack (also known as path traversal) with the potential intent to execute arbitrary commands on the server. |
+| GET /.git/config | Information Disclosure: Attempts to access Git configuration, potentially exposing repository URLs, branches, or other metadata useful for further attacks. |
+| GET /robots.txt | Reconnaissance: Probes for restricted paths (e.g., /admin, /secret), which could guide attackers to sensitive areas of the application. |
+| GET /version | Reconnaissance: Gathers server or application version information, which can be used to identify known vulnerabilities for exploitation. |
+| **PRI *** | Protocol Abuse: Tests HTTP/2 PRI method, potentially probing for server misconfigurations or vulnerabilities in HTTP/2 implementations. |
+| GET /_profiler/phpinfo | Information Disclosure: Exposes detailed PHP and server configuration, which could reveal vulnerabilities or sensitive settings for exploitation. |
+| uname -s -v -n -r -m | System Reconnaissance: Gathers OS and kernel details, useful for identifying vulnerabilities or tailoring exploits. |
+| echo -e "\x6F\x6B" | Command Injection: Tests hex-encoded command execution, probing for vulnerabilities that allow arbitrary command execution. |
+| nproc | System Reconnaissance: Queries CPU count, aiding in understanding system capacity for potential resource-based attacks. |
+| uptime -p | System Reconnaissance: Collects system uptime and load, providing insight into system stability and usage for attack planning. |
+| lspci \| grep VGA \| cut -f5- -d ' ' | Hardware Reconnaissance: Enumerates graphics hardware, potentially for GPU-specific exploits or system fingerprinting. |
+| nvidia-smi -q \| grep "Product Name" \| head -n 1 \| awk '{print $4, $5, $6, $7, $8, $9, $10, $11}' | Hardware Reconnaissance: Queries GPU details, useful for identifying hardware for targeted exploits or cryptomining attacks. |
+| lspci \| grep VGA -c | Hardware Reconnaissance: Counts VGA devices, aiding in system fingerprinting for potential hardware-specific attacks. |
+| lspci \| grep "3D controller" \| cut -f5- -d ' ' | Hardware Reconnaissance: Enumerates 3D controllers, similar to VGA enumeration, for system profiling or exploit targeting. |
+| nvidia-smi -q \| grep "Product Name" \| awk '{print $4, $5, $6, $7, $8, $9, $10, $11}' \| grep . -c | Hardware Reconnaissance: Counts GPU product names, part of system fingerprinting for targeted attacks. |
+| ip r \| grep -Eo '[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}/[0-9]{1,2}' | Network Reconnaissance: Extracts routing information, useful for mapping network topology or identifying attack vectors. |
