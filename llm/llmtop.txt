@@ -1,4 +1,4 @@
-Top 10 requests and responses rom galah log
+Top 10 requests and responses from galah log
 
 
 Top 10 Requests with Responses:
