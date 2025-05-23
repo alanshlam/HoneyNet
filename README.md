@@ -67,6 +67,9 @@ Below is the top 10 requests and inputs from Galah and Beelzebub log
         10. Input: ip r | grep -Eo '[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}/[0-9]{1,2}'
 
 
+#### Below screenshot show the data collected in the past 4 weeks in LLM-based T-Pot:
+<img src="./screenshot/llm_tpot.jpg" alt="llm_tpot" width="1000">
+
 
 ### T-Pot Honeypot Deployment
 
