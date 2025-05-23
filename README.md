@@ -55,11 +55,12 @@ Below is the top 10 requests and inputs from Galah and Beelzebub log. See the LL
 | GET /version | Reconnaissance: Gathers server or application version information, which can be used to identify known vulnerabilities for exploitation. |
 | **PRI *** | Protocol Abuse: Tests HTTP/2 PRI method, potentially probing for server misconfigurations or vulnerabilities in HTTP/2 implementations. |
 | GET /_profiler/phpinfo | Information Disclosure: Exposes detailed PHP and server configuration, which could reveal vulnerabilities or sensitive settings for exploitation. |
-| uname -s -v -n -r -m | System Reconnaissance: Gathers OS and kernel details, useful for identifying vulnerabilities or tailoring exploits. |
+
 
 #### Top 10 requests from Beelzebub logs
 | Request/Input | Possible Attack |
 |---------------|-----------------|
+| uname -s -v -n -r -m | System Reconnaissance: Gathers OS and kernel details, useful for identifying vulnerabilities or tailoring exploits. |
 | echo -e "\x6F\x6B" | Command Injection: Tests hex-encoded command execution, probing for vulnerabilities that allow arbitrary command execution. |
 | nproc | System Reconnaissance: Queries CPU count, aiding in understanding system capacity for potential resource-based attacks. |
 | uptime -p | System Reconnaissance: Collects system uptime and load, providing insight into system stability and usage for attack planning. |
