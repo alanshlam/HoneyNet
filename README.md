@@ -77,7 +77,7 @@ Below is the top 10 requests and inputs from Galah and Beelzebub log. See the LL
 #### Below screenshot shows the data collected in the past 4 weeks in LLM-based T-Pot:
 <img src="./screenshot/llm_tpot.jpg" alt="llm_tpot" width="1000">
 
-#### Below screenshotshows the GPU and VRAM  utilization in LLM-based T-Pot:
+#### Below screenshot shows the GPU and VRAM utilization in LLM-based T-Pot:
 <img src="./screenshot/gpu_usage.jpg" alt="llm_tpot" width="1000">
 
 
