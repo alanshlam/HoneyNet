@@ -3,7 +3,8 @@ GET /.env,"Information Disclosure: Exposes sensitive configuration details like 
 GET /favicon.ico,"Reconnaissance: Typically benign, but unexpected HTML or large binary data could indicate probing for server misconfigurations or fingerprinting the server."
 GET /?XDEBUG_SESSION_START=phpstorm,"Debugging Exploitation: Attempts to initiate an Xdebug session, potentially exposing application internals or enabling remote debugging, which could lead to code execution or data leakage."
 CONNECT www.google.com:443,"Proxy Tunneling: Attempts to use the server as a proxy to connect to external sites, potentially bypassing security controls or exploiting misconfigured servers."
-POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh,
+POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh,"Directory traversal attack (also known as path traversal) with the potential intent
+to execute arbitrary commands on the server"
 GET /.git/config,"Information Disclosure: Attempts to access Git configuration, potentially exposing repository URLs, branches, or other metadata useful for further attacks."
 GET /robots.txt,"Reconnaissance: Probes for restricted paths (e.g., /admin, /secret), which could guide attackers to sensitive areas of the application."
 GET /version,"Reconnaissance: Gathers server or application version information, which can be used to identify known vulnerabilities for exploitation."
