@@ -114,6 +114,25 @@ Below is a summarized table of the key findings from the T-Pot Tarpit data in a 
 - **Defense Focus**: Prioritize UDP DDoS mitigation, monitor U.S. and Türkiye IPs, and strengthen authentication.
 - **Tarpit Effectiveness**: High engagement shows T-Pot’s success in attracting and logging threats.
 
+#### Below screenshot shows the ulitization of CPU/RAM and network traffic in the past 4 days in T-Pot Tarpit:
+<img src="./screenshot/tpot_trap_ram2.jpg" alt="Tarpit_tpot_ram2" width="1000">
+
+##### Findings and Observations 
+
+| **Category**            | **Finding/Observation**                  | **Details**                                                                 |
+|--------------------------|------------------------------------------|-----------------------------------------------------------------------------|
+| **Memory Usage (mem.Memory Used - Blue Line)** | Peaks at 60–70%, drops intermittently | The memory usage escalates from ~20% on May 21 to frequent 60–70% peaks, utilizing ~45GB of the 64GB RAM. This aligns with T-Pot’s handling of 5M attacks, likely driven by Ddospot (UDP DDoS) and Elasticsearch/Kibana log processing. The drops suggesting a recurring event (e.g., container restart, log rotation) that frees memory.|
+| **CPU Usage**            | Low, with sporadic spikes               | cpu.User (green) and cpu.System (yellow) remain <10%, with occasional peaks to 10–15%, well within 16-core capacity. CPU usage remains low (<15% peak), leveraging the 16-core capacity efficiently. This indicates the AMD EPYC 7763 handles the computational load (e.g., tarpit responses, log aggregation) without significant strain.  |
+| **Network Traffic**      | High spikes up to 48 MiB/s              | net.Upload (green) and net.Download (yellow) show bursts, peaking at 48 MiB/s on May 24, correlating with memory spikes. Traffic spikes to 48 MiB/s, particularly on May 24, reflect intense engagement with attackers (e.g., Hellpot’s infinite streams, Ddospot’s UDP responses). The pattern correlates with memory peaks, suggesting high attack volumes or data logging activity |
+| **Temporal Patterns**    | Spikes align with traffic bursts        | Notable peaks on May 22 (~12:00), May 24 (~12:00–24:00), and May 25 (~00:00), suggesting attack surges or log processing. Memory and traffic spikes align (e.g., May 24 ~12:00–24:00), indicating that attack surges or log processing (e.g., Elasticsearch indexing) drive resource usage. The drops may follow automated maintenance or manual intervention |
+| **Memory Drops**         | Occur after peaks (e.g., May 23, May 25) | Drops to 20–30% follow high usage periods, similar to the 08:00 drop in the previous image, indicating possible resets or cleanups.<br>- **Container Restarts**: A scheduled Docker restart (e.g., via `docker-compose`) could clear memory, as seen at 08:00 in the prior image and ~00:00 on May 25. <br>- **Log Rotation**: Elasticsearch or T-Pot’s logging system might rotate logs, reducing memory usage after peaks. <br>- **OOM Killer**: Unlikely with 64GB RAM, but possible if a container exceeds memory limits, triggering a kill event. <br>- **Manual Intervention**: A system admin might have restarted services or cleared memory manually.|
+| **T-Pot Performance**    | Handles load effectively                | 5M attacks (from prior data) supported by stable CPU and high network activity, with memory as the limiting factor. |
+| **Potential Concerns**   | Memory strain and drops                 | Peaks at 70% (~45GB of 64GB) and sudden drops suggest resource-intensive processes or manual/system interventions. |
+
+###### Implications
+- **Effectiveness**: T-Pot effectively attracts and engages attackers (48 MiB/s traffic), supported by stable CPU usage, but memory is the bottleneck during peaks.
+- **Stability**: The recurring memory drops suggest a managed process, but frequent high usage (70%) risks performance if attacks intensify beyond 5M/month.
+
 
 ### T-Pot Honeypot Deployment
 
