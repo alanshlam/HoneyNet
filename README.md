@@ -82,6 +82,8 @@ Below is the top 10 requests and inputs from Galah and Beelzebub log. See the LL
 
 
 ### T-Pot Tarpit Deployment
+A T-Pot Tarpit is deployed in the US region with an AMD EPYC 7763 16-core CPU and 64GB of RAM. The following illustrates its findings and performance.
+
 T-Pot’s tarpit approach, through components like Ddospot, Heralding, Endlessh, Go-pot, and Hellpot, defends networks by deceiving attackers, exhausting their resources, and gathering actionable threat intelligence. By simulating vulnerable services, it diverts attacks from critical systems, logs malicious activity, and provides insights via its web console. This combination of deception, disruption, and analysis makes T-Pot a powerful tool for enhancing cybersecurity resilience
 
 Below is a summarized table of the T-Pot Tarpit components (Ddospot, Heralding, Endlessh, Go-pot, and Hellpot) and how T-Pot defends networks in cybersecurity. The table captures the key aspects of each component and the overall defensive strategy.
