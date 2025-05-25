@@ -11,6 +11,18 @@ The synergy between the Penetration Testing Lab and the Digital Forensic Lab is 
 ## Findings and Studies
 
 ### Global Cyberattack Patterns: Insights from TPOT Honeypot and VirusTotal Analysis Across HK, UK, USA, and AUS Regions
+T-Pot is a comprehensive honeypot platform that integrates multiple honeypot technologies to detect, monitor, and analyze malicious network activity. It is designed to act as a decoy, attracting attackers, bots, and scanners to gather intelligence on their tactics while protecting real network assets. By simulating vulnerable services, T-Pot lures malicious actors into interacting with it, wasting their resources and providing valuable data for cybersecurity analysis.
+
+#### How T-Pot Defends Networks
+| **Defense Mechanism** | **Explanation** |
+|-----------------------|-----------------|
+| **Deception**         | Mimics vulnerable services to lure attackers away from real assets |
+| **Tarpitting**        | Wastes attacker resources (e.g., time, bandwidth) with endless data streams |
+| **Threat Intelligence**| Logs IPs, patterns, credentials for analysis via web console (e.g., Kibana, Suricata) |
+| **Early Warning**     | Detects attacks early, enabling proactive measures like IP blocking or firewall updates |
+| **Integration**       | Combines with tools like Suricata and Kibana for enhanced analytics and visualization |
+| **Low Risk**          | Low-interaction honeypots minimize risk while providing actionable insights |
+
 Four T-Pot Honypots are deployed accross HK, UK, USA, and AUS Regions. This study analyzes data from TPOT honeypots and VirusTotal scans of Cowrie honeypot download files across Hong Kong (HK), United Kingdom (UK), United States (USA), and Australia (AUS) to uncover global cyberattack patterns targeting network infrastructure. By examining usernames, passwords, attack sources, operating systems, ports, vulnerabilities (CVEs), and downloaded files, the study reveals a coordinated threat landscape dominated by botnet-driven brute-force attacks, IoT exploitation, and malware deployment. The findings highlight common attack vectors, regional variations, and emerging trends, providing actionable insights and recommendations to enhance network security against evolving cyber threats.
 
 You can view the full report and raw data of this study at https://github.com/alanshlam/HoneyNet/tree/main/4r_report
