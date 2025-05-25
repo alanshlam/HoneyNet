@@ -83,6 +83,19 @@ Below is the top 10 requests and inputs from Galah and Beelzebub log. See the LL
 
 ### T-Pot Honeypot Deployment
 
+T-Pot is a comprehensive honeypot platform that integrates multiple honeypot technologies to detect, monitor, and analyze malicious network activity. It is designed to act as a decoy, attracting attackers, bots, and scanners to gather intelligence on their tactics while protecting real network assets. By simulating vulnerable services, T-Pot lures malicious actors into interacting with it, wasting their resources and providing valuable data for cybersecurity analysis.
+
+#### How T-Pot Defends Networks
+| **Defense Mechanism** | **Explanation** |
+|-----------------------|-----------------|
+| **Deception**         | Mimics vulnerable services to lure attackers away from real assets |
+| **Tarpitting**        | Wastes attacker resources (e.g., time, bandwidth) with endless data streams |
+| **Threat Intelligence**| Logs IPs, patterns, credentials for analysis via web console (e.g., Kibana, Suricata) |
+| **Early Warning**     | Detects attacks early, enabling proactive measures like IP blocking or firewall updates |
+| **Integration**       | Combines with tools like Suricata and Kibana for enhanced analytics and visualization |
+| **Low Risk**          | Low-interaction honeypots minimize risk while providing actionable insights |
+
+
 We have deployed the T-Pot honeypot on a cloud platform to collect malware files and monitor hacker activities. The following screenshot provides an overview of the [top 10 attacks](./data/Honeypot%20Attacks%20-%20Top%2010.csv), [attack map](./screenshot/Attack_Map_Dynamic.jpg), [attackers' source IP](./data/Attacker%20Source%20IP%20-%20Top%2010.csv), [Attacks by Country and Port](./data/Attacks%20by%20Country%20and%20Port.csv),  [attackers' OS distribution](./data/P0f%20OS%20Distribution.csv), [attackers by country](./data/Attacks%20by%20Country.csv), [username](./data/Username%20Tagcloud.csv) and [password](./data/Password%20Tagcloud.csv) tag cloud, [attackers' autonomous systems (AS)](./data/Attacker%20AS_N%20-%20Top%2010.csv), [detected Common Vulnerabilities and Exposures (CVE)](./data/Suricata%20CVE%20-%20Top%2010.csv), and [Suricata IDS alerts](./data/Suricata%20Alert%20Signature%20-%20Top%2010.csv) over the past 4 weeks.
 
 The statistical data from T-Pot Honeypots is also available in CSV format in the [data_folder](./data/).
