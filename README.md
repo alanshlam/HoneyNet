@@ -81,6 +81,22 @@ Below is the top 10 requests and inputs from Galah and Beelzebub log. See the LL
 <img src="./screenshot/gpu_usage.jpg" alt="llm_tpot" width="1000">
 
 
+### T-Pot Tarpit Deployment
+T-Pot’s tarpit approach, through components like Ddospot, Heralding, Endlessh, Go-pot, and Hellpot, defends networks by deceiving attackers, exhausting their resources, and gathering actionable threat intelligence. By simulating vulnerable services, it diverts attacks from critical systems, logs malicious activity, and provides insights via its web console. This combination of deception, disruption, and analysis makes T-Pot a powerful tool for enhancing cybersecurity resilience
+
+Below is a summarized table of the T-Pot Tarpit components (Ddospot, Heralding, Endlessh, Go-pot, and Hellpot) and how T-Pot defends networks in cybersecurity. The table captures the key aspects of each component and the overall defensive strategy.
+
+| **Component** | **Description** | **Function** | **Role in Network Defense** |
+|---------------|-----------------|----------------------------|-----------------------------|
+| **Ddospot**   | Honeypot for UDP-based DDoS attacks | Emulates services like DNS, NTP, SSDP; logs attacker IPs, ports, and patterns | Detects and mitigates DDoS threats, diverts attacks, provides threat intelligence |
+| **Heralding** | Credential-collecting honeypot | Mimics FTP, Telnet, SSH, HTTP, etc.; captures login attempts and credentials | Identifies brute-force attacks, logs credentials, informs authentication policy updates |
+| **Endlessh**  | SSH tarpit | Delays SSH brute-force attacks with endless banners, logs connections | Slows attackers, wastes their resources, logs IPs for blacklisting |
+| **Go-pot**    | Custom honeypot (likely Go-based) | Emulates specific services/protocols, logs interactions (details vary) | Monitors niche attack vectors, enhances flexibility in threat detection |
+| **Hellpot**   | HTTP tarpit | Sends infinite data to HTTP bots/scanners, logs interactions | Disrupts bots, consumes attacker bandwidth, logs activity for analysis |
+
+
+
+
 ### T-Pot Honeypot Deployment
 
 T-Pot is a comprehensive honeypot platform that integrates multiple honeypot technologies to detect, monitor, and analyze malicious network activity. It is designed to act as a decoy, attracting attackers, bots, and scanners to gather intelligence on their tactics while protecting real network assets. By simulating vulnerable services, T-Pot lures malicious actors into interacting with it, wasting their resources and providing valuable data for cybersecurity analysis.
