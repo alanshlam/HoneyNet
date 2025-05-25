@@ -94,7 +94,8 @@ Below is a summarized table of the T-Pot Tarpit components (Ddospot, Heralding, 
 | **Go-pot**    | Custom honeypot (likely Go-based) | Emulates specific services/protocols, logs interactions (details vary) | Monitors niche attack vectors, enhances flexibility in threat detection |
 | **Hellpot**   | HTTP tarpit | Sends infinite data to HTTP bots/scanners, logs interactions | Disrupts bots, consumes attacker bandwidth, logs activity for analysis |
 
-
+#### Below screenshot shows the data collected in the past 4 weeks in T-Pot Tarpit:
+<img src="./screenshot/tpot_trap.jpg" alt="Tarpit_tpot" width="1000">
 
 
 ### T-Pot Honeypot Deployment
