@@ -97,6 +97,23 @@ Below is a summarized table of the T-Pot Tarpit components (Ddospot, Heralding, 
 #### Below screenshot shows the data collected in the past 4 weeks in T-Pot Tarpit:
 <img src="./screenshot/tpot_trap.jpg" alt="Tarpit_tpot" width="1000">
 
+Below is a summarized table of the key findings from the T-Pot Tarpit data in a month.
+
+| **Category**            | **Finding**                              | **Details**                                                                 |
+|--------------------------|------------------------------------------|-----------------------------------------------------------------------------|
+| **Total Attacks**        | 5 million                                | Dominated by Ddospot (5M), followed by Heralding (186K), Endlessh (31K), Hellpot (16K), Go-pot (3K). |
+| **Attack Distribution**  | Ddospot leads                            | Ddospot accounts for the majority, indicating high UDP-based DDoS activity.  |
+| **Temporal Trends**      | Mid-May spike                            | Attack volume peaked at 400K–500K, with rising unique source IPs, suggesting a new campaign. |
+| **Destination Ports**    | Peaks at 53, 123, 22                     | Targets DNS/NTP (UDP) and SSH, with activity from late April to mid-May.    |
+| **Honeypot Activity**    | Ddospot dominant                         | Steep rise in Ddospot attacks, moderate activity in Heralding and others.    |
+| **Geographic Sources**   | United States, Türkiye lead              | High attack volumes from these countries, with clusters in Eastern Europe/Asia on the map. |
+| **Other Countries**      | Bangladesh, Brazil, China                | Notable but lower activity compared to top sources.                        |
+| **Map Insights**         | Global spread with hotspots              | Dense attack clusters in North America, Europe, Asia; red hub in Eastern Europe/Asia. |
+
+##### Implications
+- **Defense Focus**: Prioritize UDP DDoS mitigation, monitor U.S. and Türkiye IPs, and strengthen authentication.
+- **Tarpit Effectiveness**: High engagement shows T-Pot’s success in attracting and logging threats.
+
 
 ### T-Pot Honeypot Deployment
 
