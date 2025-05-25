@@ -37,6 +37,8 @@ This executive summary encapsulates the key findings from the TPOT honeypot data
 <img src="./screenshot/usa_tpot2.jpg" alt="usa_tpot" width="1000">
 <img src="./screenshot/aus_tpot2.jpg" alt="aus_tpot" width="1000">
 
+***
+
 ### LLM-based Honeypots Deployment
 LLM-based honeypots, such as T-Pot's Galah and Beelzebub, enhance honeypot deployment by leveraging advanced language models like gemma3 to intelligently analyze and respond to attacker interactions, thereby improving threat detection and data collection. Th log data collected from this LLM-based honeypot by using gemma3 LLM powered by Tesla V100-PCIE-16GB demonstrates their effectiveness, capturing a range of malicious activities, including attempts to access sensitive files like `/.env` and `/.git/config`, which expose API keys and database URLs, and reconnaissance efforts via commands like `uname`, `nproc`, and `nvidia-smi` to gather system and network details. By mimicking realistic server responses and dynamically interpreting attacker inputs, LLM-based honeypots provide richer insights into attack patterns, enabling better identification of vulnerabilities and more robust cybersecurity strategies.
 
@@ -80,6 +82,7 @@ Below is the top 10 requests and inputs from Galah and Beelzebub log. See the LL
 #### Below screenshot shows the GPU and VRAM utilization in LLM-based T-Pot:
 <img src="./screenshot/gpu_usage.jpg" alt="llm_tpot" width="1000">
 
+***
 
 ### T-Pot Tarpit Deployment
 A T-Pot Tarpit is deployed in the US region with an AMD EPYC 7763 16-core CPU and 64GB of RAM. The following illustrates its findings and performance.
@@ -135,6 +138,7 @@ Below is a summarized table of the key findings from the T-Pot Tarpit data in a 
 - **Effectiveness**: T-Pot effectively attracts and engages attackers (48 MiB/s traffic), supported by stable CPU usage, but memory is the bottleneck during peaks.
 - **Stability**: The recurring memory drops suggest a managed process, but frequent high usage (70%) risks performance if attacks intensify beyond 5M/month.
 
+***
 
 ### T-Pot Honeypot Deployment
 
@@ -279,6 +283,8 @@ Some download scripts performed below activities
 -	Deleted various temporary files and directories
 -	Setup IRC Bot
 -	Preformed Network Scanning and Propagation, including updating the package list and installs `zmap` and `sshpass`, Scanning for open SSH ports, and attempting to copy itself to other systems using default passwords, and executing itself on the remote systems.
+
+
 
 ## Network Forensics
 
