@@ -146,6 +146,28 @@ Below is a summarized table of the key findings from the T-Pot Tarpit data in a 
 - **Defense Focus**: Prioritize UDP DDoS mitigation, monitor U.S. and Türkiye IPs, and strengthen authentication.
 - **Tarpit Effectiveness**: High engagement shows T-Pot’s success in attracting and logging threats.
 
+#### Flow analysis
+Below Top 10 flows ordered by bytes shows the T-Pot Tarpit [10.0.0.4] feeding data to various attacker hosts
+| Date first seen | Duration | Proto | Src IP Addr:Port | to | Dst IP Addr:Port | Packets | Bytes | Flows |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2025-05-24 14:36:53.545 | 00:15:47.332 | TCP | 10.0.0.4:80 | -> | [GB IP]:47328 | 2.1 M | 2.9 G | 2 |
+| 2025-05-27 07:22:41.185 | 00:00:15.113 | TCP | 10.0.0.4:80 | -> | [BG IP]:44978 | 271225  | 309.2 M | 1 |
+| 2025-05-27 06:02:56.937 | 00:00:10.518 | TCP | 10.0.0.4:80 | -> | [US IP]:46958 | 258886  | 286.7 M | 1 |
+| 2025-05-27 04:42:42.193 | 00:00:10.253 | TCP | 10.0.0.4:80 | -> | [KN IP]:38090 | 247981  | 272.6 M | 1 |
+| 2025-05-24 14:53:25.160 | 00:00:10.262 | TCP | 10.0.0.4:80 | -> | [KN IP]:58206 | 245402  | 271.8 M | 1 |
+| 2025-05-27 06:24:30.499 | 00:00:10.176 | TCP | 10.0.0.4:80 | -> | [KN IP]:46306 | 241047  | 266.8 M | 1 |
+| 2025-05-27 04:59:58.258 | 00:00:10.374 | TCP | 10.0.0.4:80 | -> | [US IP]:41222 | 235720  | 264.1 M | 1 |
+| 2025-05-27 07:24:41.196 | 00:00:10.298 | TCP | 10.0.0.4:80 | -> | [US IP]:41144 | 231818  | 259.3 M | 1 |
+| 2025-05-27 05:25:37.287 | 00:00:10.359 | TCP | 10.0.0.4:80 | -> | [KN IP]:34562 | 223549  | 248.7 M | 1 |
+| 2025-05-27 04:46:39.046 | 00:00:10.367 | TCP | 10.0.0.4:80 | -> | [NL IP]:55126 | 64090   | 95.8 M | 1 |
+
+Below flows shows the T-Pot Tarpit [10.0.0.4] feeding 2.9G data to 78.153.xxx.xxx host within 16 minutes
+| Date first seen | Duration | Proto | Src IP Addr:Port | to | Dst IP Addr:Port | Packets | Bytes | Flows |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|2025-05-24 14:36:53.545 |   00:15:47.332 | TCP |     78.153.xxx.xxx:47328 | ->  |       10.0.0.4:80   |   272779 |  15.6 M |  2 |
+|2025-05-24 14:36:53.545 |   00:15:47.332 | TCP |          10.0.0.4:80     | ->  |  78.153.xxx.xxx:47328 |   2.1 M |   2.9 G|  2 |
+
+
 #### Below screenshot shows the ulitization of CPU/RAM and network traffic in the past 4 days in T-Pot Tarpit:
 <img src="./screenshot/tpot_trap_ram2.jpg" alt="Tarpit_tpot_ram2" width="1000">
 
