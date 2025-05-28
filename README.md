@@ -167,6 +167,93 @@ Below flows shows the T-Pot Tarpit [10.0.0.4] feeding 2.9G data to 78.153.xxx.xx
 |2025-05-24 14:36:53.545 |   00:15:47.332 | TCP |     78.153.xxx.xxx:47328 | ->  |       10.0.0.4:80   |   272779 |  15.6 M |  2 |
 |2025-05-24 14:36:53.545 |   00:15:47.332 | TCP |          10.0.0.4:80     | ->  |  78.153.xxx.xxx:47328 |   2.1 M |   2.9 G|  2 |
 
+Below is a sample of http data T-Pot Tarpit feeding to an attacker 
+
+                HTTP/1.1 200 OK
+                Server: nginx
+                Date: Tue, 27 May 2025 12:05:16 GMT
+                Content-Type: text/plain; charset=utf-8
+                Transfer-Encoding: chunked
+                Connection: close
+                
+                1000
+                <html>
+                <body>
+                <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+                <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+                <head>
+                <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+                <meta http-equiv="Content-Style-Type" content="text/css" />
+                <title>
+                The
+                Project
+                Gutenberg
+                Literary
+                Archive
+                Foundation,
+                the
+                trademark
+                license,
+                especially
+                commercial
+                redistribution.
+                START:
+                FULL
+                LICENSE
+                THE
+                FULL
+                PROJECT
+                GUTENBERG
+                LICENSE
+                PLEASE
+                READ
+                THIS
+                BEFORE
+                YOU
+                DISTRIBUTE
+                OR
+                USE
+                THIS
+                WORK
+                To
+                protect
+                the
+                PROJECT
+                GUTENBERG-tm
+                concept
+                and
+                trademark.
+                Project
+                Gutenberg
+                volunteers
+                and
+                donations
+                to
+                the
+                testimony
+                of
+                the
+                visible
+                symbolisation
+                of
+                Dionysian
+                reality
+                are
+                separated
+                from
+                the
+                operation
+                of
+                a
+                form
+                of
+                existence,
+                the
+                Hellenic
+                genius,
+                and
+
 
 #### Below screenshot shows the ulitization of CPU/RAM and network traffic in the past 4 days in T-Pot Tarpit:
 <img src="./screenshot/tpot_trap_ram2.jpg" alt="Tarpit_tpot_ram2" width="1000">
