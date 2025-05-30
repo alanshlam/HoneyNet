@@ -94,7 +94,7 @@ Below is the top 10 requests and inputs from Galah and Beelzebub log. See the LL
 #### Below screenshot shows the GPU and VRAM utilization in LLM-based T-Pot:
 <img src="./screenshot/gpu_usage2.jpg" alt="llm_tpot" width="1000">
 
-##### key observations from the GPU, VRAM, CPU utilization, and network traffic analysis for your LLM-based honeypots Beelzebub and Galah running on a Tesla V100-PCIE-16GB with a 6-core x86_64 CPU
+##### key observations from the GPU, VRAM, CPU utilization, and network traffic analysis for the LLM-based honeypots Beelzebub and Galah running on a Tesla V100-PCIE-16GB with a 6-core x86_64 CPU
 | **Metric**            | **Observation**                                                                 | **Peak Values**         | **Correlation Notes**                                                                 |
 |-----------------------|--------------------------------------------------------------------------------|------------------------|--------------------------------------------------------------------------------------|
 | **CPU Utilization**   | Mostly low, with occasional spikes. Underutilized for most of the period.      | Up to 80-90%           | Weak correlation with GPU; CPU handles lighter tasks (e.g., preprocessing).          |
