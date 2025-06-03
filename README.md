@@ -54,7 +54,8 @@ This executive summary encapsulates the key findings from the TPOT honeypot data
 ### LLM-based Honeypots Deployment
 LLM-based honeypots, such as T-Pot's Galah and Beelzebub, enhance honeypot deployment by leveraging advanced language models like gemma3 to intelligently analyze and respond to attacker interactions, thereby improving threat detection and data collection. The log data collected from this LLM-based honeypot by using gemma3 LLM powered by Tesla V100-PCIE-16GB and 6-core x86_64 CPU demonstrates their effectiveness, capturing a range of malicious activities, including attempts to access sensitive files like `/.env` and `/.git/config`, which expose API keys and database URLs, and reconnaissance efforts via commands like `uname`, `nproc`, and `nvidia-smi` to gather system and network details. By mimicking realistic server responses and dynamically interpreting attacker inputs, LLM-based honeypots provide richer insights into attack patterns, enabling better identification of vulnerabilities and more robust cybersecurity strategies.
 
-Below is the top 10 requests and inputs from Galah and Beelzebub log. See the LLM responses of these requests and inputs at https://github.com/alanshlam/HoneyNet/blob/main/llm/llmtop.txt
+Below is the top 10 requests and inputs from Galah and Beelzebub log. See a sample of LLM responses of these requests and inputs at https://github.com/alanshlam/HoneyNet/blob/main/llm/llmtop.txt
+
 
 #### Top 10 requests from Galah logs
 | Request/Input | Possible Attack |
