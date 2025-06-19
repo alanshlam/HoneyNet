@@ -414,6 +414,8 @@ Some download scripts performed below activities
 
 In the Penetration Testing Lab, various hacking techniques have been studied, and their corresponding attack network packets have been recorded in PCAP files. Below, we provide an analysis of some of these attack network packets using Wireshark and tcpdump tools.
 
+Besides manual inspection, AI can also be utilized to conduct preliminary analysis of network packets. See the section of [AI-Driven Malware Network Traffic Analysis and Defense](https://github.com/alanshlam/Pentest/tree/main#ai-driven-malware-network-traffic-analysis-and-defense)
+
 ### Attack Network Packet Analysis
 
 #### 1. DDoS Attack  ([ddos.pcap](./pcap/ddos.pcap))
