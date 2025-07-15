@@ -10,6 +10,8 @@ The synergy between the Penetration Testing Lab and the Digital Forensic Lab is 
 
 ## Findings and Studies
 
+Check out [this YouTube video](https://youtu.be/r8yR9-oGVgA) on interesting findings regarding global cyberattack patterns, LLM-based attacks, and tarpit honeypots.
+
 ### Global Cyberattack Patterns: Insights from T-Pot Honeypot and VirusTotal Analysis Across HK, UK, USA, and AUS Regions
 T-Pot is a comprehensive honeypot platform that integrates multiple honeypot technologies to detect, monitor, and analyze malicious network activity. It is designed to act as a decoy, attracting attackers, bots, and scanners to gather intelligence on their tactics while protecting real network assets. By simulating vulnerable services, T-Pot lures malicious actors into interacting with it, wasting their resources and providing valuable data for cybersecurity analysis.
 
